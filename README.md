@@ -1,11 +1,30 @@
 # Der Selbstversorger-Garten
 
-**Vom ersten Beet zur ganzjährigen Ernte – ein praxisnahes Handbuch**
+**Vom ersten Beet zur ganzjährigen Ernte – Buch, Anbaukalender und App**
 
-Dieses Repository enthält das Manuskript für ein Buch über den Aufbau und die
-Bewirtschaftung eines Selbstversorger-Gartens. Es richtet sich an
-Einsteigerinnen und Einsteiger genauso wie an Gärtner mit ersten Erfahrungen,
-die ihre Ernte planvoll ausbauen wollen.
+Dieses Repository enthält das Projekt „Der Selbstversorger-Garten" mit drei
+geplanten Produkten auf gemeinsamer inhaltlicher Basis:
+
+1. **Buch** – das Manuskript (Ordner [`kapitel/`](kapitel/), Rohentwurf fertig)
+2. **Anbaukalender** – Aussaat-/Pflanz-/Erntekalender, gespeist aus dem
+   Kulturen-Datensatz
+3. **App** – Garten-Planer mit Kulturdatenbank, Erinnerungen und
+   Fruchtfolge-Logik
+
+Es richtet sich an Einsteigerinnen und Einsteiger genauso wie an Gärtner mit
+ersten Erfahrungen, die ihre Ernte planvoll ausbauen wollen.
+
+## Recherche und Datengrundlage
+
+- [`recherche/anbau-kulturen.md`](recherche/anbau-kulturen.md) – Recherche:
+  Welche Kulturen lohnen sich im mitteleuropäischen Selbstversorger-Garten?
+  Mit Auswahlkriterien, Kategorie-Tabellen, Winteranbau-Schwerpunkt,
+  Konsequenzen für Kalender/App und Quellenliste.
+- [`daten/kulturen.json`](daten/kulturen.json) – maschinenlesbarer Datensatz
+  mit 88 Kulturen (Gemüse, Kräuter, Beeren, Baumobst, Indoor): botanische
+  Familie, Nährstoffbedarf, Monatsfenster für Vorkultur/Direktsaat/
+  Pflanzung/Ernte, Lagerdauer, Konservierung, Schwierigkeit, Menge pro
+  Person. Gemeinsame Datenquelle für Kalender und App.
 
 ## Aufbau des Manuskripts
 
@@ -35,9 +54,17 @@ Die geplante Struktur mit Kurzbeschreibung jedes Kapitels steht in
 
 ## Status
 
-Erster vollständiger Rohentwurf aller Kapitel. Offene Arbeiten:
+**Buch:** Erster vollständiger Rohentwurf aller Kapitel. Offene Arbeiten:
 
 - [ ] Lektorat und sprachlicher Feinschliff
 - [ ] Abbildungen, Skizzen und Beetpläne
 - [ ] Regionale Anpassungen (Klimazonen, Höhenlagen)
 - [ ] Register / Stichwortverzeichnis
+
+**Kalender & App:** Recherche und Kulturen-Datensatz (v0.1) liegen vor.
+Nächste Schritte:
+
+- [ ] Datensatz-Review (Zeitfenster gegen weitere Quellen prüfen, Sorten ergänzen)
+- [ ] Kalender-Format festlegen (Druck-/PDF-Jahreskalender aus `daten/kulturen.json` generieren)
+- [ ] App-Konzept: Funktionsumfang (Monatsansicht, Staffelsaat-Erinnerungen,
+      Fruchtfolge-Check, Lagen-Offset ±2–4 Wochen), Plattform, Datenmodell
