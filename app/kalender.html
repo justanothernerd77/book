@@ -21,6 +21,8 @@
     --c-direktsaat: #2e6fb5;
     --c-pflanzung: #2f6a2a;
     --c-ernte: #d4691c;
+    --warn: #9a3d10;
+    --ok: #2f6a2a;
     --shadow: 0 10px 30px rgba(38, 45, 31, 0.18);
   }
   @media (prefers-color-scheme: dark) {
@@ -37,6 +39,8 @@
       --c-direktsaat: #6293cc;
       --c-pflanzung: #3e7b35;
       --c-ernte: #cf7e37;
+      --warn: #dd9a55;
+      --ok: #7fb768;
       --shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
     }
   }
@@ -53,6 +57,8 @@
     --c-direktsaat: #6293cc;
     --c-pflanzung: #3e7b35;
     --c-ernte: #cf7e37;
+    --warn: #dd9a55;
+    --ok: #7fb768;
     --shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
   }
 
@@ -90,6 +96,7 @@
   .tab[aria-selected="true"] { background: var(--accent); color: var(--accent-ink); }
   .tab:not([aria-selected="true"]):hover { color: var(--ink); }
 
+  .filters[hidden] { display: none; }
   .filters {
     display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center;
     background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
@@ -218,6 +225,70 @@
     background: var(--bg); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0;
   }
 
+  /* ── Beetplan ── */
+  .bp-bar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 16px; }
+  .jahrwahl {
+    display: inline-flex; align-items: center; gap: 2px;
+    background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 3px;
+  }
+  .jahrwahl button {
+    border: 0; background: transparent; border-radius: 7px; cursor: pointer;
+    padding: 5px 10px; color: var(--muted); font-weight: 700;
+  }
+  .jahrwahl button:hover { color: var(--ink); background: var(--cell); }
+  .jahrwahl .jahr {
+    font-family: "Fraunces", Georgia, serif; font-weight: 650; font-size: 1.15rem;
+    padding: 0 8px; font-variant-numeric: tabular-nums;
+  }
+  .btn {
+    border: 1px solid var(--line); background: var(--surface); border-radius: 10px;
+    padding: 8px 14px; cursor: pointer; font-weight: 700;
+  }
+  .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+  .btn.subtle { color: var(--muted); font-weight: 400; }
+  .btn:hover:not(.primary) { border-color: var(--muted); color: var(--ink); }
+
+  .beete { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 14px; }
+  .beet { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 14px; }
+  .beet-head { display: flex; align-items: baseline; gap: 10px; margin-bottom: 10px; }
+  .beet-head h3 { font-family: "Fraunces", Georgia, serif; font-weight: 650; font-size: 1.1rem; margin: 0; }
+  .beet-del {
+    margin-left: auto; border: 0; background: none; cursor: pointer;
+    color: var(--muted); font-size: 0.82rem; padding: 2px 4px;
+  }
+  .beet-del:hover, .beet-del[data-confirm] { color: var(--warn); }
+  .crops { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+  .crop {
+    display: inline-flex; align-items: center; gap: 2px;
+    border: 1px solid var(--line); background: var(--bg); border-radius: 999px;
+    padding: 2px 4px 2px 2px; font-size: 0.92rem;
+  }
+  .crop .cname { border: 0; background: none; cursor: pointer; padding: 3px 4px 3px 9px; }
+  .crop .cname:hover { color: var(--accent); }
+  .crop .cx {
+    border: 0; background: none; cursor: pointer; color: var(--muted);
+    padding: 3px 7px; border-radius: 999px; line-height: 1;
+  }
+  .crop .cx:hover { color: var(--warn); }
+  .beet input.add {
+    font: inherit; color: var(--ink); width: 100%;
+    background: var(--bg); border: 1px dashed var(--line); border-radius: 8px; padding: 7px 10px;
+  }
+  .beet input.add:focus { border-style: solid; }
+  .zehrer { color: var(--muted); font-size: 0.82rem; margin: 10px 0 0; }
+  .checkliste { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 6px; }
+  .checkliste li { font-size: 0.88rem; padding-left: 22px; position: relative; }
+  .checkliste li::before { position: absolute; left: 0; top: 0; font-weight: 700; }
+  .checkliste li.warnung { color: var(--warn); }
+  .checkliste li.warnung::before { content: "⚠"; }
+  .checkliste li.ok { color: var(--ok); }
+  .checkliste li.ok::before { content: "✓"; }
+  .bp-hinweis {
+    background: var(--surface); border: 1px solid var(--line); border-left: 3px solid var(--warn);
+    border-radius: 0 10px 10px 0; padding: 10px 14px; margin: 0 0 16px;
+    color: var(--muted); font-size: 0.9rem;
+  }
+
   footer.note { margin-top: 22px; color: var(--muted); font-size: 0.85rem; max-width: 68ch; }
   footer.note a { color: var(--accent); }
 
@@ -240,6 +311,7 @@
     <nav class="views" role="tablist" aria-label="Ansicht">
       <button class="tab" id="tab-monat" role="tab" aria-selected="true">Monat</button>
       <button class="tab" id="tab-jahr" role="tab" aria-selected="false">Jahr</button>
+      <button class="tab" id="tab-beete" role="tab" aria-selected="false">Beetplan</button>
     </nav>
   </header>
 
@@ -275,15 +347,39 @@
     </div>
   </main>
 
+  <main id="view-beete" hidden>
+    <div class="bp-bar">
+      <div class="jahrwahl">
+        <button id="j-prev" aria-label="Vorheriges Jahr">◀</button>
+        <span class="jahr" id="j-label"></span>
+        <button id="j-next" aria-label="Nächstes Jahr">▶</button>
+      </div>
+      <button class="btn primary" id="beet-add">+ Beet anlegen</button>
+      <button class="btn subtle" id="bp-demo">Beispiel laden</button>
+      <button class="btn subtle" id="bp-clear">Alles löschen</button>
+    </div>
+    <p class="bp-hinweis" id="bp-storage" hidden>
+      Speichern ist in diesem Browser nicht möglich – der Beetplan geht beim Schließen der Seite verloren.
+    </p>
+    <div class="beete" id="beet-liste"></div>
+    <p class="none" id="bp-leer" hidden>
+      Noch keine Beete angelegt. Mit „+ Beet anlegen" starten oder „Beispiel laden" ausprobieren –
+      der Plan prüft automatisch die Fruchtfolge: gleiche Pflanzenfamilie frühestens
+      nach 3–4 Jahren wieder auf demselben Beet.
+    </p>
+  </main>
+
   <footer class="note">
     Zeitfenster gelten für mitteleuropäische Flachlagen; in rauen Lagen verschiebt sich
-    das Frühjahr um 2–4&nbsp;Wochen nach hinten, der Herbst nach vorn. Prototyp der
-    Kalender-Ansicht für das Projekt „Der Selbstversorger-Garten" –
-    Datengrundlage: <code>daten/kulturen.json</code> (v0.1).
+    das Frühjahr um 2–4&nbsp;Wochen nach hinten, der Herbst nach vorn. Der Beetplan wird
+    nur lokal in diesem Browser gespeichert. Prototyp der Kalender-App für das Projekt
+    „Der Selbstversorger-Garten" – Datengrundlage: <code>daten/kulturen.json</code> (v0.1).
   </footer>
 </div>
 
 <div id="tooltip" class="tooltip" hidden></div>
+
+<datalist id="kulturen-dl"></datalist>
 
 <dialog id="detail" aria-labelledby="d-title">
   <div class="d-head">
@@ -507,10 +603,226 @@
   $("d-close").addEventListener("click", () => dlg.close());
   dlg.addEventListener("click", ev => { if (ev.target === dlg) dlg.close(); });
 
+  /* ── Beetplan ── */
+  const BP_KEY = "svg-beetplan-v1";
+  const KEINE_ROTATION = new Set(["dauerkulturen", "baumobst", "beeren", "indoor"]);
+  let bpJahr = new Date().getFullYear();
+  let storageOk = true;
+  try {
+    localStorage.setItem(BP_KEY + ":test", "1");
+    localStorage.removeItem(BP_KEY + ":test");
+  } catch (e) { storageOk = false; }
+
+  function ladeBP() {
+    if (storageOk) {
+      try {
+        const raw = localStorage.getItem(BP_KEY);
+        if (raw) {
+          const d = JSON.parse(raw);
+          if (Array.isArray(d.beete) && d.belegung) return d;
+        }
+      } catch (e) { /* defekte Daten -> leer starten */ }
+    }
+    return { beete: [], belegung: {} };
+  }
+  let bp = ladeBP();
+
+  function speichereBP() {
+    if (!storageOk) return;
+    try { localStorage.setItem(BP_KEY, JSON.stringify(bp)); } catch (e) { /* voll o.ä. */ }
+  }
+
+  const byId = id => DB.kulturen.find(k => k.id === id);
+  const belegungVon = (beetId, jahr) => (bp.belegung[beetId] && bp.belegung[beetId][jahr]) || [];
+
+  function pruefeBeet(beetId, jahr) {
+    const meldungen = [];
+    for (const kid of belegungVon(beetId, jahr)) {
+      const k = byId(kid);
+      if (!k || KEINE_ROTATION.has(k.kategorie)) continue;
+      let treffer = null;
+      for (let d = 1; d <= 3 && !treffer; d++) {
+        for (const fid of belegungVon(beetId, jahr - d)) {
+          const f = byId(fid);
+          if (f && f.familie === k.familie && f.familie !== "diverse") { treffer = { f, d }; break; }
+        }
+      }
+      if (treffer) {
+        const wann = treffer.d === 1 ? "im Vorjahr" : "vor " + treffer.d + " Jahren";
+        meldungen.push({
+          typ: "warnung",
+          text: `${k.name}: ${k.familie} standen hier schon ${wann} (${treffer.f.name}) – 3–4 Jahre Anbaupause empfohlen.`
+        });
+      }
+    }
+    return meldungen;
+  }
+
+  function zehrerZeile(beetId, jahr) {
+    const zaehler = {};
+    for (const kid of belegungVon(beetId, jahr)) {
+      const k = byId(kid);
+      if (!k || k.naehrstoffbedarf === "dauerkultur") continue;
+      zaehler[k.naehrstoffbedarf] = (zaehler[k.naehrstoffbedarf] || 0) + 1;
+    }
+    const teile = ["stark", "mittel", "schwach"]
+      .filter(z => zaehler[z])
+      .map(z => `${zaehler[z]}× ${ZEHRER[z]}`);
+    return teile.length ? "Nährstoffbedarf: " + teile.join(" · ") : "";
+  }
+
+  function addKultur(beetId, name) {
+    const k = DB.kulturen.find(x => x.name.toLowerCase() === name.trim().toLowerCase());
+    if (!k) return false;
+    bp.belegung[beetId] = bp.belegung[beetId] || {};
+    const liste = bp.belegung[beetId][bpJahr] = bp.belegung[beetId][bpJahr] || [];
+    if (!liste.includes(k.id)) liste.push(k.id);
+    speichereBP();
+    renderBeete();
+    return true;
+  }
+
+  function renderBeete() {
+    $("j-label").textContent = bpJahr;
+    $("bp-storage").hidden = storageOk;
+    $("bp-leer").hidden = bp.beete.length > 0;
+    const wrap = $("beet-liste");
+    wrap.innerHTML = "";
+    for (const beet of bp.beete) {
+      const card = document.createElement("section");
+      card.className = "beet";
+      const head = document.createElement("div");
+      head.className = "beet-head";
+      head.innerHTML = `<h3>${beet.name}</h3>`;
+      const del = document.createElement("button");
+      del.className = "beet-del";
+      del.textContent = "entfernen";
+      del.addEventListener("click", () => {
+        if (!del.dataset.confirm) {
+          del.dataset.confirm = "1";
+          del.textContent = "wirklich entfernen?";
+          setTimeout(() => { delete del.dataset.confirm; del.textContent = "entfernen"; }, 3000);
+          return;
+        }
+        bp.beete = bp.beete.filter(b => b.id !== beet.id);
+        delete bp.belegung[beet.id];
+        speichereBP();
+        renderBeete();
+      });
+      head.appendChild(del);
+      card.appendChild(head);
+
+      const crops = document.createElement("div");
+      crops.className = "crops";
+      const liste = belegungVon(beet.id, bpJahr);
+      if (!liste.length) crops.innerHTML = `<span class="none">noch nichts geplant</span>`;
+      for (const kid of liste) {
+        const k = byId(kid);
+        if (!k) continue;
+        const chip = document.createElement("span");
+        chip.className = "crop";
+        const nameBtn = document.createElement("button");
+        nameBtn.className = "cname";
+        nameBtn.textContent = k.name;
+        nameBtn.addEventListener("click", () => openDetail(k));
+        const x = document.createElement("button");
+        x.className = "cx";
+        x.textContent = "✕";
+        x.setAttribute("aria-label", k.name + " entfernen");
+        x.addEventListener("click", () => {
+          bp.belegung[beet.id][bpJahr] = liste.filter(id => id !== kid);
+          speichereBP();
+          renderBeete();
+        });
+        chip.append(nameBtn, x);
+        crops.appendChild(chip);
+      }
+      card.appendChild(crops);
+
+      const input = document.createElement("input");
+      input.className = "add";
+      input.setAttribute("list", "kulturen-dl");
+      input.placeholder = "Kultur hinzufügen …";
+      input.addEventListener("change", () => { if (addKultur(beet.id, input.value)) input.value = ""; });
+      input.addEventListener("keydown", ev => {
+        if (ev.key === "Enter" && addKultur(beet.id, input.value)) input.value = "";
+      });
+      card.appendChild(input);
+
+      const zl = zehrerZeile(beet.id, bpJahr);
+      if (zl) {
+        const p = document.createElement("p");
+        p.className = "zehrer";
+        p.textContent = zl;
+        card.appendChild(p);
+      }
+
+      if (liste.length) {
+        const ul = document.createElement("ul");
+        ul.className = "checkliste";
+        const meldungen = pruefeBeet(beet.id, bpJahr);
+        if (!meldungen.length) {
+          ul.innerHTML = `<li class="ok">Fruchtfolge unauffällig – geprüft gegen die letzten 3 Jahre.</li>`;
+        } else {
+          for (const m of meldungen) {
+            const li = document.createElement("li");
+            li.className = m.typ;
+            li.textContent = m.text;
+            ul.appendChild(li);
+          }
+        }
+        card.appendChild(ul);
+      }
+      wrap.appendChild(card);
+    }
+  }
+
+  $("j-prev").addEventListener("click", () => { bpJahr--; renderBeete(); });
+  $("j-next").addEventListener("click", () => { bpJahr++; renderBeete(); });
+  $("beet-add").addEventListener("click", () => {
+    const n = bp.beete.length + 1;
+    bp.beete.push({ id: "beet-" + Date.now().toString(36) + "-" + n, name: "Beet " + n });
+    speichereBP();
+    renderBeete();
+  });
+  $("bp-demo").addEventListener("click", () => {
+    const j = bpJahr;
+    bp = {
+      beete: [
+        { id: "demo-a", name: "Beet A" }, { id: "demo-b", name: "Beet B" },
+        { id: "demo-c", name: "Beet C" }, { id: "demo-d", name: "Beet D" }
+      ],
+      belegung: {
+        "demo-a": { [j - 1]: ["kartoffel"], [j]: ["tomate", "basilikum"] },
+        "demo-b": { [j - 1]: ["weisskohl"], [j]: ["moehre", "zwiebel"] },
+        "demo-c": { [j - 1]: ["buschbohne"], [j]: ["gruenkohl", "salat"] },
+        "demo-d": { [j - 2]: ["gruenkohl"], [j - 1]: ["moehre"], [j]: ["kohlrabi", "salat"] }
+      }
+    };
+    speichereBP();
+    renderBeete();
+  });
+  $("bp-clear").addEventListener("click", ev => {
+    const b = ev.currentTarget;
+    if (!b.dataset.confirm) {
+      b.dataset.confirm = "1";
+      b.textContent = "Wirklich alles löschen?";
+      setTimeout(() => { delete b.dataset.confirm; b.textContent = "Alles löschen"; }, 3000);
+      return;
+    }
+    delete b.dataset.confirm;
+    b.textContent = "Alles löschen";
+    bp = { beete: [], belegung: {} };
+    speichereBP();
+    renderBeete();
+  });
+
   /* ── Filter & Tabs ── */
   function renderAll() {
     $("count").textContent = gefiltert().length;
-    if (state.view === "monat") renderMonat(); else renderJahr();
+    if (state.view === "monat") renderMonat();
+    else if (state.view === "jahr") renderJahr();
+    else renderBeete();
   }
   $("f-q").addEventListener("input", ev => { state.q = ev.target.value; renderAll(); });
   $("f-kat").addEventListener("change", ev => { state.kat = ev.target.value; renderAll(); });
@@ -522,12 +834,16 @@
     if (location.hash !== "#" + v) history.replaceState(null, "", "#" + v);
     $("tab-monat").setAttribute("aria-selected", String(v === "monat"));
     $("tab-jahr").setAttribute("aria-selected", String(v === "jahr"));
+    $("tab-beete").setAttribute("aria-selected", String(v === "beete"));
     $("view-monat").hidden = v !== "monat";
     $("view-jahr").hidden = v !== "jahr";
+    $("view-beete").hidden = v !== "beete";
+    document.querySelector(".filters").hidden = v === "beete";
     renderAll();
   }
   $("tab-monat").addEventListener("click", () => setView("monat"));
   $("tab-jahr").addEventListener("click", () => setView("jahr"));
+  $("tab-beete").addEventListener("click", () => setView("beete"));
 
   /* ── Init ── */
   for (const kat of DB.kategorien) {
@@ -536,9 +852,14 @@
     o.textContent = kat.name;
     $("f-kat").appendChild(o);
   }
+  for (const k of DB.kulturen) {
+    const o = document.createElement("option");
+    o.value = k.name;
+    $("kulturen-dl").appendChild(o);
+  }
   renderMonthpicker();
   renderJahr();
-  setView(location.hash === "#jahr" ? "jahr" : "monat");
+  setView(location.hash === "#jahr" ? "jahr" : location.hash === "#beete" ? "beete" : "monat");
 </script>
 
 </body>

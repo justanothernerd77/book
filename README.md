@@ -69,7 +69,12 @@ HTML-Prototyp liegen vor.
       Jahresansicht, Filter (Suche, Kategorie, Schwierigkeit, lagerfähig),
       Detail-Dialog je Kultur, helles und dunkles Farbschema; im Browser
       öffnen, kein Server nötig
+- [x] Beetplan mit Fruchtfolge-Check: Beete anlegen, Kulturen pro Jahr
+      zuweisen (mit Jahresnavigation), automatische Warnung, wenn dieselbe
+      Pflanzenfamilie innerhalb von 3 Jahren erneut auf ein Beet käme,
+      Nährstoffbedarfs-Bilanz je Beet; Speicherung lokal im Browser
+      (localStorage), Beispieldaten über „Beispiel laden"
 - [ ] Datensatz-Review (Zeitfenster gegen weitere Quellen prüfen, Sorten ergänzen)
 - [ ] Druck-/PDF-Jahreskalender aus `daten/kulturen.json` generieren
-- [ ] App-Ausbau: Staffelsaat-Erinnerungen, Fruchtfolge-Check, eigener
-      Beetplan, Lagen-Offset ±2–4 Wochen, Plattform-Entscheidung
+- [ ] App-Ausbau: Staffelsaat-Erinnerungen, Lagen-Offset ±2–4 Wochen,
+      Export/Import des Beetplans, Plattform-Entscheidung
