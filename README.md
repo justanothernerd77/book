@@ -61,10 +61,15 @@ Die geplante Struktur mit Kurzbeschreibung jedes Kapitels steht in
 - [ ] Regionale Anpassungen (Klimazonen, Höhenlagen)
 - [ ] Register / Stichwortverzeichnis
 
-**Kalender & App:** Recherche und Kulturen-Datensatz (v0.1) liegen vor.
-Nächste Schritte:
+**Kalender & App:** Recherche, Kulturen-Datensatz (v0.1) und ein interaktiver
+HTML-Prototyp liegen vor.
 
+- [x] Interaktiver Kalender-Prototyp: [`app/kalender.html`](app/kalender.html)
+      – eigenständige HTML-Datei (Daten eingebettet), Monats- und
+      Jahresansicht, Filter (Suche, Kategorie, Schwierigkeit, lagerfähig),
+      Detail-Dialog je Kultur, helles und dunkles Farbschema; im Browser
+      öffnen, kein Server nötig
 - [ ] Datensatz-Review (Zeitfenster gegen weitere Quellen prüfen, Sorten ergänzen)
-- [ ] Kalender-Format festlegen (Druck-/PDF-Jahreskalender aus `daten/kulturen.json` generieren)
-- [ ] App-Konzept: Funktionsumfang (Monatsansicht, Staffelsaat-Erinnerungen,
-      Fruchtfolge-Check, Lagen-Offset ±2–4 Wochen), Plattform, Datenmodell
+- [ ] Druck-/PDF-Jahreskalender aus `daten/kulturen.json` generieren
+- [ ] App-Ausbau: Staffelsaat-Erinnerungen, Fruchtfolge-Check, eigener
+      Beetplan, Lagen-Offset ±2–4 Wochen, Plattform-Entscheidung

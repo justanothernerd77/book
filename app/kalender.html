@@ -1,0 +1,545 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Selbstversorger-Kalender</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700&display=swap" rel="stylesheet">
+</head>
+<body>
+<style>
+  :root {
+    --bg: #f2f3eb;
+    --surface: #f9faf4;
+    --cell: #ecede1;
+    --ink: #262d1f;
+    --muted: #5c6552;
+    --line: #d8dccb;
+    --accent: #2f5d24;
+    --accent-ink: #f4f6ec;
+    --c-vorkultur: #9a6a00;
+    --c-direktsaat: #2e6fb5;
+    --c-pflanzung: #2f6a2a;
+    --c-ernte: #d4691c;
+    --shadow: 0 10px 30px rgba(38, 45, 31, 0.18);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #171a13;
+      --surface: #20241c;
+      --cell: #2a2f24;
+      --ink: #e7e9dd;
+      --muted: #a3ab97;
+      --line: #384030;
+      --accent: #8fbf6f;
+      --accent-ink: #1c2415;
+      --c-vorkultur: #b3831a;
+      --c-direktsaat: #6293cc;
+      --c-pflanzung: #3e7b35;
+      --c-ernte: #cf7e37;
+      --shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #171a13;
+    --surface: #20241c;
+    --cell: #2a2f24;
+    --ink: #e7e9dd;
+    --muted: #a3ab97;
+    --line: #384030;
+    --accent: #8fbf6f;
+    --accent-ink: #1c2415;
+    --c-vorkultur: #b3831a;
+    --c-direktsaat: #6293cc;
+    --c-pflanzung: #3e7b35;
+    --c-ernte: #cf7e37;
+    --shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+    font-size: 16px;
+    line-height: 1.45;
+    margin: 0;
+  }
+  button { font: inherit; color: inherit; }
+
+  .app { max-width: 1080px; margin: 0 auto; padding: 28px 20px 48px; }
+
+  .top {
+    display: flex; flex-wrap: wrap; gap: 16px 24px;
+    align-items: flex-end; justify-content: space-between;
+    margin-bottom: 18px;
+  }
+  h1 {
+    font-family: "Fraunces", Georgia, serif;
+    font-weight: 650; font-size: clamp(1.7rem, 4vw, 2.4rem);
+    letter-spacing: -0.01em; line-height: 1.1;
+    margin: 0 0 4px; text-wrap: balance;
+  }
+  .sub { margin: 0; color: var(--muted); font-size: 0.95rem; }
+
+  .views { display: flex; gap: 6px; background: var(--cell); border-radius: 10px; padding: 4px; }
+  .tab {
+    border: 0; background: transparent; border-radius: 7px;
+    padding: 7px 18px; cursor: pointer; font-weight: 700; color: var(--muted);
+  }
+  .tab[aria-selected="true"] { background: var(--accent); color: var(--accent-ink); }
+  .tab:not([aria-selected="true"]):hover { color: var(--ink); }
+
+  .filters {
+    display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center;
+    background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
+    padding: 12px 14px; margin-bottom: 20px;
+  }
+  .filters input[type="search"], .filters select {
+    font: inherit; color: var(--ink);
+    background: var(--bg); border: 1px solid var(--line); border-radius: 8px;
+    padding: 7px 10px;
+  }
+  .filters input[type="search"] { min-width: 170px; flex: 1 1 170px; }
+  .check { display: inline-flex; align-items: center; gap: 6px; color: var(--muted); cursor: pointer; }
+  .check input { accent-color: var(--accent); width: 16px; height: 16px; }
+
+  .legend { display: flex; flex-wrap: wrap; gap: 6px 14px; margin-left: auto; }
+  .legend span { display: inline-flex; align-items: center; gap: 6px; font-size: 0.85rem; color: var(--muted); }
+  .swatch { width: 14px; height: 8px; border-radius: 4px; display: inline-block; }
+  .sw-vorkultur { background: var(--c-vorkultur); }
+  .sw-direktsaat { background: var(--c-direktsaat); }
+  .sw-pflanzung { background: var(--c-pflanzung); }
+  .sw-ernte { background: var(--c-ernte); }
+
+  /* ── Monatsansicht ── */
+  .monthpicker { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 20px; }
+  .monthpicker button {
+    border: 1px solid var(--line); background: var(--surface); border-radius: 8px;
+    padding: 6px 0; flex: 1 1 52px; min-width: 52px; cursor: pointer;
+    font-weight: 700; font-size: 0.85rem; color: var(--muted);
+    letter-spacing: 0.04em; text-transform: uppercase;
+  }
+  .monthpicker button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+  .monthpicker button:not([aria-pressed="true"]):hover { color: var(--ink); border-color: var(--muted); }
+
+  .month-title {
+    font-family: "Fraunces", Georgia, serif; font-weight: 650;
+    font-size: 1.35rem; margin: 0 0 14px;
+  }
+  .sections { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; }
+  .section {
+    background: var(--surface); border: 1px solid var(--line);
+    border-radius: 12px; padding: 14px;
+  }
+  .section h3 {
+    margin: 0 0 10px; font-size: 0.85rem; font-weight: 700;
+    letter-spacing: 0.07em; text-transform: uppercase; color: var(--muted);
+    display: flex; align-items: center; gap: 8px;
+  }
+  .section h3 .n { margin-left: auto; color: var(--muted); font-weight: 400; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip {
+    border: 1px solid var(--line); background: var(--bg); border-radius: 999px;
+    padding: 5px 12px; cursor: pointer; font-size: 0.92rem;
+  }
+  .chip:hover { border-color: var(--accent); color: var(--accent); }
+  .none { color: var(--muted); font-size: 0.9rem; }
+
+  /* ── Jahresansicht ── */
+  .table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+  table { border-collapse: collapse; width: 100%; min-width: 760px; }
+  .cat-row th {
+    font-family: "Fraunces", Georgia, serif; font-weight: 650; font-size: 1.02rem;
+    text-align: left; padding: 18px 12px 6px; border-bottom: 1px solid var(--line);
+  }
+  .cat-row .mon {
+    font-family: "Atkinson Hyperlegible", system-ui, sans-serif;
+    font-size: 0.7rem; font-weight: 700; letter-spacing: 0.06em;
+    text-transform: uppercase; color: var(--muted); text-align: center;
+    padding: 18px 2px 6px;
+  }
+  td.name { padding: 0; border-bottom: 1px solid var(--line); position: sticky; left: 0; background: var(--surface); z-index: 1; }
+  td.name button {
+    display: block; width: 100%; text-align: left; border: 0; background: none;
+    padding: 8px 12px; cursor: pointer; white-space: nowrap; font-size: 0.95rem;
+  }
+  td.name button:hover { color: var(--accent); }
+  td.cell { border-bottom: 1px solid var(--line); padding: 6px 1px; min-width: 44px; }
+  .lanes { display: grid; grid-template-rows: repeat(4, 5px); gap: 2px; }
+  .lane { border-radius: 0; }
+  .lane.on-vorkultur { background: var(--c-vorkultur); }
+  .lane.on-direktsaat { background: var(--c-direktsaat); }
+  .lane.on-pflanzung { background: var(--c-pflanzung); }
+  .lane.on-ernte { background: var(--c-ernte); }
+  .lane.start { border-top-left-radius: 4px; border-bottom-left-radius: 4px; }
+  .lane.end { border-top-right-radius: 4px; border-bottom-right-radius: 4px; }
+
+  .empty { padding: 40px 20px; text-align: center; color: var(--muted); }
+
+  /* ── Tooltip ── */
+  .tooltip {
+    position: fixed; z-index: 20; pointer-events: none;
+    background: var(--ink); color: var(--bg);
+    border-radius: 8px; padding: 7px 10px; font-size: 0.85rem; line-height: 1.35;
+    max-width: 240px; box-shadow: var(--shadow);
+  }
+  .tooltip b { display: block; }
+
+  /* ── Detail-Dialog ── */
+  dialog {
+    border: 1px solid var(--line); border-radius: 14px; padding: 0;
+    background: var(--surface); color: var(--ink);
+    max-width: min(480px, calc(100vw - 32px)); width: 100%;
+    box-shadow: var(--shadow);
+  }
+  dialog::backdrop { background: rgba(20, 24, 16, 0.55); }
+  .d-head { display: flex; align-items: flex-start; gap: 12px; padding: 18px 18px 0; }
+  .d-head h2 { font-family: "Fraunces", Georgia, serif; font-weight: 650; font-size: 1.4rem; margin: 0; }
+  .d-head .kat { color: var(--muted); font-size: 0.85rem; margin: 2px 0 0; }
+  .d-close {
+    margin-left: auto; border: 1px solid var(--line); background: var(--bg);
+    border-radius: 8px; width: 32px; height: 32px; cursor: pointer; font-size: 1rem; line-height: 1;
+  }
+  .d-close:hover { border-color: var(--accent); color: var(--accent); }
+  .d-body { padding: 12px 18px 18px; }
+  .d-strip { margin: 10px 0 14px; }
+  .d-strip .mrow { display: grid; grid-template-columns: repeat(12, 1fr); gap: 1px; }
+  .d-strip .mrow .mon {
+    font-size: 0.6rem; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase;
+    color: var(--muted); text-align: center; padding-bottom: 3px;
+  }
+  .d-strip .mrow .mc { padding: 0 1px; }
+  .facts { display: grid; grid-template-columns: max-content 1fr; gap: 5px 14px; font-size: 0.92rem; margin: 0; }
+  .facts dt { color: var(--muted); }
+  .facts dd { margin: 0; }
+  .d-hint {
+    margin: 14px 0 0; padding: 10px 12px; font-size: 0.92rem;
+    background: var(--bg); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0;
+  }
+
+  footer.note { margin-top: 22px; color: var(--muted); font-size: 0.85rem; max-width: 68ch; }
+  footer.note a { color: var(--accent); }
+
+  :is(button, input, select):focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .sr-only {
+    position: absolute; width: 1px; height: 1px; overflow: hidden;
+    clip-path: inset(50%); white-space: nowrap;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .tab, .chip, .monthpicker button { transition: background-color 0.12s, color 0.12s, border-color 0.12s; }
+  }
+</style>
+
+<div class="app">
+  <header class="top">
+    <div>
+      <h1>Selbstversorger-Kalender</h1>
+      <p class="sub"><span id="count">–</span> Kulturen · Aussaat, Pflanzung und Ernte im mitteleuropäischen Gartenjahr</p>
+    </div>
+    <nav class="views" role="tablist" aria-label="Ansicht">
+      <button class="tab" id="tab-monat" role="tab" aria-selected="true">Monat</button>
+      <button class="tab" id="tab-jahr" role="tab" aria-selected="false">Jahr</button>
+    </nav>
+  </header>
+
+  <div class="filters">
+    <input type="search" id="f-q" placeholder="Kultur suchen …" aria-label="Kultur suchen">
+    <select id="f-kat" aria-label="Kategorie">
+      <option value="">Alle Kategorien</option>
+    </select>
+    <select id="f-schwierigkeit" aria-label="Schwierigkeit">
+      <option value="">Jede Schwierigkeit</option>
+      <option value="leicht">leicht</option>
+      <option value="mittel">mittel</option>
+      <option value="schwer">schwer</option>
+    </select>
+    <label class="check"><input type="checkbox" id="f-lager"> lagerfähig</label>
+    <div class="legend" aria-hidden="true">
+      <span><i class="swatch sw-vorkultur"></i>Vorkultur</span>
+      <span><i class="swatch sw-direktsaat"></i>Direktsaat</span>
+      <span><i class="swatch sw-pflanzung"></i>Pflanzung</span>
+      <span><i class="swatch sw-ernte"></i>Ernte</span>
+    </div>
+  </div>
+
+  <main id="view-monat">
+    <div class="monthpicker" id="monthpicker" role="group" aria-label="Monat wählen"></div>
+    <h2 class="month-title" id="month-title"></h2>
+    <div class="sections" id="month-sections"></div>
+  </main>
+
+  <main id="view-jahr" hidden>
+    <div class="table-wrap">
+      <table id="year-table" aria-label="Jahresübersicht aller Kulturen"></table>
+    </div>
+  </main>
+
+  <footer class="note">
+    Zeitfenster gelten für mitteleuropäische Flachlagen; in rauen Lagen verschiebt sich
+    das Frühjahr um 2–4&nbsp;Wochen nach hinten, der Herbst nach vorn. Prototyp der
+    Kalender-Ansicht für das Projekt „Der Selbstversorger-Garten" –
+    Datengrundlage: <code>daten/kulturen.json</code> (v0.1).
+  </footer>
+</div>
+
+<div id="tooltip" class="tooltip" hidden></div>
+
+<dialog id="detail" aria-labelledby="d-title">
+  <div class="d-head">
+    <div>
+      <h2 id="d-title"></h2>
+      <p class="kat" id="d-kat"></p>
+    </div>
+    <button class="d-close" id="d-close" aria-label="Schließen">✕</button>
+  </div>
+  <div class="d-body" id="d-body"></div>
+</dialog>
+
+<script>
+  const DB = {"meta":{"titel":"Kulturen-Datensatz Selbstversorger-Garten","version":"0.1.0","stand":"2026-08","klimaraum":"Mitteleuropa, Flachlagen; raue Lagen: Frühjahr +2 bis +4 Wochen, Herbst früher","monate":"Zahlen 1-12 = Januar-Dezember","felder":{"vorkultur":"Monate für Anzucht in Haus/Gewächshaus","direktsaat":"Monate für Saat direkt ins Beet (bei Kartoffel/Knoblauch: Legen/Stecken)","pflanzung":"Monate zum Auspflanzen von Jungpflanzen/Gehölzen","ernte":"Haupt-Erntemonate","naehrstoffbedarf":"stark | mittel | schwach | dauerkultur","schwierigkeit":"leicht | mittel | schwer","lagermonate":"ungefähre Lagerdauer frisch in Monaten (0 = nicht lagerfähig)"},"quellen":"siehe recherche/anbau-kulturen.md"},"kategorien":[{"id":"fruchtgemuese","name":"Frucht- und Knollengemüse"},{"id":"wurzelgemuese","name":"Wurzel- und Rübengemüse"},{"id":"huelsenfruechte","name":"Hülsenfrüchte"},{"id":"kohlgemuese","name":"Kohlgemüse (Kreuzblütler)"},{"id":"blattgemuese","name":"Blatt- und Salatgemüse"},{"id":"zwiebelgemuese","name":"Zwiebelgemüse"},{"id":"dauerkulturen","name":"Mehrjährige Gemüse-Dauerkulturen"},{"id":"kraeuter","name":"Kräuter und essbare Blüten"},{"id":"beeren","name":"Beerenobst"},{"id":"baumobst","name":"Baumobst und Nüsse"},{"id":"indoor","name":"Indoor / ganzjährig"}],"kulturen":[{"id":"kartoffel","name":"Kartoffel","familie":"Nachtschattengewächse","kategorie":"fruchtgemuese","naehrstoffbedarf":"stark","vorkultur":[],"direktsaat":[4],"pflanzung":[],"ernte":[6,7,8,9],"schwierigkeit":"leicht","lagermonate":7,"konservierung":["frischlager"],"standort":"sonnig, lockerer Boden","menge_pro_person":"20-60 m²","hinweis":"Ab Mitte April vorgekeimt legen, zweimal anhäufeln; Kartoffelkäfer absammeln, nicht neben Tomaten."},{"id":"tomate","name":"Tomate","familie":"Nachtschattengewächse","kategorie":"fruchtgemuese","naehrstoffbedarf":"stark","vorkultur":[3,4],"direktsaat":[],"pflanzung":[5],"ernte":[7,8,9,10],"schwierigkeit":"mittel","lagermonate":0,"konservierung":["einkochen","trocknen","einfrieren"],"standort":"vollsonnig, regengeschützt","menge_pro_person":"3-6 Pflanzen","hinweis":"Regendach gegen Braunfäule, wöchentlich ausgeizen, nie übers Laub gießen."},{"id":"paprika","name":"Paprika / Chili","familie":"Nachtschattengewächse","kategorie":"fruchtgemuese","naehrstoffbedarf":"stark","vorkultur":[2,3],"direktsaat":[],"pflanzung":[5],"ernte":[7,8,9,10],"schwierigkeit":"mittel","lagermonate":0,"konservierung":["trocknen","einlegen","einfrieren"],"standort":"wärmster Platz, Südwand oder Gewächshaus","menge_pro_person":"2-4 Pflanzen","hinweis":"Früh und warm anziehen (24-28 °C), Königsblüte ausbrechen; rot geerntet süßer."},{"id":"aubergine","name":"Aubergine","familie":"Nachtschattengewächse","kategorie":"fruchtgemuese","naehrstoffbedarf":"stark","vorkultur":[2,3],"direktsaat":[],"pflanzung":[5],"ernte":[7,8,9],"schwierigkeit":"schwer","lagermonate":0,"konservierung":["einlegen","einfrieren"],"standort":"Gewächshaus oder sehr warme, geschützte Lage","menge_pro_person":"1-2 Pflanzen","hinweis":"Im Freiland nur in Weinbaulagen zuverlässig; sonst Gewächshauskultur."},{"id":"gurke","name":"Gurke","familie":"Kürbisgewächse","kategorie":"fruchtgemuese","naehrstoffbedarf":"stark","vorkultur":[4,5],"direktsaat":[5,6],"pflanzung":[5,6],"ernte":[7,8,9],"schwierigkeit":"mittel","lagermonate":0,"konservierung":["einlegen","fermentieren"],"standort":"warm, windgeschützt, Rankgitter","menge_pro_person":"2-3 Pflanzen","hinweis":"Gleichmäßig gießen (Bitterkeit = Stress); Einlegegurken alle 2 Tage pflücken."},{"id":"zucchini","name":"Zucchini","familie":"Kürbisgewächse","kategorie":"fruchtgemuese","naehrstoffbedarf":"stark","vorkultur":[4],"direktsaat":[5,6],"pflanzung":[5],"ernte":[6,7,8,9,10],"schwierigkeit":"leicht","lagermonate":0,"konservierung":["einlegen","einfrieren"],"standort":"sonnig, 1 m² pro Pflanze, gemulcht","menge_pro_person":"1 Pflanze","hinweis":"Jung ernten (15-20 cm), zweimal pro Woche durchpflücken; bittere Früchte nie essen."},{"id":"kuerbis","name":"Kürbis (Hokkaido, Butternut)","familie":"Kürbisgewächse","kategorie":"fruchtgemuese","naehrstoffbedarf":"stark","vorkultur":[4],"direktsaat":[5],"pflanzung":[5],"ernte":[9,10],"schwierigkeit":"leicht","lagermonate":6,"konservierung":["frischlager","einkochen"],"standort":"sonnig, 1,5-2 m² pro Pflanze, gern am Kompost","menge_pro_person":"1-2 Pflanzen","hinweis":"Reif ernten (verkorkter Stiel, hohler Klopfton), warm nachtrocknen, bei 12-17 °C lagern."},{"id":"zuckermais","name":"Zuckermais","familie":"Süßgräser","kategorie":"fruchtgemuese","naehrstoffbedarf":"stark","vorkultur":[4,5],"direktsaat":[5],"pflanzung":[5],"ernte":[8,9],"schwierigkeit":"leicht","lagermonate":0,"konservierung":["einfrieren"],"standort":"sonnig, im Block pflanzen (Windbestäubung)","menge_pro_person":"6-10 Pflanzen","hinweis":"Im Block statt in Einzelreihe anbauen; sofort nach der Ernte verarbeiten (Zucker baut ab)."},{"id":"melone","name":"Zuckermelone","familie":"Kürbisgewächse","kategorie":"fruchtgemuese","naehrstoffbedarf":"stark","vorkultur":[4],"direktsaat":[],"pflanzung":[5,6],"ernte":[8,9],"schwierigkeit":"schwer","lagermonate":0,"konservierung":[],"standort":"Gewächshaus oder sehr warme Lagen","menge_pro_person":"Liebhaberkultur","hinweis":"Nur in warmen Lagen oder unter Glas lohnend; veredelte Pflanzen sind robuster."},{"id":"moehre","name":"Möhre","familie":"Doldenblütler","kategorie":"wurzelgemuese","naehrstoffbedarf":"mittel","vorkultur":[],"direktsaat":[3,4,5,6],"pflanzung":[],"ernte":[6,7,8,9,10,11],"schwierigkeit":"mittel","lagermonate":5,"konservierung":["frischlager","fermentieren","einkochen"],"standort":"tiefgründiger, steinfreier Boden ohne frischen Kompost","menge_pro_person":"4-6 m²","hinweis":"Keimt langsam (Markiersaat Radieschen); Kulturschutznetz gegen Möhrenfliege; Junisaat für Lagerware."},{"id":"pastinake","name":"Pastinake","familie":"Doldenblütler","kategorie":"wurzelgemuese","naehrstoffbedarf":"mittel","vorkultur":[],"direktsaat":[3,4,5],"pflanzung":[],"ernte":[10,11,12,1,2],"schwierigkeit":"leicht","lagermonate":4,"konservierung":["frischlager","beeternte_winter"],"standort":"tiefgründig, sonnig bis halbschattig","menge_pro_person":"2-3 m²","hinweis":"Frosthart - kann den Winter über im Beet bleiben; Saatgut nur 1 Jahr keimfähig."},{"id":"rote_bete","name":"Rote Bete","familie":"Gänsefußgewächse","kategorie":"wurzelgemuese","naehrstoffbedarf":"mittel","vorkultur":[],"direktsaat":[4,5,6],"pflanzung":[],"ernte":[7,8,9,10],"schwierigkeit":"leicht","lagermonate":5,"konservierung":["frischlager","einkochen","fermentieren"],"standort":"sonnig bis halbschattig, anspruchslos","menge_pro_person":"2-3 m²","hinweis":"Samenknäuel auf 10 cm vereinzeln; vor stärkeren Frösten ernten, in Sand lagern."},{"id":"radieschen","name":"Radieschen","familie":"Kreuzblütler","kategorie":"wurzelgemuese","naehrstoffbedarf":"schwach","vorkultur":[],"direktsaat":[3,4,5,6,7,8,9],"pflanzung":[],"ernte":[4,5,6,7,8,9,10],"schwierigkeit":"leicht","lagermonate":0,"konservierung":[],"standort":"überall, auch Balkonkasten","menge_pro_person":"laufend 0,5 m², gestaffelt","hinweis":"4-6 Wochen Kulturzeit; ideal als Lückenfüller und Markiersaat; zählt zur Kohlfamilie (Fruchtfolge!)."},{"id":"rettich","name":"Rettich (Sommer/Winter)","familie":"Kreuzblütler","kategorie":"wurzelgemuese","naehrstoffbedarf":"schwach","vorkultur":[],"direktsaat":[4,5,6,7,8],"pflanzung":[],"ernte":[6,7,8,9,10,11],"schwierigkeit":"leicht","lagermonate":3,"konservierung":["frischlager","fermentieren"],"standort":"sonnig, gleichmäßig feucht","menge_pro_person":"1-2 m²","hinweis":"Winterrettich (Saat Juli/August) lagert in Sand mehrere Monate."},{"id":"schwarzwurzel","name":"Schwarzwurzel","familie":"Korbblütler","kategorie":"wurzelgemuese","naehrstoffbedarf":"mittel","vorkultur":[],"direktsaat":[3,4],"pflanzung":[],"ernte":[10,11,12,1,2],"schwierigkeit":"mittel","lagermonate":3,"konservierung":["beeternte_winter","frischlager"],"standort":"tiefgründig, steinfrei","menge_pro_person":"1-2 m²","hinweis":"Winterspargel: lange Kulturzeit, frosthart im Beet; Wurzeln brechen leicht."},{"id":"steckruebe","name":"Steckrübe","familie":"Kreuzblütler","kategorie":"wurzelgemuese","naehrstoffbedarf":"mittel","vorkultur":[5,6],"direktsaat":[6,7],"pflanzung":[6,7],"ernte":[10,11],"schwierigkeit":"leicht","lagermonate":5,"konservierung":["frischlager"],"standort":"sonnig, frisch","menge_pro_person":"2-3 m²","hinweis":"Klassisches Lager- und Wintergemüse; Netz gegen Kohlfliege (Kreuzblütler)."},{"id":"mairuebe","name":"Mai-/Herbstrübe","familie":"Kreuzblütler","kategorie":"wurzelgemuese","naehrstoffbedarf":"schwach","vorkultur":[],"direktsaat":[3,4,7,8],"pflanzung":[],"ernte":[5,6,9,10,11],"schwierigkeit":"leicht","lagermonate":2,"konservierung":["frischlager","fermentieren"],"standort":"sonnig bis halbschattig","menge_pro_person":"1-2 m²","hinweis":"Schnellkultur (6-8 Wochen); Herbstsaat für Einlagerung und Rübstiel-Ernte."},{"id":"knollensellerie","name":"Knollensellerie","familie":"Doldenblütler","kategorie":"wurzelgemuese","naehrstoffbedarf":"stark","vorkultur":[2,3],"direktsaat":[],"pflanzung":[5],"ernte":[10],"schwierigkeit":"mittel","lagermonate":5,"konservierung":["frischlager","trocknen"],"standort":"sonnig, nährstoffreich, gleichmäßig feucht","menge_pro_person":"5-8 Pflanzen","hinweis":"Flach pflanzen (Herz frei), lange Kulturzeit; Lichtkeimer bei der Anzucht."},{"id":"topinambur","name":"Topinambur","familie":"Korbblütler","kategorie":"wurzelgemuese","naehrstoffbedarf":"schwach","vorkultur":[],"direktsaat":[3,4],"pflanzung":[3,4],"ernte":[10,11,12,1,2,3],"schwierigkeit":"leicht","lagermonate":1,"konservierung":["beeternte_winter"],"standort":"anspruchslos, eigene Ecke mit Rhizomsperre","menge_pro_person":"2-4 m² Dauerbestand","hinweis":"Wuchert stark - nur mit Wurzelsperre; Knollen nach Bedarf frisch aus dem Boden ernten."},{"id":"buschbohne","name":"Buschbohne","familie":"Hülsenfrüchtler","kategorie":"huelsenfruechte","naehrstoffbedarf":"schwach","vorkultur":[],"direktsaat":[5,6,7],"pflanzung":[],"ernte":[7,8,9,10],"schwierigkeit":"leicht","lagermonate":0,"konservierung":["einfrieren","fermentieren","trocknen"],"standort":"sonnig, warmer Boden (ab 10 °C säen)","menge_pro_person":"3-4 m², in Sätzen","hinweis":"Sätze bis Anfang Juli = Ernte bis Oktober; roh giftig, immer kochen."},{"id":"stangenbohne","name":"Stangenbohne","familie":"Hülsenfrüchtler","kategorie":"huelsenfruechte","naehrstoffbedarf":"schwach","vorkultur":[],"direktsaat":[5,6],"pflanzung":[],"ernte":[7,8,9,10],"schwierigkeit":"leicht","lagermonate":0,"konservierung":["einfrieren","fermentieren","trocknen"],"standort":"sonnig, windgeschützt, 2,5 m Stangen","menge_pro_person":"1 Bohnenzelt (6-8 Stangen)","hinweis":"Mehrfacher Ertrag der Buschbohne auf gleicher Fläche; konsequent durchpflücken."},{"id":"erbse","name":"Erbse (Zucker-/Markerbse)","familie":"Hülsenfrüchtler","kategorie":"huelsenfruechte","naehrstoffbedarf":"schwach","vorkultur":[],"direktsaat":[3,4,5],"pflanzung":[],"ernte":[6,7],"schwierigkeit":"leicht","lagermonate":0,"konservierung":["einfrieren","trocknen"],"standort":"sonnig, Reisig oder Netz als Rankhilfe","menge_pro_person":"2-3 m²","hinweis":"Frühe Saat entgeht dem Erbsenwickler; Wurzeln nach Ernte im Boden lassen (Stickstoff)."},{"id":"dicke_bohne","name":"Dicke Bohne / Ackerbohne","familie":"Hülsenfrüchtler","kategorie":"huelsenfruechte","naehrstoffbedarf":"schwach","vorkultur":[],"direktsaat":[2,3],"pflanzung":[],"ernte":[6,7],"schwierigkeit":"leicht","lagermonate":0,"konservierung":["einfrieren","trocknen"],"standort":"auch schwere Böden, verträgt Fröste","menge_pro_person":"2-3 m²","hinweis":"Früheste Saat des Jahres (ab Februar) - entgeht so der Schwarzen Bohnenlaus."},{"id":"gruenkohl","name":"Grünkohl","familie":"Kreuzblütler","kategorie":"kohlgemuese","naehrstoffbedarf":"stark","vorkultur":[5,6],"direktsaat":[5,6],"pflanzung":[6,7],"ernte":[11,12,1,2],"schwierigkeit":"leicht","lagermonate":0,"konservierung":["beeternte_winter","einfrieren"],"standort":"sonnig bis halbschattig, nährstoffreich","menge_pro_person":"4-6 Pflanzen","hinweis":"Frosthart, schmeckt nach Frost süßer; Einsteiger-Wintergemüse Nr. 1; Netz gegen Kohlweißling."},{"id":"palmkohl","name":"Palmkohl (Schwarzkohl)","familie":"Kreuzblütler","kategorie":"kohlgemuese","naehrstoffbedarf":"stark","vorkultur":[4,5,6],"direktsaat":[],"pflanzung":[5,6,7],"ernte":[8,9,10,11,12,1],"schwierigkeit":"leicht","lagermonate":0,"konservierung":["beeternte_winter","einfrieren"],"standort":"wie Grünkohl","menge_pro_person":"3-4 Pflanzen","hinweis":"Laufende Blatternte von unten; weniger frosthart als Grünkohl."},{"id":"brokkoli","name":"Brokkoli","familie":"Kreuzblütler","kategorie":"kohlgemuese","naehrstoffbedarf":"stark","vorkultur":[3,4,5,6],"direktsaat":[],"pflanzung":[4,5,6,7],"ernte":[6,7,8,9,10],"schwierigkeit":"mittel","lagermonate":0,"konservierung":["einfrieren"],"standort":"sonnig, gleichmäßig feucht","menge_pro_person":"4-6 Pflanzen","hinweis":"Nach der Hauptblume Seitentriebe wochenlang nachernten; Netz von Anfang an."},{"id":"blumenkohl","name":"Blumenkohl","familie":"Kreuzblütler","kategorie":"kohlgemuese","naehrstoffbedarf":"stark","vorkultur":[3,4,5],"direktsaat":[],"pflanzung":[4,5,6],"ernte":[6,7,8,9,10],"schwierigkeit":"schwer","lagermonate":0,"konservierung":["einfrieren","einlegen"],"standort":"nährstoffreich, nie trocken","menge_pro_person":"4-6 Pflanzen","hinweis":"Empfindlich gegen Trockenheit und Hitze; Blume mit geknicktem Blatt beschatten."},{"id":"weisskohl","name":"Weiß-/Rotkohl","familie":"Kreuzblütler","kategorie":"kohlgemuese","naehrstoffbedarf":"stark","vorkultur":[3,4],"direktsaat":[],"pflanzung":[5],"ernte":[9,10,11],"schwierigkeit":"mittel","lagermonate":4,"konservierung":["frischlager","fermentieren"],"standort":"sonnig, schwerer nährstoffreicher Boden","menge_pro_person":"4-6 Köpfe","hinweis":"Lagersorten wählen; Sauerkraut ist die klassische Konservierung; 3-4 Jahre Anbaupause."},{"id":"wirsing","name":"Wirsing","familie":"Kreuzblütler","kategorie":"kohlgemuese","naehrstoffbedarf":"stark","vorkultur":[3,4,5,6],"direktsaat":[],"pflanzung":[4,5,6,7],"ernte":[7,8,9,10,11,12],"schwierigkeit":"leicht","lagermonate":2,"konservierung":["frischlager","einfrieren"],"standort":"wie Weißkohl, verträgt raueres Klima","menge_pro_person":"4-5 Köpfe","hinweis":"Robustester Kopfkohl; Herbstsorten vertragen leichte Fröste."},{"id":"rosenkohl","name":"Rosenkohl","familie":"Kreuzblütler","kategorie":"kohlgemuese","naehrstoffbedarf":"stark","vorkultur":[4],"direktsaat":[],"pflanzung":[5,6],"ernte":[11,12,1,2],"schwierigkeit":"mittel","lagermonate":0,"konservierung":["beeternte_winter","einfrieren"],"standort":"sonnig, fester nährstoffreicher Boden","menge_pro_person":"3-5 Pflanzen","hinweis":"Lange Standzeit; Röschen nach Frost ernten; standfest pflanzen und anhäufeln."},{"id":"kohlrabi","name":"Kohlrabi","familie":"Kreuzblütler","kategorie":"kohlgemuese","naehrstoffbedarf":"mittel","vorkultur":[2,3,4,5,6,7],"direktsaat":[4,5,6,7],"pflanzung":[3,4,5,6,7,8],"ernte":[5,6,7,8,9,10],"schwierigkeit":"leicht","lagermonate":1,"konservierung":["frischlager"],"standort":"überall, auch Hochbeet","menge_pro_person":"laufend, gestaffelt","hinweis":"Schnell und dankbar; jung ernten, sonst holzig; gestaffelt setzen."},{"id":"chinakohl","name":"Chinakohl","familie":"Kreuzblütler","kategorie":"kohlgemuese","naehrstoffbedarf":"mittel","vorkultur":[6,7],"direktsaat":[7],"pflanzung":[7,8],"ernte":[10,11],"schwierigkeit":"mittel","lagermonate":2,"konservierung":["fermentieren","frischlager"],"standort":"frisch, nährstoffreich","menge_pro_person":"4-6 Köpfe","hinweis":"Erst ab Juli säen (schosst sonst); Kimchi-Basis; kühl eingeschlagen wochenlang haltbar."},{"id":"pak_choi","name":"Pak Choi","familie":"Kreuzblütler","kategorie":"kohlgemuese","naehrstoffbedarf":"mittel","vorkultur":[4,5,6,7],"direktsaat":[4,5,6,7,8],"pflanzung":[5,6,7,8],"ernte":[6,7,8,9,10,11],"schwierigkeit":"leicht","lagermonate":0,"konservierung":["fermentieren"],"standort":"frisch, halbschattig im Hochsommer","menge_pro_person":"laufend, gestaffelt","hinweis":"Schnellkultur (6-8 Wochen), kältetolerant; Erdflöhe mit Netz abhalten."},{"id":"salat","name":"Kopf-/Pflücksalat","familie":"Korbblütler","kategorie":"blattgemuese","naehrstoffbedarf":"schwach","vorkultur":[2,3,4,5,6,7],"direktsaat":[3,4,5,6,7,8],"pflanzung":[3,4,5,6,7,8],"ernte":[4,5,6,7,8,9,10,11],"schwierigkeit":"leicht","lagermonate":0,"konservierung":[],"standort":"sonnig bis halbschattig; Sommer: schossfeste Sorten","menge_pro_person":"laufend 1-2 m², gestaffelt","hinweis":"Alle 2-3 Wochen kleine Sätze; Lichtkeimer; Schneckenschutz für Jungpflanzen."},{"id":"spinat","name":"Spinat","familie":"Gänsefußgewächse","kategorie":"blattgemuese","naehrstoffbedarf":"mittel","vorkultur":[],"direktsaat":[3,4,8,9],"pflanzung":[],"ernte":[4,5,6,10,11,12],"schwierigkeit":"leicht","lagermonate":0,"konservierung":["einfrieren"],"standort":"frisch, halbschattig geht","menge_pro_person":"2-3 m² je Satz","hinweis":"Frühjahrs- und Herbstkultur (schosst im Sommer); winterharte Sorten überwintern im Beet."},{"id":"mangold","name":"Mangold","familie":"Gänsefußgewächse","kategorie":"blattgemuese","naehrstoffbedarf":"mittel","vorkultur":[3,4],"direktsaat":[4,5,6],"pflanzung":[5],"ernte":[6,7,8,9,10,11],"schwierigkeit":"leicht","lagermonate":0,"konservierung":["einfrieren"],"standort":"sonnig bis halbschattig","menge_pro_person":"2-3 Pflanzen","hinweis":"Einmal säen, monatelang äußere Blätter ernten; treibt im Frühjahr oft neu."},{"id":"feldsalat","name":"Feldsalat","familie":"Baldriangewächse","kategorie":"blattgemuese","naehrstoffbedarf":"schwach","vorkultur":[],"direktsaat":[8,9],"pflanzung":[],"ernte":[10,11,12,1,2,3],"schwierigkeit":"leicht","lagermonate":0,"konservierung":[],"standort":"jedes freie Beet, auch Nachkultur","menge_pro_person":"1-2 m²","hinweis":"Wintersalat Nr. 1, erntebar sogar unter Schnee; Aussaat Ende August bis Mitte September."},{"id":"postelein","name":"Winterportulak (Postelein)","familie":"Quellkrautgewächse","kategorie":"blattgemuese","naehrstoffbedarf":"schwach","vorkultur":[],"direktsaat":[9,10],"pflanzung":[],"ernte":[11,12,1,2,3,4],"schwierigkeit":"leicht","lagermonate":0,"konservierung":[],"standort":"jedes freie Beet, Frühbeet, Gewächshaus","menge_pro_person":"1 m²","hinweis":"Keimt erst unter ca. 12 °C - nicht vor Mitte September säen; wächst nach Schnitt nach."},{"id":"asia_salate","name":"Asia-Salate (Mizuna & Co.)","familie":"Kreuzblütler","kategorie":"blattgemuese","naehrstoffbedarf":"schwach","vorkultur":[],"direktsaat":[3,4,8,9,10],"pflanzung":[],"ernte":[4,5,6,9,10,11,12,1,2],"schwierigkeit":"leicht","lagermonate":0,"konservierung":[],"standort":"Beet, Frühbeet, Balkonkasten","menge_pro_person":"0,5-1 m²","hinweis":"Sehr kältetolerant, Schnittsalat-Prinzip; Herbstsaat Mitte September bis Anfang Oktober."},{"id":"rucola","name":"Rucola","familie":"Kreuzblütler","kategorie":"blattgemuese","naehrstoffbedarf":"schwach","vorkultur":[],"direktsaat":[3,4,5,6,7,8,9],"pflanzung":[],"ernte":[4,5,6,7,8,9,10,11],"schwierigkeit":"leicht","lagermonate":0,"konservierung":["pesto"],"standort":"überall","menge_pro_person":"0,5 m², gestaffelt","hinweis":"Schnellkultur; Erdflöhe im Sommer (Netz, feucht halten); zählt zur Kohl-Fruchtfolge."},{"id":"endivie","name":"Endivie","familie":"Korbblütler","kategorie":"blattgemuese","naehrstoffbedarf":"mittel","vorkultur":[6,7],"direktsaat":[6,7],"pflanzung":[7,8],"ernte":[9,10,11,12],"schwierigkeit":"leicht","lagermonate":1,"konservierung":["frischlager"],"standort":"sonnig, frisch","menge_pro_person":"4-6 Köpfe","hinweis":"Füllt die Herbstlücke; verträgt leichte Fröste, mit Vlies bis Dezember."},{"id":"zuckerhut","name":"Zuckerhut","familie":"Korbblütler","kategorie":"blattgemuese","naehrstoffbedarf":"mittel","vorkultur":[6],"direktsaat":[6,7],"pflanzung":[7],"ernte":[10,11,12],"schwierigkeit":"leicht","lagermonate":2,"konservierung":["frischlager"],"standort":"sonnig","menge_pro_person":"3-5 Köpfe","hinweis":"Winterfester Zichoriensalat; eingeschlagen im Keller wochenlang haltbar."},{"id":"radicchio","name":"Radicchio","familie":"Korbblütler","kategorie":"blattgemuese","naehrstoffbedarf":"mittel","vorkultur":[5,6],"direktsaat":[6,7],"pflanzung":[6,7],"ernte":[9,10,11,12],"schwierigkeit":"mittel","lagermonate":2,"konservierung":["frischlager"],"standort":"sonnig","menge_pro_person":"4-6 Köpfe","hinweis":"Bittersalat für Herbst/Winter; sortenabhängig winterhart."},{"id":"fenchel","name":"Knollenfenchel","familie":"Doldenblütler","kategorie":"blattgemuese","naehrstoffbedarf":"mittel","vorkultur":[5,6],"direktsaat":[6,7],"pflanzung":[6,7],"ernte":[9,10],"schwierigkeit":"mittel","lagermonate":1,"konservierung":["frischlager","einfrieren"],"standort":"sonnig, gleichmäßig feucht; Einzelstellung in der Mischkultur","menge_pro_person":"5-8 Knollen","hinweis":"Erst ab Juni säen (schosst bei Langtag/Frühjahrskälte); schwieriger Mischkulturpartner."},{"id":"zwiebel","name":"Zwiebel (Steckzwiebel)","familie":"Lauchgewächse","kategorie":"zwiebelgemuese","naehrstoffbedarf":"schwach","vorkultur":[],"direktsaat":[3,4],"pflanzung":[3,4],"ernte":[7,8],"schwierigkeit":"leicht","lagermonate":8,"konservierung":["frischlager"],"standort":"sonnig, lockerer Boden ohne frischen Kompost","menge_pro_person":"3-4 m²","hinweis":"Ernte nach Umfallen des Laubs, 2 Wochen nachtrocknen; Wintersteckzwiebeln (Sept./Okt.) für Juni-Ernte."},{"id":"knoblauch","name":"Knoblauch","familie":"Lauchgewächse","kategorie":"zwiebelgemuese","naehrstoffbedarf":"schwach","vorkultur":[],"direktsaat":[10],"pflanzung":[10],"ernte":[7],"schwierigkeit":"leicht","lagermonate":8,"konservierung":["frischlager","fermentieren"],"standort":"sonnig, durchlässig","menge_pro_person":"15-20 Knollen (1-2 m²)","hinweis":"Im Oktober stecken, nicht im Frühjahr; gute Mischkultur zu Erdbeeren."},{"id":"schalotte","name":"Schalotte","familie":"Lauchgewächse","kategorie":"zwiebelgemuese","naehrstoffbedarf":"schwach","vorkultur":[],"direktsaat":[3,4],"pflanzung":[3,4],"ernte":[7,8],"schwierigkeit":"leicht","lagermonate":8,"konservierung":["frischlager","einlegen"],"standort":"wie Zwiebel","menge_pro_person":"1-2 m²","hinweis":"Jede gesteckte Schalotte teilt sich in ein Nest; sehr lagerfähig."},{"id":"lauch","name":"Lauch / Porree","familie":"Lauchgewächse","kategorie":"zwiebelgemuese","naehrstoffbedarf":"stark","vorkultur":[2,3,4],"direktsaat":[],"pflanzung":[5,6,7],"ernte":[8,9,10,11,12,1,2],"schwierigkeit":"mittel","lagermonate":2,"konservierung":["beeternte_winter","einfrieren"],"standort":"sonnig, nährstoffreich","menge_pro_person":"20-30 Stangen","hinweis":"Tief pflanzen und anhäufeln (weiße Schäfte); Winterlauch steht bis zur Ernte im Beet; Netz gegen Lauchminierfliege."},{"id":"fruehlingszwiebel","name":"Frühlings-/Lauchzwiebel","familie":"Lauchgewächse","kategorie":"zwiebelgemuese","naehrstoffbedarf":"schwach","vorkultur":[],"direktsaat":[3,4,5,6,7,8],"pflanzung":[],"ernte":[5,6,7,8,9,10],"schwierigkeit":"leicht","lagermonate":0,"konservierung":["einfrieren"],"standort":"überall, auch Balkonkasten","menge_pro_person":"laufend, gestaffelt","hinweis":"Unkompliziert, gestaffelt säen; winterharte Sorten überstehen den Winter im Beet."},{"id":"rhabarber","name":"Rhabarber","familie":"Knöterichgewächse","kategorie":"dauerkulturen","naehrstoffbedarf":"dauerkultur","vorkultur":[],"direktsaat":[],"pflanzung":[10,3],"ernte":[4,5,6],"schwierigkeit":"leicht","lagermonate":0,"konservierung":["einkochen","einfrieren"],"standort":"nährstoffreich, sonnig bis halbschattig, Dauerplatz","menge_pro_person":"1-2 Pflanzen","hinweis":"Ernte nur bis Johanni (24.6.); im ersten Standjahr nicht ernten; jährlich Kompost."},{"id":"spargel","name":"Spargel (grün)","familie":"Spargelgewächse","kategorie":"dauerkulturen","naehrstoffbedarf":"dauerkultur","vorkultur":[],"direktsaat":[],"pflanzung":[3,4],"ernte":[4,5,6],"schwierigkeit":"mittel","lagermonate":0,"konservierung":["einfrieren","einkochen"],"standort":"sonnig, tiefgründig, Dauerbeet (15-20 Jahre)","menge_pro_person":"10 Pflanzen","hinweis":"Grünspargel ist einfacher als Bleichspargel; erst ab dem 3. Standjahr voll beernten; Ernteschluss Johanni."},{"id":"petersilie","name":"Petersilie","familie":"Doldenblütler","kategorie":"kraeuter","naehrstoffbedarf":"mittel","vorkultur":[2,3],"direktsaat":[3,4,5,6,7],"pflanzung":[4,5],"ernte":[5,6,7,8,9,10,11],"schwierigkeit":"mittel","lagermonate":0,"konservierung":["einfrieren","trocknen"],"standort":"frisch, halbschattig; jedes Jahr neuer Platz","menge_pro_person":"0,5 m²","hinweis":"Keimt 3-4 Wochen - Geduld; zweijährig, blüht im 2. Jahr; selbstunverträglich."},{"id":"schnittlauch","name":"Schnittlauch","familie":"Lauchgewächse","kategorie":"kraeuter","naehrstoffbedarf":"mittel","vorkultur":[2,3],"direktsaat":[3,4,5],"pflanzung":[3,4,9,10],"ernte":[3,4,5,6,7,8,9,10,11],"schwierigkeit":"leicht","lagermonate":0,"konservierung":["einfrieren"],"standort":"frisch, sonnig bis halbschattig, mehrjährig","menge_pro_person":"1-2 Horste","hinweis":"Mehrjährig; regelmäßig bodennah schneiden hält ihn produktiv; Blüten essbar."},{"id":"basilikum","name":"Basilikum","familie":"Lippenblütler","kategorie":"kraeuter","naehrstoffbedarf":"mittel","vorkultur":[3,4,5],"direktsaat":[],"pflanzung":[5,6],"ernte":[6,7,8,9],"schwierigkeit":"mittel","lagermonate":0,"konservierung":["pesto","einfrieren"],"standort":"warm und geschützt, gern Topf auf der Terrasse","menge_pro_person":"3-5 Pflanzen","hinweis":"Sehr wärmebedürftig, Lichtkeimer; ganze Triebspitzen ernten, nie einzelne Blätter."},{"id":"dill","name":"Dill","familie":"Doldenblütler","kategorie":"kraeuter","naehrstoffbedarf":"schwach","vorkultur":[],"direktsaat":[4,5,6,7],"pflanzung":[],"ernte":[5,6,7,8,9],"schwierigkeit":"leicht","lagermonate":0,"konservierung":["einfrieren","trocknen"],"standort":"sonnig; gute Mischkultur zu Gurken","menge_pro_person":"in Sätzen zwischen dem Gemüse","hinweis":"Sät sich freundlich selbst aus; Blütendolden für Einlegegurken mitverwenden."},{"id":"koriander","name":"Koriander","familie":"Doldenblütler","kategorie":"kraeuter","naehrstoffbedarf":"schwach","vorkultur":[],"direktsaat":[4,5,6,7,8],"pflanzung":[],"ernte":[5,6,7,8,9,10],"schwierigkeit":"leicht","lagermonate":0,"konservierung":["einfrieren","trocknen"],"standort":"sonnig bis halbschattig","menge_pro_person":"in Sätzen","hinweis":"Schosst schnell - gestaffelt säen; Körner lassen sich als Gewürz ernten."},{"id":"liebstoeckel","name":"Liebstöckel (Maggikraut)","familie":"Doldenblütler","kategorie":"kraeuter","naehrstoffbedarf":"stark","vorkultur":[3],"direktsaat":[4,5],"pflanzung":[4,5,9,10],"ernte":[4,5,6,7,8,9,10],"schwierigkeit":"leicht","lagermonate":0,"konservierung":["trocknen","einfrieren"],"standort":"nährstoffreich, wird groß - Randplatz","menge_pro_person":"1 Pflanze","hinweis":"Mehrjährig und wüchsig; eine Pflanze reicht für die ganze Nachbarschaft."},{"id":"minze","name":"Minze","familie":"Lippenblütler","kategorie":"kraeuter","naehrstoffbedarf":"mittel","vorkultur":[],"direktsaat":[],"pflanzung":[4,5,9,10],"ernte":[5,6,7,8,9],"schwierigkeit":"leicht","lagermonate":0,"konservierung":["trocknen"],"standort":"frisch, halbschattig - nur mit Wurzelsperre oder im Kübel!","menge_pro_person":"1-2 Pflanzen","hinweis":"Wuchert über Ausläufer; Tee-Klassiker; vor der Blüte ernten und trocknen."},{"id":"zitronenmelisse","name":"Zitronenmelisse","familie":"Lippenblütler","kategorie":"kraeuter","naehrstoffbedarf":"mittel","vorkultur":[],"direktsaat":[],"pflanzung":[4,5,9,10],"ernte":[5,6,7,8,9],"schwierigkeit":"leicht","lagermonate":0,"konservierung":["trocknen"],"standort":"wie Minze; versamt und wuchert","menge_pro_person":"1 Pflanze","hinweis":"Mehrjährig; Wurzelsperre empfehlenswert; Teekraut."},{"id":"thymian","name":"Thymian","familie":"Lippenblütler","kategorie":"kraeuter","naehrstoffbedarf":"schwach","vorkultur":[3,4],"direktsaat":[],"pflanzung":[4,5],"ernte":[5,6,7,8,9,10],"schwierigkeit":"leicht","lagermonate":0,"konservierung":["trocknen"],"standort":"mager, sonnig, trocken, kalkliebend","menge_pro_person":"1-2 Pflanzen","hinweis":"Mediterran: kein Kompost, wenig Wasser; Bienenweide; nach der Blüte um ein Drittel schneiden."},{"id":"rosmarin","name":"Rosmarin","familie":"Lippenblütler","kategorie":"kraeuter","naehrstoffbedarf":"schwach","vorkultur":[],"direktsaat":[],"pflanzung":[4,5],"ernte":[1,2,3,4,5,6,7,8,9,10,11,12],"schwierigkeit":"mittel","lagermonate":0,"konservierung":["trocknen"],"standort":"mager, vollsonnig; nur bedingt winterhart","menge_pro_person":"1 Pflanze","hinweis":"In rauen Lagen im Kübel überwintern (hell, kühl); nie ins alte Holz schneiden."},{"id":"salbei","name":"Salbei","familie":"Lippenblütler","kategorie":"kraeuter","naehrstoffbedarf":"schwach","vorkultur":[3,4],"direktsaat":[],"pflanzung":[4,5],"ernte":[4,5,6,7,8,9,10],"schwierigkeit":"leicht","lagermonate":0,"konservierung":["trocknen"],"standort":"mager, sonnig, durchlässig","menge_pro_person":"1 Pflanze","hinweis":"Mehrjährig, winterhart; Tee- und Küchenkraut; im Frühjahr zurückschneiden."},{"id":"oregano","name":"Oregano / Majoran","familie":"Lippenblütler","kategorie":"kraeuter","naehrstoffbedarf":"schwach","vorkultur":[3,4],"direktsaat":[5],"pflanzung":[4,5],"ernte":[6,7,8,9],"schwierigkeit":"leicht","lagermonate":0,"konservierung":["trocknen"],"standort":"mager, sonnig","menge_pro_person":"1-2 Pflanzen","hinweis":"Oregano mehrjährig, Majoran einjährig kultiviert; zur Blüte geerntet am aromatischsten."},{"id":"kresse","name":"Gartenkresse","familie":"Kreuzblütler","kategorie":"indoor","naehrstoffbedarf":"schwach","vorkultur":[],"direktsaat":[1,2,3,4,5,6,7,8,9,10,11,12],"pflanzung":[],"ernte":[1,2,3,4,5,6,7,8,9,10,11,12],"schwierigkeit":"leicht","lagermonate":0,"konservierung":[],"standort":"Fensterbank ganzjährig, Beet März-September","menge_pro_person":"laufend","hinweis":"7 Tage von Saat bis Ernte - der schnellste Erfolg im ganzen Sortiment."},{"id":"sprossen_microgreens","name":"Sprossen & Microgreens","familie":"diverse","kategorie":"indoor","naehrstoffbedarf":"schwach","vorkultur":[],"direktsaat":[1,2,3,4,5,6,7,8,9,10,11,12],"pflanzung":[],"ernte":[1,2,3,4,5,6,7,8,9,10,11,12],"schwierigkeit":"leicht","lagermonate":0,"konservierung":[],"standort":"Fensterbank/Keimglas, ganzjährig","menge_pro_person":"laufend","hinweis":"Radies-, Erbsen-, Sonnenblumen-, Brokkolisprossen: frisches Grün im Winter; hygienisch arbeiten, 2x täglich spülen."},{"id":"ringelblume","name":"Ringelblume","familie":"Korbblütler","kategorie":"kraeuter","naehrstoffbedarf":"schwach","vorkultur":[],"direktsaat":[3,4,5,6],"pflanzung":[],"ernte":[6,7,8,9,10],"schwierigkeit":"leicht","lagermonate":0,"konservierung":["trocknen"],"standort":"überall; Mischkultur-Klassiker","menge_pro_person":"am Beetrand verteilt","hinweis":"Essbare Blüten, Teedroge, bodengesundend (Nematoden); versamt sich zuverlässig selbst."},{"id":"kapuzinerkresse","name":"Kapuzinerkresse","familie":"Kapuzinerkressegewächse","kategorie":"kraeuter","naehrstoffbedarf":"schwach","vorkultur":[4],"direktsaat":[5,6],"pflanzung":[5],"ernte":[6,7,8,9,10],"schwierigkeit":"leicht","lagermonate":0,"konservierung":["einlegen"],"standort":"sonnig, magerer Boden blüht besser","menge_pro_person":"am Beetrand","hinweis":"Blüten und Blätter essbar; dient als Blattlaus-Fangpflanze; Knospen als 'falsche Kapern' einlegbar."},{"id":"erdbeere","name":"Erdbeere","familie":"Rosengewächse","kategorie":"beeren","naehrstoffbedarf":"mittel","vorkultur":[],"direktsaat":[],"pflanzung":[7,8],"ernte":[6,7],"schwierigkeit":"leicht","lagermonate":0,"konservierung":["einkochen","einfrieren"],"standort":"sonnig, humos; alle 3 Jahre neues Beet","menge_pro_person":"20-40 Pflanzen (8-12 m²)","hinweis":"Pflanzung im Juli/August entscheidet über die Ernte des Folgejahres; ab Blüte mit Stroh mulchen."},{"id":"himbeere_herbst","name":"Herbsthimbeere","familie":"Rosengewächse","kategorie":"beeren","naehrstoffbedarf":"mittel","vorkultur":[],"direktsaat":[],"pflanzung":[10,11,3],"ernte":[8,9,10],"schwierigkeit":"leicht","lagermonate":0,"konservierung":["einfrieren","einkochen"],"standort":"sonnig, humos, gemulcht, Spalier","menge_pro_person":"5-10 Ruten (3-5 m Reihe)","hinweis":"Trägt am diesjährigen Holz: im Spätwinter komplett bodennah abmähen - pflegeleichteste Beere."},{"id":"himbeere_sommer","name":"Sommerhimbeere","familie":"Rosengewächse","kategorie":"beeren","naehrstoffbedarf":"mittel","vorkultur":[],"direktsaat":[],"pflanzung":[10,11,3],"ernte":[6,7],"schwierigkeit":"mittel","lagermonate":0,"konservierung":["einfrieren","einkochen"],"standort":"wie Herbsthimbeere","menge_pro_person":"5-10 Ruten","hinweis":"Trägt am vorjährigen Holz: nach der Ernte nur abgetragene Ruten schneiden."},{"id":"johannisbeere","name":"Johannisbeere (rot/weiß/schwarz)","familie":"Stachelbeergewächse","kategorie":"beeren","naehrstoffbedarf":"mittel","vorkultur":[],"direktsaat":[],"pflanzung":[10,11,3],"ernte":[6,7,8],"schwierigkeit":"leicht","lagermonate":0,"konservierung":["einkochen","einfrieren","saft"],"standort":"sonnig bis halbschattig, gemulcht","menge_pro_person":"2-3 Sträucher","hinweis":"3-6 kg pro Strauch; jährlich die 2-3 ältesten Triebe bodennah entfernen."},{"id":"stachelbeere","name":"Stachelbeere","familie":"Stachelbeergewächse","kategorie":"beeren","naehrstoffbedarf":"mittel","vorkultur":[],"direktsaat":[],"pflanzung":[10,11,3],"ernte":[6,7],"schwierigkeit":"leicht","lagermonate":0,"konservierung":["einkochen","einfrieren"],"standort":"sonnig bis halbschattig; mehltaufeste Sorten","menge_pro_person":"1-2 Sträucher","hinweis":"Halbreif fürs Kompott, vollreif zum Naschen; Schnitt wie Johannisbeere."},{"id":"brombeere","name":"Brombeere (dornlos)","familie":"Rosengewächse","kategorie":"beeren","naehrstoffbedarf":"mittel","vorkultur":[],"direktsaat":[],"pflanzung":[10,11,3,4],"ernte":[8,9],"schwierigkeit":"leicht","lagermonate":0,"konservierung":["einkochen","einfrieren"],"standort":"sonnig, stabiles Spalier","menge_pro_person":"1 Pflanze","hinweis":"Wuchsgewaltig - abgetragene Ruten raus, junge anbinden; eine Pflanze genügt."},{"id":"heidelbeere","name":"Kulturheidelbeere","familie":"Heidekrautgewächse","kategorie":"beeren","naehrstoffbedarf":"schwach","vorkultur":[],"direktsaat":[],"pflanzung":[10,3,4],"ernte":[7,8],"schwierigkeit":"mittel","lagermonate":0,"konservierung":["einfrieren"],"standort":"saurer Boden (pH 4-5), Moorbeet oder Kübel, Regenwasser","menge_pro_person":"2-3 Sträucher","hinweis":"Ohne sauren Boden keine Chance - im Zweifel Kübelkultur mit Regenwasser."},{"id":"maibeere","name":"Maibeere (Haskap)","familie":"Geißblattgewächse","kategorie":"beeren","naehrstoffbedarf":"schwach","vorkultur":[],"direktsaat":[],"pflanzung":[10,11,3],"ernte":[5,6],"schwierigkeit":"leicht","lagermonate":0,"konservierung":["einfrieren"],"standort":"anspruchslos, extrem winterhart; 2 Sorten für Befruchtung","menge_pro_person":"2 Sträucher","hinweis":"Früheste Beere des Jahres, noch vor den Erdbeeren."},{"id":"weinrebe","name":"Weinrebe (PiWi-Sorten)","familie":"Weinrebengewächse","kategorie":"beeren","naehrstoffbedarf":"mittel","vorkultur":[],"direktsaat":[],"pflanzung":[4,5,10],"ernte":[9,10],"schwierigkeit":"mittel","lagermonate":0,"konservierung":["saft","trocknen"],"standort":"Südwand, warm; pilzfeste Sorten","menge_pro_person":"1-2 Reben","hinweis":"Jährlicher Winterschnitt nötig; pilzfeste (PiWi-)Sorten sparen jeden Pflanzenschutz."},{"id":"minikiwi","name":"Mini-Kiwi (Kiwibeere)","familie":"Strahlengriffelgewächse","kategorie":"beeren","naehrstoffbedarf":"mittel","vorkultur":[],"direktsaat":[],"pflanzung":[4,5],"ernte":[9,10],"schwierigkeit":"mittel","lagermonate":0,"konservierung":["einfrieren"],"standort":"sonnig, stabiles Rankgerüst, windgeschützt","menge_pro_person":"1 selbstfruchtbare Pflanze","hinweis":"Selbstfruchtbare Sorte wählen (sonst Paar pflanzen); Ertrag ab Jahr 3-5, dann reichlich."},{"id":"apfel","name":"Apfel","familie":"Rosengewächse","kategorie":"baumobst","naehrstoffbedarf":"dauerkultur","vorkultur":[],"direktsaat":[],"pflanzung":[10,11,12,1,2,3],"ernte":[8,9,10],"schwierigkeit":"mittel","lagermonate":6,"konservierung":["frischlager","saft","trocknen","einkochen"],"standort":"sonnig; Unterlage bestimmt Baumgröße","menge_pro_person":"1-2 Bäume (verschiedene Reifezeiten)","hinweis":"Befruchtersorte nötig; Lagersorten halten im kühlen Keller bis Frühjahr; schorffeste Sorten wählen."},{"id":"birne","name":"Birne","familie":"Rosengewächse","kategorie":"baumobst","naehrstoffbedarf":"dauerkultur","vorkultur":[],"direktsaat":[],"pflanzung":[10,11,12,1,2,3],"ernte":[8,9,10],"schwierigkeit":"mittel","lagermonate":3,"konservierung":["einkochen","trocknen","frischlager"],"standort":"wärmer und geschützter als Apfel; Spalier an Südwand ideal","menge_pro_person":"1 Baum","hinweis":"Befruchter nötig; Birnengitterrost: Abstand zu Wacholder halten."},{"id":"zwetschge","name":"Zwetschge / Pflaume","familie":"Rosengewächse","kategorie":"baumobst","naehrstoffbedarf":"dauerkultur","vorkultur":[],"direktsaat":[],"pflanzung":[10,11,3],"ernte":[7,8,9],"schwierigkeit":"leicht","lagermonate":0,"konservierung":["einkochen","einfrieren","trocknen","mus"],"standort":"sonnig; viele Sorten selbstfruchtbar","menge_pro_person":"1 Baum","hinweis":"Schnitt nach der Ernte im Sommer; Fruchtmumien (Monilia) konsequent entfernen."},{"id":"sauerkirsche","name":"Sauerkirsche","familie":"Rosengewächse","kategorie":"baumobst","naehrstoffbedarf":"dauerkultur","vorkultur":[],"direktsaat":[],"pflanzung":[10,11,3],"ernte":[7],"schwierigkeit":"leicht","lagermonate":0,"konservierung":["einkochen","einfrieren","saft"],"standort":"sonnig bis halbschattig; meist selbstfruchtbar","menge_pro_person":"1 Baum","hinweis":"Kompakter und pflegeleichter als Süßkirsche; nach der Ernte schneiden."},{"id":"suesskirsche","name":"Süßkirsche","familie":"Rosengewächse","kategorie":"baumobst","naehrstoffbedarf":"dauerkultur","vorkultur":[],"direktsaat":[],"pflanzung":[10,11,3],"ernte":[6,7],"schwierigkeit":"mittel","lagermonate":0,"konservierung":["einkochen","einfrieren"],"standort":"sonnig, braucht Platz; Befruchter nötig","menge_pro_person":"1 Baum (schwache Unterlage wählen)","hinweis":"Kirschfruchtfliege bei späten Sorten; Sommerschnitt nach der Ernte; Vogelschutznetz einplanen."},{"id":"quitte","name":"Quitte","familie":"Rosengewächse","kategorie":"baumobst","naehrstoffbedarf":"dauerkultur","vorkultur":[],"direktsaat":[],"pflanzung":[10,11,3],"ernte":[10],"schwierigkeit":"leicht","lagermonate":2,"konservierung":["einkochen","gelee","saft"],"standort":"sonnig, anspruchslos, selbstfruchtbar","menge_pro_person":"1 Baum für mehrere Haushalte","hinweis":"Robustes 'Vergessenes Obst'; roh ungenießbar, verarbeitet hocharomatisch."},{"id":"haselnuss","name":"Haselnuss","familie":"Birkengewächse","kategorie":"baumobst","naehrstoffbedarf":"dauerkultur","vorkultur":[],"direktsaat":[],"pflanzung":[10,11,3],"ernte":[9,10],"schwierigkeit":"leicht","lagermonate":12,"konservierung":["frischlager"],"standort":"anspruchslos, auch Heckenelement; 2 Sorten pflanzen","menge_pro_person":"2 Sträucher","hinweis":"Fett und Eiweiß aus dem Garten; Konkurrenz durch Eichhörnchen einkalkulieren."},{"id":"walnuss","name":"Walnuss","familie":"Walnussgewächse","kategorie":"baumobst","naehrstoffbedarf":"dauerkultur","vorkultur":[],"direktsaat":[],"pflanzung":[10,11,3],"ernte":[9,10],"schwierigkeit":"leicht","lagermonate":12,"konservierung":["frischlager"],"standort":"viel Platz (15 m Krone), spätfrostgefährdete Lagen meiden","menge_pro_person":"1 Baum (Generationenprojekt)","hinweis":"Erst ab Jahr 5-8 nennenswerte Ernte; gewaschene Nüsse gut trocknen, dann jahrelang lagerfähig."},{"id":"holunder","name":"Schwarzer Holunder","familie":"Moschuskrautgewächse","kategorie":"baumobst","naehrstoffbedarf":"dauerkultur","vorkultur":[],"direktsaat":[],"pflanzung":[10,11,3],"ernte":[5,6,8,9],"schwierigkeit":"leicht","lagermonate":0,"konservierung":["saft","gelee","sirup"],"standort":"anspruchslos, Heckenelement","menge_pro_person":"1 Strauch","hinweis":"Doppelernte: Blüten (Mai/Juni, Sirup) und Beeren (August/September, Saft - nur gekocht!)."},{"id":"chicoree","name":"Chicorée (Treiberei)","familie":"Korbblütler","kategorie":"indoor","naehrstoffbedarf":"mittel","vorkultur":[],"direktsaat":[5,6],"pflanzung":[],"ernte":[11,12,1,2],"schwierigkeit":"mittel","lagermonate":0,"konservierung":[],"standort":"Sommer im Beet, Winter: Treiben in dunklem Eimer im Keller","menge_pro_person":"10-15 Wurzeln","hinweis":"Im Mai/Juni säen, im Herbst Wurzeln roden, ab November im Dunkeln treiben - Wintervitamine ohne Beet."},{"id":"austernpilz","name":"Austernpilz","familie":"Seitlingsverwandte (Pilz)","kategorie":"indoor","naehrstoffbedarf":"schwach","vorkultur":[],"direktsaat":[],"pflanzung":[3,4,5,9,10],"ernte":[1,2,3,4,5,9,10,11,12],"schwierigkeit":"mittel","lagermonate":0,"konservierung":["trocknen","einfrieren"],"standort":"schattig-feucht: Strohballen, Laubholzstamm oder Kaffeesatz-Kultur","menge_pro_person":"1-2 beimpfte Substrate","hinweis":"Fertig beimpfte Substrate sind der einfachste Einstieg in die Pilzzucht."}]};
+
+  const MON_KURZ = ["Jan", "Feb", "Mär", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"];
+  const MON_LANG = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August",
+    "September", "Oktober", "November", "Dezember"];
+  const AKTE = [
+    { key: "vorkultur", label: "Vorkultur", verb: "Vorziehen (Anzucht)" },
+    { key: "direktsaat", label: "Direktsaat", verb: "Aussäen / Stecken im Beet" },
+    { key: "pflanzung", label: "Pflanzung", verb: "Pflanzen" },
+    { key: "ernte", label: "Ernte", verb: "Ernten" }
+  ];
+  const KONS = {
+    frischlager: "Frischlager", beeternte_winter: "Winterernte im Beet", einkochen: "Einkochen",
+    einfrieren: "Einfrieren", fermentieren: "Fermentieren", trocknen: "Trocknen",
+    einlegen: "Einlegen", saft: "Saft", gelee: "Gelee", sirup: "Sirup", mus: "Mus", pesto: "Pesto"
+  };
+  const ZEHRER = { stark: "Starkzehrer", mittel: "Mittelzehrer", schwach: "Schwachzehrer", dauerkultur: "Dauerkultur" };
+
+  const katName = Object.fromEntries(DB.kategorien.map(k => [k.id, k.name]));
+  const state = { view: "monat", monat: new Date().getMonth() + 1, q: "", kat: "", schwierigkeit: "", lager: false };
+
+  const $ = id => document.getElementById(id);
+
+  function gefiltert() {
+    const q = state.q.trim().toLowerCase();
+    return DB.kulturen.filter(k =>
+      (!q || k.name.toLowerCase().includes(q) || k.familie.toLowerCase().includes(q)) &&
+      (!state.kat || k.kategorie === state.kat) &&
+      (!state.schwierigkeit || k.schwierigkeit === state.schwierigkeit) &&
+      (!state.lager || k.lagermonate >= 2)
+    );
+  }
+
+  /* ── Monatsansicht ── */
+  function renderMonat() {
+    const liste = gefiltert();
+    $("month-title").textContent = MON_LANG[state.monat - 1];
+    const wrap = $("month-sections");
+    wrap.innerHTML = "";
+    for (const akt of AKTE) {
+      const treffer = liste.filter(k => k[akt.key].includes(state.monat));
+      const sec = document.createElement("section");
+      sec.className = "section";
+      const h = document.createElement("h3");
+      h.innerHTML = `<i class="swatch sw-${akt.key}"></i>${akt.verb}<span class="n">${treffer.length}</span>`;
+      sec.appendChild(h);
+      const chips = document.createElement("div");
+      chips.className = "chips";
+      if (!treffer.length) {
+        chips.innerHTML = `<span class="none">in diesem Monat nichts</span>`;
+      } else {
+        for (const k of treffer) {
+          const b = document.createElement("button");
+          b.className = "chip";
+          b.textContent = k.name;
+          b.addEventListener("click", () => openDetail(k));
+          chips.appendChild(b);
+        }
+      }
+      sec.appendChild(chips);
+      wrap.appendChild(sec);
+    }
+  }
+
+  function renderMonthpicker() {
+    const mp = $("monthpicker");
+    mp.innerHTML = "";
+    MON_KURZ.forEach((m, i) => {
+      const b = document.createElement("button");
+      b.textContent = m;
+      b.setAttribute("aria-pressed", String(i + 1 === state.monat));
+      b.addEventListener("click", () => { state.monat = i + 1; renderMonthpicker(); renderMonat(); });
+      mp.appendChild(b);
+    });
+  }
+
+  /* ── Jahresansicht ── */
+  function laneCells(k, akt) {
+    const set = new Set(k[akt.key]);
+    let html = "";
+    for (let m = 1; m <= 12; m++) {
+      if (!set.has(m)) { html += `<div class="lane"></div>`; continue; }
+      const prev = m === 1 ? 12 : m - 1, next = m === 12 ? 1 : m + 1;
+      const cls = ["lane", "on-" + akt.key];
+      if (!set.has(prev)) cls.push("start");
+      if (!set.has(next)) cls.push("end");
+      html += `<div class="${cls.join(" ")}"></div>`;
+    }
+    return html;
+  }
+
+  function zeileBeschreibung(k) {
+    const teile = [];
+    for (const akt of AKTE) {
+      if (!k[akt.key].length) continue;
+      teile.push(akt.label + ": " + k[akt.key].map(m => MON_KURZ[m - 1]).join(", "));
+    }
+    return teile.join(" · ") || "keine Zeitfenster hinterlegt";
+  }
+
+  function renderJahr() {
+    const liste = gefiltert();
+    const tbl = $("year-table");
+    tbl.innerHTML = "";
+    if (!liste.length) {
+      tbl.innerHTML = `<tbody><tr><td class="empty">Keine Kultur passt zu den Filtern.</td></tr></tbody>`;
+      return;
+    }
+    const tbody = document.createElement("tbody");
+    for (const kat of DB.kategorien) {
+      const gruppe = liste.filter(k => k.kategorie === kat.id);
+      if (!gruppe.length) continue;
+      const kopf = document.createElement("tr");
+      kopf.className = "cat-row";
+      kopf.innerHTML = `<th scope="colgroup">${kat.name}</th>` +
+        MON_KURZ.map(m => `<th class="mon" scope="col">${m}</th>`).join("");
+      tbody.appendChild(kopf);
+      for (const k of gruppe) {
+        const tr = document.createElement("tr");
+        let html = `<td class="name"><button type="button" data-id="${k.id}">${k.name}` +
+          `<span class="sr-only"> – ${zeileBeschreibung(k)}</span></button></td>`;
+        for (let m = 1; m <= 12; m++) {
+          html += `<td class="cell" data-id="${k.id}" data-m="${m}"><div class="lanes">`;
+          for (const akt of AKTE) {
+            const set = new Set(k[akt.key]);
+            if (!set.has(m)) { html += `<div class="lane"></div>`; continue; }
+            const prev = m === 1 ? 12 : m - 1, next = m === 12 ? 1 : m + 1;
+            const cls = ["lane", "on-" + akt.key];
+            if (!set.has(prev)) cls.push("start");
+            if (!set.has(next)) cls.push("end");
+            html += `<div class="${cls.join(" ")}"></div>`;
+          }
+          html += `</div></td>`;
+        }
+        tr.innerHTML = html;
+        tbody.appendChild(tr);
+      }
+    }
+    tbl.appendChild(tbody);
+  }
+
+  /* ── Tooltip (Jahresansicht) ── */
+  const tip = $("tooltip");
+  function moveTip(ev) {
+    const pad = 14;
+    let x = ev.clientX + pad, y = ev.clientY + pad;
+    const r = tip.getBoundingClientRect();
+    if (x + r.width > innerWidth - 8) x = ev.clientX - r.width - pad;
+    if (y + r.height > innerHeight - 8) y = ev.clientY - r.height - pad;
+    tip.style.left = x + "px";
+    tip.style.top = y + "px";
+  }
+  $("year-table").addEventListener("mouseover", ev => {
+    const td = ev.target.closest("td.cell");
+    if (!td) { tip.hidden = true; return; }
+    const k = DB.kulturen.find(x => x.id === td.dataset.id);
+    const m = Number(td.dataset.m);
+    const akte = AKTE.filter(a => k[a.key].includes(m)).map(a => a.label);
+    if (!akte.length) { tip.hidden = true; return; }
+    tip.innerHTML = `<b>${k.name} · ${MON_LANG[m - 1]}</b>${akte.join(", ")}`;
+    tip.hidden = false;
+    moveTip(ev);
+  });
+  $("year-table").addEventListener("mousemove", ev => { if (!tip.hidden) moveTip(ev); });
+  $("year-table").addEventListener("mouseleave", () => { tip.hidden = true; });
+  $("year-table").addEventListener("click", ev => {
+    const b = ev.target.closest("td.name button");
+    if (!b) return;
+    openDetail(DB.kulturen.find(x => x.id === b.dataset.id));
+  });
+
+  /* ── Detail-Dialog ── */
+  const dlg = $("detail");
+  function openDetail(k) {
+    $("d-title").textContent = k.name;
+    $("d-kat").textContent = katName[k.kategorie] + " · " + k.familie;
+    const lager = k.lagermonate >= 1
+      ? "ca. " + k.lagermonate + " Monat" + (k.lagermonate > 1 ? "e" : "")
+      : "frisch verbrauchen";
+    const kons = (k.konservierung || []).map(c => KONS[c] || c).join(", ") || "–";
+    const zeiten = AKTE
+      .filter(a => k[a.key].length)
+      .map(a => `<dt>${a.label}</dt><dd>${k[a.key].map(m => MON_LANG[m - 1]).join(", ")}</dd>`)
+      .join("");
+    $("d-body").innerHTML = `
+      <div class="d-strip" aria-hidden="true">
+        <div class="mrow">${MON_KURZ.map(m => `<span class="mon">${m[0]}</span>`).join("")}</div>
+        ${AKTE.map(a => `<div class="mrow" style="margin-top:2px">${
+          Array.from({ length: 12 }, (_, i) => `<span class="mc"><span class="lanes" style="grid-template-rows:5px;display:grid">${
+            k[a.key].includes(i + 1)
+              ? `<span class="lane on-${a.key}${k[a.key].includes(i === 0 ? 12 : i) ? "" : " start"}${k[a.key].includes(i === 11 ? 1 : i + 2) ? "" : " end"}"></span>`
+              : `<span class="lane"></span>`
+          }</span></span>`).join("")
+        }</div>`).join("")}
+      </div>
+      <dl class="facts">
+        ${zeiten}
+        <dt>Nährstoffbedarf</dt><dd>${ZEHRER[k.naehrstoffbedarf] || k.naehrstoffbedarf}</dd>
+        <dt>Schwierigkeit</dt><dd>${k.schwierigkeit}</dd>
+        <dt>Standort</dt><dd>${k.standort}</dd>
+        <dt>Menge pro Person</dt><dd>${k.menge_pro_person}</dd>
+        <dt>Lagerdauer</dt><dd>${lager}</dd>
+        <dt>Konservierung</dt><dd>${kons}</dd>
+      </dl>
+      <p class="d-hint">${k.hinweis}</p>`;
+    dlg.showModal();
+  }
+  $("d-close").addEventListener("click", () => dlg.close());
+  dlg.addEventListener("click", ev => { if (ev.target === dlg) dlg.close(); });
+
+  /* ── Filter & Tabs ── */
+  function renderAll() {
+    $("count").textContent = gefiltert().length;
+    if (state.view === "monat") renderMonat(); else renderJahr();
+  }
+  $("f-q").addEventListener("input", ev => { state.q = ev.target.value; renderAll(); });
+  $("f-kat").addEventListener("change", ev => { state.kat = ev.target.value; renderAll(); });
+  $("f-schwierigkeit").addEventListener("change", ev => { state.schwierigkeit = ev.target.value; renderAll(); });
+  $("f-lager").addEventListener("change", ev => { state.lager = ev.target.checked; renderAll(); });
+
+  function setView(v) {
+    state.view = v;
+    if (location.hash !== "#" + v) history.replaceState(null, "", "#" + v);
+    $("tab-monat").setAttribute("aria-selected", String(v === "monat"));
+    $("tab-jahr").setAttribute("aria-selected", String(v === "jahr"));
+    $("view-monat").hidden = v !== "monat";
+    $("view-jahr").hidden = v !== "jahr";
+    renderAll();
+  }
+  $("tab-monat").addEventListener("click", () => setView("monat"));
+  $("tab-jahr").addEventListener("click", () => setView("jahr"));
+
+  /* ── Init ── */
+  for (const kat of DB.kategorien) {
+    const o = document.createElement("option");
+    o.value = kat.id;
+    o.textContent = kat.name;
+    $("f-kat").appendChild(o);
+  }
+  renderMonthpicker();
+  renderJahr();
+  setView(location.hash === "#jahr" ? "jahr" : "monat");
+</script>
+
+</body>
+</html>
