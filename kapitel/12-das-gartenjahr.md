@@ -408,6 +408,10 @@ Januar geht es von vorn los.
 
 ## Das Jahr auf einen Blick
 
+![Balkenkalender mit Vorkultur, Direktsaat, Pflanzung und Ernte für 16 Kulturen](../abbildungen/12-anbaukalender.svg)
+
+*Abbildung 12.1: Anbaukalender für das Einsteiger-Sortiment (Daten: daten/kulturen.json).*
+
 | Monat | Säen und vorziehen | Pflanzen | Haupternte |
 |-------|--------------------|----------|------------|
 | Jan | – (Kresse, Sprossen) | – | Wintergemüse aus Beet und Lager |

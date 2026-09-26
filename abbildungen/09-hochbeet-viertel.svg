@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 480" width="820" height="480" font-family="Atkinson Hyperlegible, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-label="Hochbeet in vier Vierteln">
+<title>Hochbeet in vier Vierteln</title>
+<rect width="820" height="480" fill="#fbfaf5"/>
+<text x="24" y="38" font-size="22" fill="#2b2b26" text-anchor="start" font-weight="bold" >Hochbeet (1,2 × 2 m) in vier Vierteln</text>
+<text x="24" y="62" font-size="14" fill="#6b6b5e" text-anchor="start" font-weight="normal" >Erstes Jahr: überall Starkzehrer · ab dem zweiten Jahr rotieren die Viertel</text>
+<rect x="60" y="100" width="180" height="150" rx="0" fill="#6a8f3d" stroke="#2b2b26" stroke-width="1.2" fill-opacity="0.8"/>
+<text x="74" y="128" font-size="15" fill="#fff" text-anchor="start" font-weight="bold" >Viertel A</text>
+<text x="150.0" y="180.0" font-size="14" fill="#fff" text-anchor="middle" font-weight="bold" >Kohlrabi, Pak Choi,</text>
+<text x="150.0" y="198.2" font-size="14" fill="#fff" text-anchor="middle" font-weight="bold" >Salat</text>
+<rect x="240" y="100" width="180" height="150" rx="0" fill="#c4572f" stroke="#2b2b26" stroke-width="1.2" fill-opacity="0.8"/>
+<text x="254" y="128" font-size="15" fill="#fff" text-anchor="start" font-weight="bold" >Viertel B</text>
+<text x="330.0" y="180.0" font-size="14" fill="#fff" text-anchor="middle" font-weight="bold" >1 Tomate</text>
+<text x="330.0" y="198.2" font-size="14" fill="#fff" text-anchor="middle" font-weight="bold" >+ Basilikum</text>
+<rect x="60" y="250" width="180" height="150" rx="0" fill="#d49a2a" stroke="#2b2b26" stroke-width="1.2" fill-opacity="0.8"/>
+<text x="74" y="278" font-size="15" fill="#fff" text-anchor="start" font-weight="bold" >Viertel C</text>
+<text x="150.0" y="330.0" font-size="14" fill="#fff" text-anchor="middle" font-weight="bold" >Möhren +</text>
+<text x="150.0" y="348.2" font-size="14" fill="#fff" text-anchor="middle" font-weight="bold" >Frühlingszwiebeln</text>
+<rect x="240" y="250" width="180" height="150" rx="0" fill="#5b7fb0" stroke="#2b2b26" stroke-width="1.2" fill-opacity="0.8"/>
+<text x="254" y="278" font-size="15" fill="#fff" text-anchor="start" font-weight="bold" >Viertel D</text>
+<text x="330.0" y="330.0" font-size="14" fill="#fff" text-anchor="middle" font-weight="bold" >Zuckererbsen,</text>
+<text x="330.0" y="348.2" font-size="14" fill="#fff" text-anchor="middle" font-weight="bold" >danach Feldsalat</text>
+<rect x="50" y="90" width="380" height="320" rx="4" fill="none" stroke="#c89f6a" stroke-width="10" />
+<text x="240" y="444" font-size="14" fill="#2b2b26" text-anchor="middle" font-weight="bold" >Jahr 2 – Beispielbelegung</text>
+<text x="470" y="120" font-size="15" fill="#2b2b26" text-anchor="start" font-weight="bold" >Jedes Jahr ein Viertel weiter:</text>
+<rect x="470" y="150" width="250" height="32" rx="6" fill="#6a8f3d" stroke="none" stroke-width="1" fill-opacity="0.85"/>
+<text x="482" y="171" font-size="14" fill="#fff" text-anchor="start" font-weight="bold" >Kohl &amp; Co.</text>
+<text x="595" y="192" font-size="14" fill="#6b6b5e" text-anchor="middle" font-weight="normal" >↓</text>
+<rect x="470" y="194" width="250" height="32" rx="6" fill="#c4572f" stroke="none" stroke-width="1" fill-opacity="0.85"/>
+<text x="482" y="215" font-size="14" fill="#fff" text-anchor="start" font-weight="bold" >Fruchtgemüse</text>
+<text x="595" y="236" font-size="14" fill="#6b6b5e" text-anchor="middle" font-weight="normal" >↓</text>
+<rect x="470" y="238" width="250" height="32" rx="6" fill="#d49a2a" stroke="none" stroke-width="1" fill-opacity="0.85"/>
+<text x="482" y="259" font-size="14" fill="#fff" text-anchor="start" font-weight="bold" >Wurzeln &amp; Zwiebeln</text>
+<text x="595" y="280" font-size="14" fill="#6b6b5e" text-anchor="middle" font-weight="normal" >↓</text>
+<rect x="470" y="282" width="250" height="32" rx="6" fill="#5b7fb0" stroke="none" stroke-width="1" fill-opacity="0.85"/>
+<text x="482" y="303" font-size="14" fill="#fff" text-anchor="start" font-weight="bold" >Hülsenfrüchte</text>
+<text x="470" y="345" font-size="13" fill="#6b6b5e" text-anchor="start" font-weight="normal" >danach wieder von vorn</text>
+<text x="470" y="380.0" font-size="13" fill="#6b6b5e" text-anchor="start" font-weight="normal" >Nach 5–7 Jahren ist die Füllung Erde:</text>
+<text x="470" y="396.9" font-size="13" fill="#6b6b5e" text-anchor="start" font-weight="normal" >oben ausräumen, neu schichten.</text>
+</svg>

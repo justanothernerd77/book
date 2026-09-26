@@ -122,6 +122,10 @@ lichtdichten Schicht, statt ihn auszugraben:
    binnen Monaten; die Wurzeln finden den Weg nach unten, Regenwürmer
    ziehen den Kompost in den Boden.
 
+![Querschnitt eines No-Dig-Beetes: Kompost auf Pappe über der alten Grasnarbe](../abbildungen/04-no-dig-beet.svg)
+
+*Abbildung 4.1: Aufbau eines No-Dig-Beetes.*
+
 **Materialbedarf:**
 
 | Beetgröße | Kompost bei 10 cm | Kompost bei 15 cm | Pappe |
@@ -193,6 +197,10 @@ Jede Schicht fest antreten und gründlich wässern. Wer nicht genug
 Material aus dem eigenen Garten hat, füllt die unteren Schichten mit
 Grünschnitt von Nachbarn und kauft nur die oberste Schicht zu.
 
+![Querschnitt eines Hochbeets mit vier Füllschichten, Folie und Wühlmausdraht](../abbildungen/04-hochbeet-querschnitt.svg)
+
+*Abbildung 4.2: Hochbeet im Querschnitt – die vier Schichten von unten nach oben.*
+
 **Die ersten Jahre:** Das Beet sackt im ersten Jahr um 10–20 cm –
 jährlich mit Kompost auffüllen. Im ersten, nährstoffstrotzenden Jahr
 Starkzehrer pflanzen (Kürbis, Zucchini, Tomate, Kohl), im zweiten
@@ -224,6 +232,10 @@ viel Material anfällt.
 5. **Laub und Grünmasse** 20–30 cm.
 6. **Halbreifer Kompost** oder Mist 15 cm.
 7. **Aushub und reifer Kompost** als Pflanzschicht, 15–20 cm.
+
+![Querschnitt eines Hügelbeets mit Holzkern und Schichten darüber](../abbildungen/04-huegelbeet.svg)
+
+*Abbildung 4.3: Hügelbeet im Querschnitt.*
 
 Zu einem flachen Wall von 60–80 cm Höhe formen, mulchen, quer zur
 Falllinie bepflanzen. Die Kuppe trocknet am schnellsten aus und eignet

@@ -114,6 +114,10 @@ man sie sich merken kann:
    eine Gründüngung aus **Phacelia oder Klee** – nie Senf oder Ölrettich,
    denn im nächsten Jahr folgt der Kohl.
 
+![Die vier Felder der Fruchtfolge mit Pfeilen im Kreis](../abbildungen/09-vier-felder.svg)
+
+*Abbildung 9.1: Das Vier-Felder-System – jede Gruppe rückt jährlich ein Feld weiter.*
+
 **Jedes Jahr rückt jede Gruppe ein Beet weiter.** Auf Hülsenfrüchte folgt
 der Kohl, auf den Kohl das Fruchtgemüse, darauf die Wurzeln, darauf wieder
 die Hülsenfrüchte. So kehrt jede Familie erst nach vier Jahren an ihren
@@ -237,6 +241,10 @@ aussehen (Reihen quer oder längs):
 | 5 | Rote Bete | 25 cm |
 | 6 | Pflücksalat, später Feldsalat | – |
 
+![Draufsicht auf ein Beet mit abwechselnden Reihen Zwiebeln, Möhren, Roter Bete und Salat](../abbildungen/09-reihen-mischkultur.svg)
+
+*Abbildung 9.2: Reihen-Mischkultur im Feld „Wurzeln & Zwiebeln“.*
+
 Die Zwiebeln werden im Juli geerntet, die Möhren bekommen Platz zum
 Dickerwerden; nach dem Salat folgt im September Feldsalat. Die Reihen
 kommen im nächsten Jahr gemeinsam auf das nächste Feld.
@@ -329,6 +337,10 @@ Starkzehrer (Tomate mit Basilikum, Kohl, Sellerie, Lauch), weil die
 frische Füllung sonst Salat und Möhren mit Nitrat belastet. Die
 Rotation beginnt im zweiten Jahr; der Plan zeigt die Jahre danach.
 
+![Hochbeet in vier Vierteln mit Beispielbelegung und Rotationsfolge](../abbildungen/09-hochbeet-viertel.svg)
+
+*Abbildung 9.3: Hochbeet in vier Vierteln.*
+
 | Viertel | Jahr 2 | Jahr 3 | Jahr 4 | Jahr 5 |
 |---------|--------|--------|--------|--------|
 | A | Kohlrabi, Pak Choi, Salat | 1 Tomate + Basilikum | Möhren + Frühlingszwiebeln | Zuckererbsen, danach Feldsalat |
@@ -344,6 +356,10 @@ hier nicht hinein – sie brauchen allein ein halbes Hochbeet.
 
 Die Größe aus Kapitel 4 – der empfohlene Einstieg. Jedes Beet ist ein
 Feld.
+
+![Tabelle der vier Beete A bis D über vier Jahre, farbig nach Feld](../abbildungen/09-beetplan-vier-beete.svg)
+
+*Abbildung 9.4: Beetplan für vier Beete über vier Jahre.*
 
 | Beet | Jahr 1 | Jahr 2 | Jahr 3 | Jahr 4 |
 |------|--------|--------|--------|--------|

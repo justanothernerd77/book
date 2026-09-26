@@ -67,7 +67,9 @@ damit rund 40.000 Wörter. Offene Arbeiten:
       eingearbeitet ([`recherche/faktencheck.md`](recherche/faktencheck.md),
       mit offenen Punkten vor dem Druck)
 - [ ] Lektorat und sprachlicher Feinschliff
-- [ ] Abbildungen, Skizzen und Beetpläne
+- [ ] Abbildungen, Skizzen und Beetpläne – erste 11 Grafiken fertig
+      ([`abbildungen/`](abbildungen/)); offen: Pflanz- und Schnittskizzen
+      (z. B. Tomate ausgeizen, Obstbaum- und Beerenschnitt)
 - [ ] Regionale Anpassungen (Klimazonen, Höhenlagen)
 - [ ] Register / Stichwortverzeichnis
 

@@ -55,6 +55,10 @@ Ein Maschendraht unter dem Behälter hält Wühlmäuse fern.
 | **Thermokomposter** (geschlossener Kunststoff) | ordentlich, schnell bei kleinen Mengen, rattensicher | wird leicht zu nass, schwer umzusetzen |
 | **Laubkorb** aus Maschendraht | ideal für Herbstlaub | nur für Laub |
 
+![Drei Kompostkammern: befüllen, reifen, entnehmen](../abbildungen/10-drei-kammer-kompost.svg)
+
+*Abbildung 10.1: Drei-Kammer-Kompost.*
+
 Bewährt hat sich ein **Zwei- oder Drei-Kammern-System** aus Holzlatten
 oder Paletten. Wer nur Platz für einen Thermokomposter hat, mischt
 besonders viel „Braun" hinein, damit er nicht vernässt.

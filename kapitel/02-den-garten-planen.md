@@ -138,6 +138,10 @@ Der Kompost verdient einen halbschattigen Platz mit gutem Zugang: Sie
 bringen dorthin öfter etwas, als Sie denken – und holen auch öfter etwas
 ab.
 
+![Plan eines Gartens mit vier Zonen vom Haus bis zur Wildecke](../abbildungen/02-zonen.svg)
+
+*Abbildung 2.1: Zonierung – Täglich Gebrauchtes nah am Haus, Seltenes am Rand.*
+
 ### Drei Beispielgärten
 
 | | Reihenhausgarten | Einfamilienhausgarten | Großer Garten |
