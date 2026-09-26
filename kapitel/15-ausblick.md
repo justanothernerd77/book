@@ -71,9 +71,9 @@ Wintersalate. Worauf Sie achten sollten:
   sind günstig, halten aber nur einige Jahre.
 - **Boden:** Im Gewächshaus stehen jedes Jahr dieselben Kulturen –
   planen Sie Fruchtwechsel oder Bodenaustausch ein (Kapitel 9).
-- **Genehmigung:** Ob ein Gewächshaus genehmigungsfrei ist, hängt vom
-  Bundesland, von der Größe und vom Standort ab. Fragen Sie vor dem Kauf
-  beim Bauamt nach und halten Sie Grenzabstände ein.
+- **Bauvorschriften:** Ob ein Gewächshaus einfach so in den Garten darf,
+  hängt – Sie ahnen es – vom Bundesland, von der Größe und vom Standort
+  ab. Ein kurzer Anruf bei der Gemeinde vor dem Kauf schadet nicht.
 
 **Bewässerung.** Tröpfchenschläuche an der Regentonne mit Zeitschaltuhr
 nehmen dem Sommer den Stress. Jeder gesparte Gießgang ist gewonnene
@@ -87,33 +87,30 @@ Verwertung von Gartenresten, Charakterköpfe im Garten. Realistisch kalkulieren:
   Sitzstangen und Legenestern, als Richtwert etwa 1 m² Stallfläche für
   drei bis vier Hühner, dazu ein Auslauf von mindestens 10 m² pro Huhn,
   besser mehr. Hühner halten nicht gern allein – mindestens drei Tiere.
-- **Pflichten in Deutschland:** Hühnerhaltung ist schon ab dem ersten
-  Tier beim Veterinäramt und bei der Tierseuchenkasse Ihres Bundeslandes
-  anzumelden; dort fällt meist ein kleiner Jahresbeitrag an. Hühner (und
-  Puten) müssen Sie von einem Tierarzt regelmäßig gegen die
-  Newcastle-Krankheit impfen lassen und die Impfung nachweisen können.
-  Bei Vogelgrippe-Ausbrüchen kann das Amt anordnen, dass Ihre Hühner im
-  Stall bleiben müssen – planen Sie dafür einen überdachten Auslauf ein.
-- **Nachbarn und Recht:** Ein krähender Hahn kann Nachbarschaftsstreit
-  auslösen; in manchen Wohngebieten und Kleingartenanlagen ist
-  Tierhaltung eingeschränkt. Vorher klären.
+- **Papierkram:** Wer Hühner hält, bekommt es in Deutschland schnell mit
+  Behörden, Kassen und Vorschriften zu tun – Anmeldung, Impfungen,
+  Stallpflicht bei Vogelgrippe und mehr. Die Regeln unterscheiden sich
+  je nach Bundesland; Geflügelvereine und Tierärzte wissen, was bei
+  Ihnen gilt. Unabhängig davon ist eine Impfung gegen die gängigen
+  Geflügelkrankheiten schlicht im Interesse Ihrer Tiere.
+- **Nachbarn:** Ein krähender Hahn kann Nachbarschaftsstreit auslösen;
+  in manchen Wohngebieten und Kleingartenanlagen ist Tierhaltung
+  eingeschränkt. Vorher reden.
 - **Ertrag:** Moderne Legehybriden legen um die 250–300 Eier im Jahr,
   Rassehühner deutlich weniger. Drei, vier Hennen versorgen einen
   Haushalt mit Eiern.
 - **Futter und Hygiene:** Futter mäusesicher lagern, damit keine Ratten
-  angelockt werden. Speise- und Küchenabfälle dürfen Hühnern nicht
-  verfüttert werden – das gilt auch für Hobbyhaltungen. Tabu sind alle
-  Reste mit tierischen Bestandteilen wie Fleisch, Wurst, Fisch,
-  Milchprodukten und Eiern sowie alles, was mit ihnen in Berührung
-  gekommen ist. Unbedenklich sind getrennt gesammelte rohe Gemüse- und
-  Obstreste und Gartenabfälle. Im Zweifel fragen Sie Ihr Veterinäramt.
+  angelockt werden. Und dann ist da noch die Frage, was in den Trog
+  darf: Die Kartoffelschalen und Brotreste, die früher selbstverständlich
+  im Hühnerstall landeten, sind heute ein Thema für EU-Verordnungen. Wie
+  Sie es damit halten, entscheiden Sie selbst (siehe Vorwort). Aus
+  gärtnerischer Sicht bewährt: rohe Gemüse- und Obstreste, Beikraut und
+  Gartenabfälle – nichts Verdorbenes, Schimmliges oder stark Gewürztes.
 
 **Bienen – oder Wildbienen.** Honigbienen sind ein eigenes Handwerk:
-erst Kurs beim Imkerverein, dann Völker. Bienenhaltung müssen Sie
-spätestens mit dem ersten Volk beim Veterinäramt anzeigen (Zahl der
-Völker, Standort), in einigen Bundesländern zusätzlich bei der
-Tierseuchenkasse, und die Völker brauchen regelmäßige
-Behandlung gegen die Varroamilbe. Wer „nur" Bestäubung will, ist mit
+erst Kurs beim Imkerverein, dann Völker. Auch hier gibt es Melde- und
+Hygienevorschriften, über die der Imkerverein Bescheid weiß, und die
+Völker brauchen regelmäßige Behandlung gegen die Varroamilbe. Wer „nur" Bestäubung will, ist mit
 Wildbienenförderung (Blühflächen, Nisthilfen, offene Bodenstellen,
 Totholz) schneller und wirkungsvoller dabei – viele Wildbienen bestäuben
 Obst und Gemüse sogar effizienter als Honigbienen.
@@ -189,7 +186,7 @@ Hilfreiche Anlaufstellen:
 | Gartenakademien und Gartenberatungen der Bundesländer | kostenlose Merkblätter, Telefonberatung, Kurse |
 | Landesverbände der Obst- und Gartenbauvereine, Kleingartenvereine | Fachberater, Schnittkurse, Gerätepools, Erfahrungsaustausch |
 | Organisationen zur Erhaltung der Nutzpflanzenvielfalt | samenfeste Sorten, Saatgutbörsen, Kurse zur Saatgutgewinnung |
-| Imker- und Geflügelvereine | Kurse, Patenschaften, Hilfe bei Pflichten und Impfungen |
+| Imker- und Geflügelvereine | Kurse, Patenschaften, Hilfe bei Papierkram und Impfungen |
 | Volkshochschulen, Gemeinschaftsgärten | Kurse zu Einkochen, Fermentieren, Obstbaumschnitt |
 | Bundesinstitut für Risikobewertung, Verbraucherzentralen | verlässliche Informationen zur Lebensmittelsicherheit |
 
@@ -217,10 +214,10 @@ Fangen Sie klein an. Bleiben Sie dran. Der Rest wächst.
   macht; Vorratsliste und Gartentagebuch auswerten.
 - Ausbaustufen in sinnvoller Reihenfolge: Vlies und Frühbeet →
   Bewässerung → Folientunnel oder Gewächshaus → Tiere.
-- Beim Gewächshaus zählen Größe und Lüftung; Genehmigung vorher klären.
-- Hühner und Bienen bedeuten tägliche Verantwortung und Pflichten
-  (Anmeldung, Impfung, Varroabehandlung) – erst informieren, dann
-  anschaffen.
+- Beim Gewächshaus zählen Größe und Lüftung; bei der Gemeinde kurz
+  nachfragen schadet nicht.
+- Hühner und Bienen bedeuten tägliche Verantwortung und einigen
+  Papierkram – erst informieren, dann anschaffen.
 - Auf den Klimawandel mit Humus, Mulch, Wasserspeichern, angepasstem
   Anbau und Vielfalt reagieren; den langen Herbst für den Winteranbau
   nutzen.

@@ -76,15 +76,37 @@ zurückkehren würde.
   Gartenjahr um zwei bis vier Wochen nach hinten. Kapitel 12 zeigt, wie
   Sie mit dem phänologischen Kalender den Takt Ihres eigenen Gartens
   finden.
-- **Sicherheit:** Beim Haltbarmachen (Kapitel 13), bei Wildkräutern
-  (Kapitel 8) und im Pflanzenschutz (Kapitel 11) gibt es Regeln, die
-  Ihre Gesundheit schützen oder gesetzlich vorgeschrieben sind. Sie sind
-  im Text hervorgehoben – bitte nehmen Sie sie ernst.
-- **Rechtliches:** Hinweise zu Pflanzenschutz, Saatgut, Tierhaltung und
-  Nachbarrecht beziehen sich auf Deutschland und geben den Stand bei
-  Drucklegung wieder. Regeln ändern sich und unterscheiden sich zwischen
-  den Bundesländern; im Zweifel fragen Sie bei der zuständigen Behörde
-  oder einer Gartenberatung nach.
+- **Gesundheit:** Beim Haltbarmachen (Kapitel 13) und bei Wildkräutern
+  (Kapitel 8) gibt es Regeln, die nichts mit Paragrafen zu tun haben,
+  sondern mit Bakterien und Giftpflanzen. Sie sind im Text
+  hervorgehoben – bitte nehmen Sie sie ernst.
+
+## Ein Wort zu Paragrafen
+
+Wer in Deutschland einen Garten anlegt, merkt schnell: Hier ist so
+ziemlich alles geregelt – von der EU über den Bund und das Bundesland bis
+hinunter zur Gemeinde, zum Pachtvertrag und zur Gartenordnung des
+Vereins. Welche Hecke wie weit vom Zaun stehen darf, hängt davon ab, auf
+welcher Seite der Landesgrenze Ihr Zaun steht; im einen Bundesland sind
+es ein paar Handbreit, im nächsten deutlich mehr, im übernächsten gar
+nichts. Und was Ihre Hühner fressen dürfen, ist inzwischen gründlicher
+geregelt als manches Schulessen – die Kartoffelschalen, die Oma noch
+selbstverständlich in den Hühnerstall trug, sind heute ein Fall für
+Verordnungen.
+
+Dieses Buch ist ein Gartenbuch und kein Gesetzeskommentar. Es nennt
+deshalb bewusst keine Paragrafen, Abstände oder Fristen, sondern weist
+nur darauf hin, wo es Regeln gibt, über die Sie Bescheid wissen sollten
+– beim Pflanzenschutz, beim Saatgut, bei Brunnen, Hecken, Gewächshäusern
+und Tieren. Die Vorschriften ändern sich ohnehin schneller, als ein
+Apfelbaum wächst, und sie unterscheiden sich von Ort zu Ort.
+
+Was Sie daraus machen, entscheiden Sie selbst und in eigener
+Verantwortung. Wer ganz, ganz sichergehen will, weder gegen EU-, Bundes-,
+Landes- noch Gemeinderecht oder die Vereinssatzung zu verstoßen, holt
+sich vorher anwaltlichen Rat. Allen anderen hilft oft schon ein Gespräch
+mit dem Nachbarn, dem Vereinsvorstand oder der Gemeinde – und eine
+gesunde Portion Gelassenheit.
 
 ## Zum Schluss
 

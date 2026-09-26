@@ -49,20 +49,28 @@ offenen Punkte in den Originalquellen gegengelesen werden.
   ersten Tier, ND-Impfung durch Tierarzt, Verfütterungsverbot für
   Küchen- und Speiseabfälle; Samenträger-Zahlen eingeordnet.
 
+## Redaktionelle Entscheidung: Rechtliches
+
+Rechtliche Themen (Pflanzenschutzrecht, Grenzabstände, Brunnen,
+Kleingartenrecht, Saatgutrecht, Tierhaltung, Baurecht) werden im Buch
+bewusst **nicht konkret** dargestellt. Stattdessen weist der Text locker
+auf die Regelungsdichte hin und überlässt die Entscheidung dem Leser;
+wer ganz sichergehen will, soll anwaltlichen Rat einholen (Abschnitt
+„Ein Wort zu Paragrafen" im Vorwort, Verweise in Kapitel 1, 2, 11, 14
+und 15). Die im Faktencheck recherchierten Rechtsdetails sind daher aus
+dem Text entfernt. Gesundheitsrelevante Hinweise (Botulismus, Phasin,
+Solanin, Giftpflanzen) bleiben konkret, da sie keine Rechtsfragen sind.
+
 ## Offene Punkte vor dem Druck
 
 - [ ] BfR-Merkblätter zu Botulismus und Kräuterölen im Original lesen.
 - [ ] Einkochzeiten-Tabelle (Kapitel 13) mit einer aktuellen deutschen
       Fachquelle abgleichen.
-- [ ] Verdünnung für Kuhmilch und Ackerschachtelhalm mit der
-      Grundstoff-Genehmigung bzw. den LKSH-Merkblättern abgleichen
-      (Kapitel 10 und 11).
+- [ ] Verdünnung für Kuhmilch und Ackerschachtelhalm mit einer
+      Fachquelle abgleichen (Kapitel 10 und 11).
 - [ ] DWD-Tabelle der phänologischen Jahreszeiten im Original gegenlesen
       (Kapitel 12).
 - [ ] Unterlagen-Tabelle Apfel (Kapitel 7) mit einer Baumschul- oder
       Obstbauquelle abgleichen.
 - [ ] Zeigerpflanzen-Tabelle (Kapitel 3) mit einer Fachquelle prüfen –
       bisher nur Ratgeberseiten gefunden.
-- [ ] Stand des EU-Saatgutrechts vor Drucklegung prüfen (Kapitel 14).
-- [ ] Nachbarrechtliche Grenzabstände (Kapitel 2) mit den aktuellen
-      Landesgesetzen abgleichen.

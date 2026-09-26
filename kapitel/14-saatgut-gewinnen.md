@@ -250,7 +250,7 @@ kann.
 | Spätsommer | Tomaten, Bohnen, Paprika, Gurken; Zweijährige ernten |
 | Herbst | Kürbisse und Zucchini nachreifen lassen; Samenträger für das nächste Jahr auslesen und einlagern; Saatgut trocknen, reinigen, beschriften |
 
-## Saatgut teilen – und was rechtlich gilt
+## Saatgut teilen
 
 Eigenes Saatgut ist Tauschware: Saatgut-Tauschbörsen, Tauschregale in
 Bibliotheken und Nachbarschaften vermehren nicht nur Sorten, sondern
@@ -260,26 +260,14 @@ steht, überlebt in Gärten wie Ihrem. Organisationen zur Erhaltung der
 Nutzpflanzenvielfalt vermitteln Sorten und suchen Menschen, die sie im
 eigenen Garten erhalten.
 
-Zur Rechtslage in Deutschland, vereinfacht:
-
-- **Nachbau für den eigenen Garten** ist erlaubt – auch bei
-  sortengeschützten Sorten, denn der Sortenschutz erstreckt sich nicht
-  auf Handlungen im privaten Bereich zu nichtgewerblichen Zwecken.
-- **Tausch und Weitergabe kleiner Mengen** unter Privatleuten ohne
-  gewerbliche Absicht sind üblich und gelten als unproblematisch.
-- **Verkauf von Saatgut** unterliegt dem Saatgutverkehrsgesetz. Als
-  gewerblich gilt dabei schon jede Abgabe zu Erwerbszwecken – auch der
-  gelegentliche Verkauf auf dem Flohmarkt. Verkauft werden darf dann in
-  der Regel nur Saatgut zugelassener Sorten, das bestimmte
-  Qualitätsvorgaben erfüllt; für alte Sorten gibt es vereinfachte
-  Zulassungen als Erhaltungs- oder Amateursorte. Sortengeschützte Sorten
-  dürfen Sie ohne Zustimmung des Züchters ohnehin nicht verkaufen.
-- **Im Wandel:** Das europäische Saatgutrecht wird derzeit überarbeitet.
-  Prüfen Sie vor einem Verkauf den aktuellen Stand.
-
-Im Zweifel – etwa wenn Sie Saatgut auf einem Markt anbieten wollen –
-informieren Sie sich beim Bundessortenamt oder bei einer der
-Erhaltungsorganisationen.
+Und ja: Auch das Saatkorn ist in Deutschland und der EU nicht
+paragrafenfrei. Sortenschutz, Saatgutverkehr, Zulassungen – selbst ein
+Tütchen Bohnen hat hier seinen eigenen Rechtsrahmen, und der wird
+gerade mal wieder überarbeitet. Für den eigenen Garten und den Tausch
+unter Gartenfreunden spielt das im Alltag kaum eine Rolle; wer Saatgut
+verkaufen möchte, sollte sich vorher schlaumachen. Wie Sie es halten,
+entscheiden Sie selbst (siehe Vorwort) – und wer ganz sichergehen will,
+fragt eine Anwältin oder einen Anwalt.
 
 ## Das Wichtigste in Kürze
 
@@ -298,5 +286,5 @@ Erhaltungsorganisationen.
   jede Saatguternte ist Auslese.
 - Trocken, kühl, dunkel lagern; beschriften; Keimprobe bei älterem
   Saatgut.
-- Saatgut tauschen: gut für die Vielfalt, gut fürs Netzwerk; Verkauf ist
-  rechtlich geregelt.
+- Saatgut tauschen: gut für die Vielfalt, gut fürs Netzwerk; vor einem
+  Verkauf über die Regeln informieren.

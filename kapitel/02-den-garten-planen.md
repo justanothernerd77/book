@@ -61,32 +61,30 @@ mehrere Bereiche des Gartens:
 Nach wenigen Wochen ergibt sich ein klares Bild, welcher Bereich sich für
 Gemüse, für Obst, für Kompost und für die Wildecke eignet.
 
-### Rechtliches und Nachbarn
+### Nachbarn, Verträge und Paragrafen
 
-Ein paar Fragen sollten Sie klären, bevor Sie Bäume pflanzen oder Beete
-anlegen:
+Bevor Sie Bäume pflanzen, einen Brunnen bohren oder ein Gewächshaus
+aufstellen, lohnt ein kurzer Blick in die Regeln – und davon gibt es
+hierzulande reichlich:
 
-- **Grenzabstände:** Für Bäume, Sträucher und Hecken gelten in den
-  meisten Bundesländern gesetzliche Grenzabstände – im
-  Nachbarrechtsgesetz des Landes, in Bayern im Ausführungsgesetz zum BGB.
-  Je nach Land und Wuchshöhe reichen sie von 0,25–0,5 m für niedrige
-  Hecken bis zu mehreren Metern für große Bäume, in Baden-Württemberg bis
-  zu 8 m. Einige Länder (etwa Hamburg, Bremen und
-  Mecklenburg-Vorpommern) kennen keine gesetzlichen Grenzabstände für
-  Pflanzen; halten Sie dort vorsorglich mindestens 0,5 m ein, bei höheren
-  Gehölzen mehr. Auskunft geben das Landesjustizministerium, Haus & Grund
-  oder eine Schiedsperson.
-- **Miete und Pacht:** Im Mietgarten oder Kleingarten regeln Mietvertrag,
-  Pachtvertrag und Gartenordnung, was erlaubt ist – Bäume, Gewächshaus,
-  Hühner, Kompost. Vorher fragen erspart Ärger.
-- **Wasser:** Regenwasser sammeln ist erlaubt. Einen Gartenbrunnen müssen
-  Sie dagegen vor dem Bohren bei der Unteren Wasserbehörde anzeigen, in
-  der Regel einen Monat vorher. Die Entnahme zum Gießen des eigenen
-  Gartens ist meist erlaubnisfrei; in Wasserschutzgebieten und nach
-  Landesrecht kann mehr verlangt oder das Bohren untersagt sein.
+- **Abstände zur Grenze:** Wie weit Hecken, Sträucher und Bäume vom Zaun
+  stehen müssen, regelt jedes Bundesland auf seine eigene Weise. Im einen
+  sind es ein paar Handbreit, im anderen mehrere Meter, und manche
+  Länder regeln es gar nicht. Ein Blick über den Zaun zum Nachbarn ist
+  deshalb oft hilfreicher als einer ins Gesetzbuch.
+- **Miete und Pacht:** Im Mietgarten oder Kleingarten entscheiden
+  Mietvertrag, Pachtvertrag und Gartenordnung mit, was erlaubt ist –
+  Bäume, Gewächshaus, Hühner, Kompost. Vorher fragen erspart Ärger.
+- **Wasser:** Regenwasser sammeln ist unproblematisch. Für einen
+  Gartenbrunnen gibt es je nach Gemeinde und Bundesland Anzeige- oder
+  Genehmigungsregeln; erkundigen Sie sich vor dem Bohren.
 - **Nachbarn:** Ein kurzer Besuch vor dem Bau eines Komposts an der Grenze
   oder eines hohen Bohnenzelts wirkt Wunder – und bringt oft Laub,
   Pferdemist oder Ableger ein.
+
+Wie Sie mit all dem umgehen, entscheiden Sie selbst (siehe auch „Ein Wort
+zu Paragrafen" im Vorwort). Wer auf Nummer sicher gehen will, fragt eine
+Anwältin oder einen Anwalt.
 
 ## Wie viel Fläche für wen?
 
@@ -286,7 +284,8 @@ Pflanzenfamilie zu früh an ihren alten Platz zurückkehrt.
 1. **Motiv und Ziel klären** (Kapitel 1): Ergänzungsgarten,
    Teilselbstversorgung oder mehr?
 2. **Standort beobachten** und den Beobachtungsbogen führen.
-3. **Rechtliches klären:** Grenzabstände, Miet- oder Pachtvertrag.
+3. **Mit Nachbarn und Verpächter sprechen:** Grenzabstände, Miet- oder
+   Pachtvertrag, Gartenordnung.
 4. **Flächen berechnen** – das Ziel und den Start.
 5. **Zonen festlegen:** Kräuter und Salat an die Küche, Gemüse in die
    Sonne, Obst an den Rand, Wildecke ans Ende.
@@ -304,7 +303,8 @@ Pflanzenfamilie zu früh an ihren alten Platz zurückkehrt.
   Kleinklima.
 - Sonnigste Fläche fürs Fruchtgemüse, Wassernähe für die Pflegebeete,
   Senken meiden, Südwände nutzen.
-- Grenzabstände und Verträge klären, bevor Bäume gepflanzt werden.
+- Mit Nachbarn reden und Verträge lesen, bevor Bäume gepflanzt werden;
+  wer ganz sichergehen will, fragt einen Anwalt.
 - Mit etwa 15–20 m² (vier Beeten) starten, jährlich erweitern; Zielgröße für
   Teilselbstversorgung: 50–100 m² Beet pro Person plus Obst.
 - Zonieren nach Pflegeintensität: Täglich Gebrauchtes an die Küche.
