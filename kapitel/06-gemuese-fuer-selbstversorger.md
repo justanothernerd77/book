@@ -80,7 +80,7 @@ sobald die Pflanzen blühen. Lagerkartoffeln erst ernten, wenn das Kraut
 vollständig abgestorben ist, dann noch zwei Wochen im Boden lassen, damit
 die Schale fest wird. An einem trockenen Tag ernten, kurz abtrocknen
 lassen, nur unverletzte Knollen einlagern – dunkel, frostfrei, bei
-4–8 °C (Kapitel 13).
+6–8 °C (Kapitel 13).
 
 **Typische Probleme.** Der **Kartoffelkäfer** wird bei regelmäßiger
 Kontrolle (Blattunterseiten, gelbe Eigelege) einfach abgesammelt. Die
@@ -217,10 +217,13 @@ die Pflanze. Die ersten Früchte faulen oft vom Blütenende her: Meist ist
 es kühl und es fehlen Bestäuber, das gibt sich. Männliche Blüten sind
 gefüllt oder frittiert eine Delikatesse.
 
-**Wichtig:** Schmeckt eine Zucchini bitter, **nicht essen**. Bitterstoffe
-(Cucurbitacine) können durch Rückkreuzung mit Zierkürbissen entstehen –
-ein Grund, Zucchinisaatgut nicht selbst zu gewinnen, wenn Zierkürbisse in
-der Nähe wachsen.
+**Wichtig:** Probieren Sie vor dem Kochen ein kleines Stück roh. Schmeckt
+eine Zucchini (oder ein Speisekürbis) bitter, **nicht essen** – die
+Bitterstoffe (Cucurbitacine) sind giftig und werden durch Kochen nicht
+zerstört. Sie entstehen vor allem durch Rückkreuzung mit Zierkürbissen,
+gelegentlich auch durch Hitze- oder Trockenstress – ein Grund, Zucchini-
+und Kürbissaatgut nicht selbst zu gewinnen, wenn Zierkürbisse in der Nähe
+wachsen.
 
 ### Kürbis
 
@@ -234,7 +237,7 @@ nutzen sie Fläche, die sonst brachliegt.
 **Ernte und Lagerung.** Reif ernten: Der Stiel ist verkorkt, die Schale
 lässt sich mit dem Fingernagel nicht mehr einritzen, und ein Klopfen
 klingt hohl. Mit einem Stück Stiel abschneiden (nie am Stiel tragen), zwei
-Wochen bei 20–25 °C nachhärten, dann bei 12–17 °C lagern – nicht im
+Wochen bei 20–25 °C nachhärten, dann bei 10–15 °C lagern – nicht im
 kalten Keller. Hokkaido hält bis Januar, Butternut oft bis ins Frühjahr.
 
 **Sorten.** Hokkaido passt in jeden Garten und muss nicht geschält
@@ -290,7 +293,8 @@ Pflanze: Mission erfüllt, Ertrag einstellen.
 
 **Wichtig:** Rohe Bohnen enthalten das giftige Phasin – immer
 ausreichend lange kochen. Den Überschuss blanchiert einfrieren oder als
-Schneidebohnen milchsauer vergären (Kapitel 13). Viele Sorten lassen sich
+Schneidebohnen milchsauer vergären (Kapitel 13) – auch vergorene Bohnen
+müssen Sie vor dem Essen gründlich kochen. Viele Sorten lassen sich
 zudem als Trockenbohnen ausreifen: ein echter Wintervorrat.
 
 ### Erbse

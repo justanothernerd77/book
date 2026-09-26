@@ -64,13 +64,13 @@ Lagergut hat sein eigenes Klima:
 
 | Erntegut | Temperatur | Feuchte | Ort und Methode | Haltbarkeit |
 |----------|-----------|---------|-----------------|-------------|
-| Kartoffeln | 4–8 °C | mittel | **dunkel!** Keller, Erdmiete, Holzkisten | 6–8 Monate |
+| Kartoffeln | 6–8 °C | mittel | **dunkel!** Keller, Erdmiete, Holzkisten | 6–8 Monate |
 | Möhren, Rote Bete, Sellerie, Pastinaken | 0–5 °C | hoch | in feuchtem Sand geschichtet | 4–6 Monate |
 | Winterrettich, Steckrüben | 0–5 °C | hoch | in Sand oder Erdmiete | 3–5 Monate |
 | Weiß- und Rotkohl | 0–5 °C | hoch | mit Strunk kopfüber hängend oder in Sand | 3–5 Monate |
 | Zuckerhut, Chinakohl, Endivie | 0–5 °C | hoch | mit Wurzel in Sand eingeschlagen | 1–2 Monate |
 | Äpfel, Birnen | 2–6 °C | hoch | Keller, Garage, **getrennt vom Gemüse** | 2–6 Monate |
-| Kürbis (Hokkaido, Butternut) | 12–17 °C | niedrig | Wohnraum, Speisekammer | 3–8 Monate |
+| Kürbis (Hokkaido, Butternut) | 10–15 °C | niedrig | Wohnraum, Speisekammer | 3–8 Monate |
 | Zwiebeln, Schalotten, Knoblauch | 0–10 °C | **trocken** | luftig, als Zopf oder im Netz | 6–9 Monate |
 
 ### Die Lagerorte
@@ -101,20 +101,23 @@ Haus holen.
 **Das Frühbeet oder die Garage** eignen sich für kurze Zeiträume und für
 Äpfel, solange es nicht dauerhaft friert.
 
-**Die Speisekammer** oder ein kühles Zimmer (12–17 °C) ist der richtige
+**Die Speisekammer** oder ein kühles Zimmer (10–15 °C) ist der richtige
 Platz für Kürbisse, Zwiebeln und Knoblauch – im feuchten Keller würden sie
 schimmeln oder austreiben.
 
 ### Häufige Lagerfehler
 
-- **Kartoffeln im Licht** werden grün und bilden das giftige Solanin –
-  grüne Stellen großzügig wegschneiden, stark vergrünte Knollen nicht
-  essen.
-- **Kartoffeln unter 4 °C** werden süß, weil sich Stärke in Zucker
-  verwandelt. Ein paar Tage bei Zimmertemperatur machen das teilweise
+- **Kartoffeln im Licht** werden grün und bilden das giftige Solanin.
+  Grüne Stellen und Keimansätze („Augen") großzügig wegschneiden; stark
+  vergrünte, stark keimende oder bitter schmeckende Knollen nicht essen.
+  Solanin wird durch Kochen nicht zerstört – das Kochwasser deshalb nicht
+  weiterverwenden. Kleinen Kindern Kartoffeln nur geschält geben.
+- **Kartoffeln unter 6 °C** werden süß, weil sich Stärke in Zucker
+  verwandelt – beim Braten und Frittieren entsteht dann mehr Acrylamid.
+  Ein bis zwei Wochen bei Zimmertemperatur machen das teilweise
   rückgängig.
 - **Äpfel neben Gemüse:** Äpfel geben das Reifegas **Ethylen** ab. Es
-  lässt Kartoffeln keimen, Möhren bitter werden und Kohl vergilben.
+  lässt Möhren bitter werden, Kohl vergilben und Gemüse schneller altern.
   Deshalb getrennt lagern, am besten in einem eigenen Raum.
 - **Kürbis im kalten Keller:** unter 10 °C bekommt er Kälteschäden und
   fault von innen.
@@ -163,12 +166,13 @@ Einschränkungen – Gemüse.
 | Beeren, Kirschen | 80 °C | 25–30 min |
 | Äpfel, Birnen, Zwetschgen | 90 °C | 30 min |
 | Apfelmus, Obstmus | 90 °C | 30 min |
-| Tomaten, Tomatensoße (mit Säure, siehe unten) | 90–100 °C | 30–45 min |
+| Tomaten, Tomatensoße (gesäuert, siehe unten) | 100 °C | 40–45 min (Literglas) |
 | Säurearmes Gemüse (Bohnen, Erbsen, Möhren, Mais) | 100 °C | 90–120 min, **nach 1–2 Tagen wiederholen** |
 
 ### Sicherheit: säurearmes Gemüse und Botulismus
 
-Obst ist durch seine Säure von Natur aus sicher. Bei **säurearmem Gemüse**
+Fast alles Obst ist durch seine Säure von Natur aus sicher (Ausnahmen wie
+Feigen oder Melonen vorher säuern). Bei **säurearmem Gemüse**
 – Bohnen, Erbsen, Möhren, Mais, Spargel, Kürbis – und bei allem mit
 Fleisch besteht dagegen ein ernstes Risiko: Sporen des Bakteriums
 *Clostridium botulinum* überleben 100 °C, keimen im luftdichten Glas aus
@@ -181,13 +185,19 @@ Regeln:
   einkochen. So werden ausgekeimte Sporen im zweiten Durchgang erfasst.
   Diese traditionelle Methode senkt das Risiko deutlich, schließt es aber
   nicht sicher aus.
-- **Sicherer ist:** einen **Druckeinkocher** verwenden (erreicht über
-  115 °C), das Gemüse **säuern** (Weg 3) oder **einfrieren** (Weg 5).
+- **Sicherer ist:** einen **Druckeinkocher** verwenden (erreicht
+  116–121 °C; nur mit geprüften Zeitangaben des Herstellers – ein
+  Schnellkochtopf ersetzt ihn nicht), das Gemüse **säuern** (Weg 3) oder
+  **einfrieren** (Weg 5).
   Für Bohnen und Erbsen ist Einfrieren im Hausgarten die einfachste
   sichere Methode.
 - **Tomaten säuern:** Moderne Tomatensorten sind oft weniger sauer als
-  alte. Geben Sie pro Liter Tomatensoße zwei Esslöffel Zitronensaft oder
-  einen Teelöffel Zitronensäure dazu.
+  alte. Geben Sie pro Liter Tomaten oder Tomatensoße einen halben
+  Teelöffel Zitronensäure (Pulver) oder zwei Esslöffel Zitronensaft aus
+  der Flasche dazu – frisch gepresster Saft ist in seiner Säure zu
+  unzuverlässig. Die Säure gehört ins Glas, bevor es in den Topf kommt.
+- **Kürbis** ist säurearm: nur süßsauer eingelegt einkochen, Kürbispüree
+  und -stücke lieber einfrieren.
 - **Vor dem Essen erhitzen:** Eingekochtes säurearmes Gemüse vor dem
   Verzehr mindestens zehn Minuten sprudelnd durchkochen.
 - **Bombierte Gläser** (gewölbter Deckel, gelöster Verschluss, Gasbläschen,
@@ -265,7 +275,7 @@ Gemüse, das keinen eigenen Saft zieht, wird mit Salzlake übergossen:
 |--------|----------|------------------------------|------|
 | Salzgurken | 3–4 % (30–40 g/l) | 1–2 Wochen | Weinblatt oder Eichenblatt hält sie knackig; Dill, Knoblauch, Senfkörner |
 | Möhrensticks | 2–3 % | 1 Woche | mit Ingwer oder Knoblauch |
-| Bohnen | 2–3 % | 1–2 Wochen | **vorher 3–5 Minuten blanchieren** (Phasin!) |
+| Bohnen | 2–3 % | 1–2 Wochen | **vorher mindestens 10 Minuten kochen** oder die fertigen Sauerbohnen vor dem Essen gründlich garen – Blanchieren reicht gegen Phasin nicht |
 | Rote Bete | 2 % | 1–2 Wochen | roh in Scheiben oder Stifte |
 | Kimchi (Chinakohl) | Kohl vorsalzen | 3–5 Tage | mit Rettich, Frühlingszwiebel, Chili, Knoblauch, Ingwer |
 | Blumenkohl, Paprika, Zwiebeln | 2–3 % | 1–2 Wochen | als bunte Mischung |
@@ -286,11 +296,15 @@ stören. Leitungswasser mit viel Chlor vorher abkochen.
 
 Knoblauch, Kräuter, getrocknete Tomaten oder Chilis in Öl sind beliebt,
 aber heikel: Unter Öl herrscht Luftabschluss, und ohne Säure kann sich
-wie beim Einkochen Botulismus-Gift bilden. Kräuter- und Knoblauchöl
-deshalb nur in kleinen Mengen ansetzen, im Kühlschrank aufbewahren und
-binnen einer Woche verbrauchen – oder die Zutaten vorher in Essig
-säuern. Pesto hält im Kühlschrank einige Tage und lässt sich
-portionsweise einfrieren.
+wie beim Einkochen Botulismus-Gift bilden. Das Bundesinstitut für
+Risikobewertung rät davon ab, Kräuter- oder Knoblauchöl auf Vorrat
+herzustellen. Wer es mit frischen Zutaten ansetzt, macht nur kleine
+Mengen, bewahrt sie im Kühlschrank auf und verbraucht sie möglichst am
+nächsten Tag, spätestens nach vier Tagen. Größere Mengen frieren Sie
+portionsweise ein. Auch vorheriges Säuern macht Kräuteröl im Haushalt
+nicht verlässlich sicher, weil sich der Säuregehalt nicht kontrollieren
+lässt. Pesto hält im Kühlschrank wenige Tage und lässt sich portionsweise
+einfrieren.
 
 ## Weg 5: Trocknen und Einfrieren
 
@@ -357,7 +371,7 @@ Mischung aller Wege.
 | Rote Bete | ●●● | ●● | ●●● | ●● | | |
 | Weißkohl | ●● | | | ●●● | | |
 | Zwiebeln | ●●● | | ●● | | ● | |
-| Kürbis | ●●● | ● | ●● | | | ● |
+| Kürbis | ●●● | | ●● | | | ●● |
 | Tomaten | | ●●● | | | ●● | ●● |
 | Gurken | | | ●●● | ●●● | | |
 | Bohnen | | ● | ●● | ●● | ●● (Trockenbohnen) | ●●● |
@@ -416,7 +430,8 @@ im Februar, wovon im nächsten Jahr mehr angebaut werden muss.
 - Einlegen: mindestens die Hälfte des Aufgusses Essig mit 5 % Säure.
 - Fermentieren: 2 % Salz, alles unter die Lake, Geduld – haltbar ohne
   einen Cent Energie; bunter Schimmel heißt wegwerfen.
-- Kräuter und Knoblauch in Öl nur kühl und kurz lagern.
+- Kräuter und Knoblauch in Öl nur in kleinen Mengen, im Kühlschrank und
+  höchstens wenige Tage lagern.
 - Trocknen ist die sparsamste, Einfrieren die frischeste Methode – die
   Mischung macht den Vorrat krisenfest.
 - Lager wöchentlich kontrollieren; klein und laufend verarbeiten statt

@@ -201,11 +201,12 @@ sich die Bedingungen genau steuern lassen:
   haltbar.
 - **Kräuteröl und Pesto:** Öl mit Kräutern ist heikel, weil unter Öl
   Luftabschluss herrscht und sich wie beim Einkochen Botulismus-Gift
-  bilden kann (Kapitel 13). Kräuteröl nur mit vollständig getrockneten
-  Kräutern ansetzen oder mit frischen in kleinen Mengen, im Kühlschrank
-  lagern und binnen einer Woche verbrauchen. Pesto bindet
-  Basilikum-Überschüsse am köstlichsten – im Kühlschrank einige Tage,
-  portionsweise eingefroren monatelang.
+  bilden kann (Kapitel 13). Kräuteröl mit frischen Kräutern nur in
+  kleinen Mengen ansetzen, im Kühlschrank lagern und möglichst am
+  nächsten Tag, spätestens nach vier Tagen verbrauchen. Getrocknete
+  Kräuter senken das Risiko deutlich, schließen es aber nicht sicher aus.
+  Pesto bindet Basilikum-Überschüsse am köstlichsten – im Kühlschrank
+  wenige Tage, portionsweise eingefroren monatelang.
 
 ## Teekräuter: die Hausapotheke im Beet
 
@@ -242,11 +243,15 @@ Viele „Unkräuter" im Selbstversorger-Garten sind wertvolle Nahrung:
   anzusiedeln, Ernte im März und April.
 
 **Sicherheitsregel für alle Wildkräuter:** Nur ernten, was zweifelsfrei
-bestimmt ist. Bärlauch lässt sich mit den giftigen Maiglöckchen und der
-tödlich giftigen Herbstzeitlose verwechseln. Bärlauch riecht beim
-Zerreiben eines Blattes deutlich nach Knoblauch – aber Vorsicht, der
-Geruch haftet an den Fingern und täuscht beim nächsten Blatt. Im Zweifel
-stehen lassen.
+bestimmt ist. Bärlauch lässt sich mit den giftigen Maiglöckchen, dem
+Aronstab und der tödlich giftigen Herbstzeitlose verwechseln. Bärlauch
+riecht beim Zerreiben eines Blattes deutlich nach Knoblauch – aber
+Vorsicht, der Geruch haftet an den Fingern und täuscht beim nächsten
+Blatt. Die Geruchsprobe ist deshalb nur eine erste Orientierung; achten
+Sie zusätzlich auf die Blattmerkmale (jedes Bärlauchblatt hat einen
+eigenen Stiel, die Blattunterseite ist matt). Pflanzen Sie Bärlauch im
+Garten nicht neben Maiglöckchen, und ernten Sie Blatt für Blatt einzeln
+statt büschelweise. Im Zweifel stehen lassen.
 
 ## Kräuter als Teamspieler
 
@@ -278,6 +283,7 @@ Bewährte Plätze für Kräuter im Gemüsebeet:
 - Regelmäßig und richtig ernten hält die Pflanzen produktiv; vor der
   Blüte steckt das meiste Aroma.
 - Trocknen für die Mediterranen und Teekräuter, Einfrieren für die
-  Feinen, Pesto für den Rest; Kräuteröl nur kühl und kurz lagern.
+  Feinen, Pesto für den Rest; Kräuteröl nur in kleinen Mengen, kühl und
+  wenige Tage lagern.
 - Wildkräuter nur ernten, wenn sie zweifelsfrei bestimmt sind.
 - Kräuter blühen lassen: Sie sind die Kantine Ihrer Nützlinge.
