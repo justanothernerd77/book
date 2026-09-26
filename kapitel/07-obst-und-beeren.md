@@ -24,7 +24,7 @@ Wartezeit.
 | Obst | pro Person | Ertrag | Fläche |
 |------|------------|--------|--------|
 | Erdbeeren | 15–20 Pflanzen | 0,3–0,5 kg je Pflanze | 2–3 m² |
-| Johannis- und Stachelbeeren | 2–3 Sträucher | 3–6 kg je Strauch | je 1,5 m² |
+| Johannis- und Stachelbeeren | 2–3 Sträucher | 3–6 kg je Strauch | je 2–2,5 m² |
 | Himbeeren | 2–3 m Reihe | 1,5–2 kg je Meter | 1–2 m² |
 | Brombeere | 1 Pflanze für die Familie | 5–10 kg | 3–4 m Spalier |
 | Apfel (Spindel) | 1–2 Bäume | 10–25 kg je Baum | je 3–4 m² |
@@ -122,7 +122,7 @@ vertragen leichten Schatten und sind kaum krankheitsanfällig.
 ### Heidelbeere
 
 > Pflanzung: Okt–Nov oder März · Abstand: 1–1,5 m · Ertrag: 2–5 kg ·
-> Ernte: Jul–Sep · braucht zwei Sorten für guten Ertrag
+> Ernte: Jul–Sep · selbstfruchtbar, mit einer zweiten Sorte ertragreicher
 
 Die Kulturheidelbeere braucht **sauren Boden (pH 4–5)**. In normalem
 Gartenboden kümmert sie nach ein, zwei Jahren mit gelben Blättern. Die
@@ -136,7 +136,7 @@ befruchten sich gegenseitig besser.
 
 > Pflanzung: **Jul–Aug** · Abstand: 25–30 cm, Reihen 60 cm · Ertrag:
 > 0,3–0,5 kg je Pflanze · Ernte: Jun (einmaltragend) oder Jun–Okt
-> (immertragend) · Standzeit: 3–4 Jahre
+> (immertragend) · Standzeit: 2–3 Jahre
 
 Erdbeeren sind keine Sträucher, gehören aber in jede Obstplanung. Die
 wichtigste Regel: **im Hochsommer pflanzen.** Im Juli und August gesetzte
@@ -152,10 +152,12 @@ sauber und senkt den Grauschimmel (Kapitel 11). Nach der Ernte das alte
 Laub abschneiden, Ausläufer entfernen (bis auf die, die Sie für neue
 Pflanzen brauchen) und eine Gabe Kompost geben.
 
-**Verjüngen:** Nach drei bis vier Jahren lässt der Ertrag nach und
-Krankheiten nehmen zu. Ziehen Sie aus kräftigen Ausläufern der besten
-Mutterpflanzen neue Jungpflanzen in Töpfen heran und legen Sie im
-Juli/August ein neues Beet an **anderer Stelle** an (Kapitel 9).
+**Verjüngen:** Die besten Ernten bringen das erste und zweite Erntejahr;
+nach zwei, spätestens drei Jahren lässt der Ertrag nach und Krankheiten
+nehmen zu. Ziehen Sie aus kräftigen Ausläufern der besten Mutterpflanzen
+neue Jungpflanzen in Töpfen heran und legen Sie im Juli/August ein neues
+Beet an **anderer Stelle** an – auf dieselbe Fläche frühestens nach vier
+bis fünf Jahren (Kapitel 9).
 
 **Sorten:** Einmaltragende Sorten liefern im Juni eine große Ernte auf
 einmal – ideal für Marmelade. Immertragende Sorten tragen weniger, aber
@@ -189,9 +191,9 @@ Lebensdauer und Pflegebedarf – oft mehr als die Sorte selbst.
 |----------|-------------------|------|-----------|-------------|---------|
 | Säule | schwach | 2–3 m | 2. Jahr | 10–15 Jahre | Kübel, Balkon |
 | Spindel | schwach (z. B. M9) | 2–3 m | 2.–3. Jahr | 15–20 Jahre | kleine Gärten; braucht Pfahl lebenslang |
-| Buschbaum | mittelstark (z. B. MM106) | 3–4 m | 3.–4. Jahr | 25–40 Jahre | mittlere Gärten |
+| Buschbaum | mittelstark (z. B. MM106) | 3–4 m | 3.–5. Jahr | 25–40 Jahre | mittlere Gärten |
 | Halbstamm | stark | 4–6 m | 5.–6. Jahr | 50+ Jahre | Rückgrat für Familiengärten |
-| Hochstamm | Sämling | 6–10 m | 6.–8. Jahr | 80+ Jahre | Streuobstwiese, großer Garten |
+| Hochstamm | Sämling | 6–10 m | 6.–10. Jahr | 80+ Jahre | Streuobstwiese, großer Garten |
 
 Schwach wachsende Unterlagen ergeben kleine, früh tragende Bäume, die
 aber guten Boden, Wasser und eine Stütze brauchen. Stark wachsende
@@ -206,8 +208,10 @@ Die meisten Äpfel, Birnen, Süßkirschen und viele Pflaumen brauchen eine
 übernimmt das ein Baum in der Nachbarschaft. Beim Kauf beraten lassen oder
 selbstfruchtbare Sorten wählen – viele Zwetschgen, Sauerkirschen,
 Pfirsiche und Aprikosen tragen allein. Einige alte Apfelsorten wie
-'Boskoop' sind **triploid**: Sie befruchten andere Sorten nicht und
-brauchen selbst zwei Befruchter.
+'Boskoop' sind **triploid**: Sie bilden kaum keimfähigen Pollen und
+befruchten andere Sorten daher nicht. Planen Sie zu einem 'Boskoop' zwei
+weitere (diploide) Sorten ein, die sich gegenseitig und den Boskoop
+befruchten.
 
 ### 3. Sorten: robust vor berühmt
 
@@ -222,9 +226,11 @@ gedeiht. Planen Sie beim Apfel nach Reifezeit:
 | Winter- bzw. Lagerapfel | Oktober | November–Januar | März–Mai | Lager, frisch im Winter |
 
 Ein Frühapfel, ein Herbstapfel und ein bis zwei **Lageräpfel** verteilen
-die Ernte über das Jahr. Schorfresistente Züchtungen wie 'Topaz' (auch
-lagerfähig) oder regional erprobte alte Sorten sind im Biogarten die
-sicherste Wahl. Bei Zwetschgen lohnen sich scharkatolerante Sorten, bei
+die Ernte über das Jahr. Schorfresistente Züchtungen wie 'Topaz' (gut
+lagerfähig) sind einen Versuch wert – allerdings ist deren Resistenz in
+vielen Regionen vom Schorfpilz durchbrochen worden. Fragen Sie vor Ort
+nach, wie sich eine Sorte bei Ihnen hält; regional erprobte, robuste
+Sorten sind im Biogarten oft die sicherere Wahl. Bei Zwetschgen lohnen sich scharkatolerante Sorten, bei
 Sauerkirschen Sorten mit Monilia-Toleranz.
 
 ### 4. Das richtige Obst für Ihren Garten
@@ -232,7 +238,7 @@ Sauerkirschen Sorten mit Monilia-Toleranz.
 | Obstart | Ansprüche | Besonderheit |
 |---------|-----------|--------------|
 | Apfel | anspruchslos, fast überall | wichtigstes Lagerobst |
-| Birne | wärmer, geschützter als Apfel | Birnengitterrost (Wacholder meiden, Kapitel 11) |
+| Birne | wärmer, geschützter als Apfel | Birnengitterrost (Sadebaum und Chinesischen Wacholder in der Nähe meiden, Kapitel 11) |
 | Zwetschge, Pflaume | anspruchslos, feuchter Boden | viele selbstfruchtbar; Ausläufer entfernen |
 | Sauerkirsche | anspruchslos, auch Halbschatten | meist selbstfruchtbar; Monilia beachten |
 | Süßkirsche | tiefgründiger, warmer Boden | wird groß; Befruchter nötig; Vogelnetz |
@@ -305,13 +311,18 @@ schneiden – dem leicht verdickten Wulst am Ansatz des Astes.
 
 ### Zwei Pflegehandgriffe mit großer Wirkung
 
-- **Ausdünnen:** Beim Apfel nach dem natürlichen Junifall pro
-  Fruchtstand nur ein bis zwei Früchte belassen. Das bringt größere Äpfel
-  und verhindert die **Alternanz** – das Wechselspiel aus Rekordernte und
-  Ausfalljahr.
+- **Ausdünnen:** Hat ein Apfelbaum übervoll angesetzt, dünnen Sie früh
+  aus – am besten, solange die Früchtchen kleiner als eine Walnuss sind
+  (bis etwa Ende Mai). Belassen Sie pro Fruchtstand ein bis zwei Früchte
+  und entfernen Sie einzelne Büschel ganz. Nur frühes Ausdünnen mildert
+  die **Alternanz** – das Wechselspiel aus Rekordernte und Ausfalljahr –,
+  denn die Blütenknospen für das nächste Jahr werden schon wenige Wochen
+  nach der Blüte angelegt. Ein Nachdünnen nach dem Junifall bringt immerhin
+  noch größere, bessere Äpfel.
 - **Weißanstrich** der Stämme im Herbst: Er reflektiert die
-  Wintersonne und verhindert Frostrisse, die entstehen, wenn die Rinde
-  tagsüber auftaut und nachts gefriert.
+  Wintersonne und verhindert, dass sich die Südseite des Stammes an klaren
+  Frosttagen stark erwärmt, während die Schattenseite gefroren bleibt –
+  diese Spannung lässt die Rinde reißen (Frostrisse).
 
 ---
 
@@ -343,9 +354,9 @@ liefert Früchte fast ohne Arbeit:
 |--------|-------|------------|
 | Haselnuss | Sep | Nüsse; zwei Sorten für die Befruchtung |
 | Felsenbirne | Jun–Jul | frisch, Marmelade; herrliche Blüte und Herbstfärbung |
-| Schwarzer Holunder | Blüten Jun, Beeren Aug–Sep | Sirup, Saft, Gelee – Beeren nur gekocht verzehren |
+| Schwarzer Holunder | Blüten Mai–Jun, Beeren Aug–Sep | Sirup, Saft, Gelee – Beeren nur gekocht verzehren |
 | Aronia (Apfelbeere) | Aug–Sep | Saft, getrocknet; sehr robust |
-| Kornelkirsche | Aug–Sep | Marmelade; blüht als Erste im Jahr, Bienenweide |
+| Kornelkirsche | Aug–Sep | Marmelade; einer der ersten Blüher (Februar/März), wertvolle Bienenweide |
 | Sanddorn | Sep–Okt | Saft, Mus; braucht männliche und weibliche Pflanzen, sandigen Boden |
 | Walnuss | Sep–Okt | nur für sehr große Gärten – wird 20 m breit |
 
@@ -364,7 +375,10 @@ braucht es eine männliche Pflanze für mehrere weibliche.
 **Rhabarber** gehört auch hierher – botanisch Gemüse, küchenpraktisch
 Obst: einmal gepflanzt, jahrzehntelang Ernte ab April (bis Johanni,
 24. Juni, dann Ruhe gönnen). Im ersten Standjahr nicht ernten, jedes
-Frühjahr eine kräftige Kompostgabe, Blütenstängel früh ausbrechen.
+Frühjahr eine kräftige Kompostgabe, Blütenstängel früh ausbrechen. Essen
+Sie nur die Stiele: Die Blätter enthalten viel Oxalsäure und gehören auf
+den Kompost. Auch in den Stielen steigt der Oxalsäuregehalt zum Sommer
+hin – ein weiterer Grund für das Ernteende an Johanni.
 
 ## Das Obstjahr auf einen Blick
 
@@ -373,12 +387,15 @@ Die monatlichen Arbeiten stehen in Kapitel 12. Die wichtigsten Termine:
 - **Februar–März:** Kernobstschnitt, Beerenschnitt, Herbsthimbeeren
   abmähen.
 - **April:** Blüte vor Spätfrost schützen.
-- **Juni:** Apfel ausdünnen, Erdbeeren und Johannisbeeren ernten.
+- **Mai:** Apfel bei starkem Behang früh ausdünnen.
+- **Juni:** nach dem Junifall nachdünnen, Erdbeeren und Johannisbeeren
+  ernten.
 - **Juli–August:** Kirschen nach der Ernte schneiden, Sommerschnitt an
   Spalieren, **Erdbeeren pflanzen**.
+- **September:** Leimringe gegen den Frostspanner anlegen (bis spätestens
+  Ende September).
 - **September–Oktober:** Lagerobst ernten.
-- **Oktober–November:** Bäume und Sträucher pflanzen, Weißanstrich,
-  Leimringe.
+- **Oktober–November:** Bäume und Sträucher pflanzen, Weißanstrich.
 
 ## Das Wichtigste in Kürze
 
@@ -387,8 +404,8 @@ Die monatlichen Arbeiten stehen in Kapitel 12. Die wichtigsten Termine:
 - Reihenfolge des Erfolgs: erst Beeren und Erdbeeren, dann Bäume.
 - Herbsthimbeeren und Johannisbeeren sind die pflegeleichtesten
   Einstiegsfrüchte; Heidelbeeren nur im sauren Moorbeet.
-- Erdbeeren im Juli/August pflanzen und alle 3–4 Jahre an neuer Stelle
-  verjüngen.
+- Erdbeeren im Juli/August pflanzen und nach 2–3 Erntejahren an neuer
+  Stelle verjüngen.
 - Beim Baum entscheidet die Unterlage über Größe und Ertragsbeginn;
   Befruchtersorte einplanen, robuste Regionalsorten wählen.
 - Veredlungsstelle über die Erde, Pfahl setzen, im ersten Jahr gießen.

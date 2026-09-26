@@ -119,8 +119,8 @@ durch als ein Netz.
   **Schneckenkragen** um einzelne Jungpflanzen.
 - **Wühlmausdraht** (verzinkt, 13 mm Maschen) unter Hochbeeten und in
   Pflanzlöchern von Obstbäumen und Zwiebelblumen.
-- **Leimringe** um Obstbaumstämme gegen den Frostspanner (Oktober bis
-  März).
+- **Leimringe** um Obstbaumstämme gegen den Frostspanner (Mitte bis Ende
+  September anlegen, bis März hängen lassen).
 - **Baumanstrich und Manschetten** gegen Frostrisse, Kaninchen und
   Wildverbiss.
 - **Vogelschutznetze** über Kirschen und Beeren, straff gespannt und
@@ -292,9 +292,10 @@ Pilz mag sauren Boden), resistente Kohlsorten. Gekaufte Jungpflanzen auf
 knollige Wurzeln prüfen – so wird die Krankheit am häufigsten
 eingeschleppt.
 
-### Monilia an Kirsche, Zwetschge und Apfel
+### Monilia an Kirsche, Aprikose, Zwetschge und Apfel
 
-Spitzendürre an Kirschen (im Frühjahr welkende Triebspitzen) und
+Spitzendürre vor allem an Sauerkirschen (besonders 'Schattenmorelle') und
+Aprikosen – kurz nach der Blüte welken Blüten und Triebspitzen – und
 Fruchtfäule mit ringförmigen Schimmelpolstern an Äpfeln und Zwetschgen.
 Befallene Triebe bis ins gesunde Holz zurückschneiden, **Fruchtmumien
 restlos entfernen** (am Baum und am Boden), Früchte vorsichtig ernten.
@@ -308,11 +309,15 @@ entfernen oder mähen und kompostieren.
 
 ### Rost
 
-Orange bis braune Pusteln auf den Blattunterseiten von Bohnen, Lauch,
-Birnen (Birnengitterrost – Wirtswechsel mit Wacholder), Minze. Meist
-harmlos: befallene Blätter entfernen, luftig pflanzen, Stickstoff
-maßvoll. Beim Birnengitterrost hilft es, keinen Sadebaum-Wacholder in
-die Nähe zu pflanzen.
+Orange bis braune Pusteln auf den Blattunterseiten von Bohnen, Lauch und
+Minze. Meist harmlos: befallene Blätter entfernen, luftig pflanzen,
+Stickstoff maßvoll.
+
+Beim **Birnengitterrost** zeigen sich im Sommer leuchtend orangerote
+Flecken auf der Blattoberseite, unterseits später warzenartige braune
+Auswüchse. Der Pilz wechselt zwischen Birne und bestimmten Wacholderarten
+(vor allem Sadebaum und Chinesischer Wacholder). Pflanzen Sie diese nicht
+in die Nähe. Ältere Birnbäume verkraften mäßigen Befall meist gut.
 
 ## Pflanzenstärkung
 
@@ -363,7 +368,7 @@ Hinweis, dass bei Sorte, Standort oder Fruchtfolge etwas nicht stimmt.
 | März–April | Schneckenkontrolle beginnen (Eiablage im Frühjahr verhindern); Netze gleich zur Saat und Pflanzung; Leimringe abnehmen |
 | Mai–Juni | tägliche Kontrollgänge: Blattläuse, Kartoffelkäfer, Kohlweißling-Eier; Tomatendach; Schachtelhalmbrühe vorbeugend |
 | Juli–August | Braunfäule-Blätter sofort entfernen; Mehltau mit Milch behandeln; Netze über Möhren und Lauch für die zweite Fliegengeneration |
-| September–Oktober | Falllaub kranker Obstbäume abräumen; Leimringe anbringen; befallene Pflanzenreste in den Restmüll; Unterschlupf für Igel und Nützlinge anlegen |
+| September–Oktober | Leimringe bis Ende September anbringen; Falllaub kranker Obstbäume abräumen; befallene Pflanzenreste in den Restmüll; Unterschlupf für Igel und Nützlinge anlegen |
 | November–Dezember | Stauden und Laubhaufen als Winterquartier stehen lassen; Gartentagebuch: Was war das Problem des Jahres? |
 
 ## Wenn doch etwas verloren geht

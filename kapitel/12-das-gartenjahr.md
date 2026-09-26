@@ -196,8 +196,10 @@ am Abend. Tomaten-Regendach aufbauen, bevor die Pflanzen hineinkommen.
 Frühlingszwiebeln, Schnittlauch und frische Kräuter.
 
 **Obst und Beeren.** Erdbeeren mit Stroh unterlegen, sobald sich die
-Früchte bilden. Monilia-Spitzen an Steinobst (Kirsche, Zwetschge) bis ins
-gesunde Holz ausschneiden.
+Früchte bilden. Monilia-Spitzen an Sauerkirsche und Aprikose bis ins
+gesunde Holz ausschneiden. Hat der Apfel übervoll angesetzt, jetzt früh
+ausdünnen, solange die Früchtchen kleiner als eine Walnuss sind – das
+beugt dem Aussetzen im nächsten Jahr vor (Kapitel 7).
 
 ---
 
@@ -225,9 +227,9 @@ Wintersteckzwiebeln, Knoblauchschlangen; **Rhabarber und Spargel bis
 Johanni (24. Juni)**, danach der Pflanze Ruhe gönnen.
 
 **Obst und Beeren.** Erdbeeren, erste Johannisbeeren und Kirschen ernten.
-Beim Apfel nach dem natürlichen **Junifall** die Früchte auf ein bis
-zwei pro Büschel ausdünnen – das bringt größere Äpfel und verhindert,
-dass der Baum im nächsten Jahr aussetzt.
+Beim Apfel nach dem natürlichen **Junifall** zu dicht hängende Früchte
+auf ein bis zwei pro Büschel ausdünnen – das bringt größere Äpfel. Gegen
+das Aussetzen im Folgejahr hilft nur das frühe Ausdünnen im Mai.
 
 ---
 
@@ -318,7 +320,9 @@ Brokkoli, Endivie, Chinakohl, Mangold, Weißkohl.
 **Obst und Beeren.** Äpfel und Birnen ernten: Lagersorten vorsichtig
 pflücken (Kippprobe: löst sich die Frucht beim Anheben mit Stiel? Dann
 ist sie reif) und nur makellose Früchte kühl einlagern. Zwetschgen,
-Herbsthimbeeren, Brombeeren, Holunder.
+Herbsthimbeeren, Brombeeren, Holunder. **Leimringe** gegen den
+Frostspanner bis Ende September anlegen – die flugunfähigen Weibchen
+klettern ab Oktober die Stämme hinauf.
 
 ---
 
@@ -372,7 +376,8 @@ Frösten; dazu Lauch, Pastinaken, Schwarzwurzeln, Topinambur, Feldsalat,
 Winterportulak, Asia-Salate, Zuckerhut und alles aus dem Lager.
 
 **Obst und Beeren.** Weißanstrich an junge Obstbäume, Baumscheiben
-mulchen, Leimringe anlegen, wo der Frostspanner ein Problem ist.
+mulchen, Leimringe kontrollieren und bei verschmutzter Klebefläche
+erneuern.
 Fruchtmumien aus den Bäumen entfernen – sie sind die Infektionsquelle
 für die Monilia im nächsten Jahr.
 

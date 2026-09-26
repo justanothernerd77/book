@@ -148,8 +148,8 @@ Nicht alles rotiert.
 - **Mehrjährige Kulturen** – Rhabarber, Spargel, Erdbeeren, Beeren,
   mehrjährige Kräuter, Topinambur – bekommen **Dauerplätze außerhalb der
   Rotation**, am besten am Rand oder in einer eigenen Zone (Kapitel 2).
-  Erdbeeren wandern alle drei bis vier Jahre auf ein neues Beet; dabei
-  gilt dieselbe Pausenregel.
+  Erdbeeren wandern alle zwei bis drei Jahre auf ein neues Beet und
+  kehren frühestens nach vier bis fünf Jahren an den alten Platz zurück.
 - **Hochbeete** folgen einer eigenen Logik: Frisch befüllt sind sie so
   nährstoffreich, dass im ersten Jahr nur Starkzehrer hineingehören, im
   zweiten Mittelzehrer, ab dem dritten Schwachzehrer. Danach wird
@@ -371,7 +371,7 @@ und dazwischen Kleegras oder Winterroggen mit Wicke trägt.
 | Wurzeln & Zwiebeln | 5 + 6 | Lagermöhren (Junisaat), Pastinaken, Rote Bete, Zwiebeln, Schalotten, Knoblauch (Oktober), Winterlauch, Mangold |
 | Hülsenfrüchte | 7 + 8 | Erbsen und Dicke Bohnen früh, Busch- und Stangenbohnen, Trockenbohnen, Salate; danach Phacelia oder Klee |
 | Kartoffeln (eigene Rotation) | Fläche K1 / K2 | Früh- und Lagerkartoffeln im Wechsel mit Kleegras |
-| Dauerkulturen | Randstreifen | Rhabarber, Spargel, Erdbeeren (wandern alle 3–4 Jahre), Beerensträucher, Kräuter |
+| Dauerkulturen | Randstreifen | Rhabarber, Spargel, Erdbeeren (wandern alle 2–3 Jahre), Beerensträucher, Kräuter |
 
 Ertrag: Für zwei Personen ist das Teilselbstversorgung im Sinne von
 Kapitel 1 – Gemüse von Mai bis November und ein Wintervorrat an
