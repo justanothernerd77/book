@@ -100,6 +100,8 @@ nur darauf hin, wo es Regeln gibt, über die Sie Bescheid wissen sollten
 – beim Pflanzenschutz, beim Saatgut, bei Brunnen, Hecken, Gewächshäusern
 und Tieren. Die Vorschriften ändern sich ohnehin schneller, als ein
 Apfelbaum wächst, und sie unterscheiden sich von Ort zu Ort.
+Von diesem Buch haben Sie deshalb keine rechtliche Beratung oder
+Bevormundung zu befürchten.
 
 Was Sie daraus machen, entscheiden Sie selbst und in eigener
 Verantwortung. Wer ganz, ganz sichergehen will, weder gegen EU-, Bundes-,
