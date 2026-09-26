@@ -21,7 +21,8 @@ Fragen, die der Kalender nicht beantworten kann:
    abgetrocknet und bearbeitbar. Schmiert er, warten Sie.
 2. **Ist der Boden warm genug?** Ein einfaches Bodenthermometer in 5 cm
    Tiefe erspart viel Rätselraten: Spinat, Erbsen und Radieschen keimen ab
-   etwa 5 °C, Möhren ab 8 °C, Bohnen und Zucchini erst ab 10–12 °C.
+   etwa 5 °C, Möhren ab 5 °C (zügig erst ab etwa 8 °C), Bohnen und Zucchini
+   erst ab 10–12 °C, Gurken ab 12–15 °C.
 3. **Was sagt die Natur?** Pflanzen zeigen den Stand der Jahreszeit
    zuverlässiger an als jedes Datum – das ist die Idee des
    **phänologischen Kalenders**.
@@ -39,11 +40,11 @@ sind diese Zeichen am nützlichsten:
 | Vollfrühling | Apfel blüht | Kartoffeln legen, Rote Bete und Mangold säen; letzte Nachtfröste möglich |
 | Frühsommer | Holunder blüht | Tomaten, Zucchini, Gurken sicher auspflanzen; Bohnen säen |
 | Hochsommer | Linde blüht | Möhren für das Lager und Grünkohl sind längst im Beet; Beeren ernten |
-| Spätsommer | Frühäpfel reif, Eberesche färbt | Feldsalat und Spinat säen, Erdbeeren pflanzen |
+| Spätsommer | Frühäpfel pflückreif, Vogelbeeren (Eberesche) reif | Feldsalat und Spinat säen, Erdbeeren pflanzen |
 | Frühherbst | Holunderbeeren reif | Kartoffeln und Kürbisse ernten, letzte Aussaat von Winterportulak |
-| Vollherbst | Eicheln fallen, Laub färbt sich | Wurzelgemüse einlagern, Knoblauch stecken |
-| Spätherbst | Laubfall | Gehölze pflanzen, Beete winterfest machen |
-| Winter | Vegetationsruhe | Planen, Werkzeug pflegen, Wintergemüse ernten |
+| Vollherbst | Eicheln reif (ersatzweise: Rosskastanien fallen) | Wurzelgemüse einlagern, Knoblauch stecken |
+| Spätherbst | Stiel-Eiche verfärbt ihr Laub (ersatzweise: Eberesche wirft die Blätter ab) | Gehölze pflanzen, Beete winterfest machen |
+| Winter | Stiel-Eiche wirft ihr Laub ab (ersatzweise: Lärche verliert die Nadeln) | Planen, Werkzeug pflegen, Wintergemüse ernten |
 
 Notieren Sie im Gartentagebuch, wann in Ihrem Garten die Forsythie, der
 Apfel und der Holunder blühen. Nach zwei, drei Jahren wissen Sie genauer

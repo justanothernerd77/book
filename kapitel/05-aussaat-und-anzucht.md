@@ -47,8 +47,8 @@ Art unterschiedlich lange:
 
 | Haltbarkeit | Kulturen |
 |-------------|----------|
-| 1 Jahr | Pastinake, Schwarzwurzel |
-| 2–3 Jahre | Zwiebel, Lauch, Möhre, Petersilie, Mais, Schnittlauch |
+| 1–2 Jahre | Pastinake und Schwarzwurzel (oft nur 1 Jahr), Zwiebel, Schnittlauch |
+| 2–3 Jahre | Lauch, Möhre, Petersilie, Mais |
 | 3–4 Jahre | Erbsen, Bohnen, Paprika, Spinat, Salat, Sellerie |
 | 4–6 Jahre | Tomate, Kohl, Radieschen, Rote Bete, Mangold, Kürbis, Zucchini, Gurke |
 
@@ -127,7 +127,9 @@ nährstoffreicher sein: halb Anzuchterde, halb Kompost.
    anfeuchten – trockene Erde nimmt Wasser schlecht an.
 2. **Säen:** Faustregel **Saattiefe = doppelte Korndicke**. Feinsämereien
    nur andrücken; **Lichtkeimer** (Salat, Sellerie, Basilikum) nicht
-   bedecken, **Dunkelkeimer** (Tomate, Paprika, Gurke, Bohne) schon. Pro
+   bedecken, **Dunkelkeimer** (Gurke, Bohne, Lauch) schon. Tomate, Paprika
+   und Aubergine keimen weitgehend lichtunabhängig und werden etwa 0,5 cm
+   dünn mit Erde bedeckt. Pro
    Zelle einer Multitopfplatte ein bis zwei Samen; bei Zwiebeln, Lauch und
    Rote Bete gezielt vier bis sechs, die als Büschel gepflanzt werden.
 3. **Beschriften:** Sorte und Aussaatdatum auf ein Schild. Nach zwei Wochen
@@ -166,11 +168,11 @@ früher.
 
 | Kultur | Keimtemperatur | Keimdauer | Keimtyp | Wochen bis zum Pflanzen | Aussaat |
 |--------|----------------|-----------|---------|-------------------------|---------|
-| Paprika, Chili | 24–28 °C | 10–20 Tage | Dunkel | 8–10 | Feb–Mär |
-| Aubergine | 24–28 °C | 10–20 Tage | Dunkel | 8–10 | Feb–Mär |
+| Paprika, Chili | 24–28 °C | 10–20 Tage | egal (dünn bedecken) | 8–10 | Feb–Mär |
+| Aubergine | 24–28 °C | 10–20 Tage | egal (dünn bedecken) | 8–10 | Feb–Mär |
 | Knollensellerie | 18–22 °C | 15–25 Tage | **Licht** | 10–12 | Feb–Mär |
 | Lauch | 16–20 °C | 10–14 Tage | Dunkel | 10–12 | Feb–Apr |
-| Tomate | 20–24 °C | 6–10 Tage | Dunkel | 6–8 | Mär–Apr |
+| Tomate | 20–24 °C | 6–10 Tage | egal (dünn bedecken) | 6–8 | Mär–Apr |
 | Kohl (Kopfkohl, Brokkoli) | 15–20 °C | 5–10 Tage | Dunkel | 5–6 | Mär–Jun |
 | Kohlrabi | 15–20 °C | 5–8 Tage | Dunkel | 4–5 | Feb–Jul |
 | Salat | 12–18 °C | 4–7 Tage | **Licht** | 4–5 | Feb–Jul |
@@ -219,7 +221,8 @@ Kulturschutznetz oder Vlies direkt nach der Saat löst alle drei Probleme.
 | 3–5 °C | Dicke Bohnen, Spinat, Erbsen, Radieschen, Feldsalat |
 | 5–8 °C | Möhren, Pastinaken, Zwiebeln, Salat, Rucola |
 | 8–10 °C | Rote Bete, Mangold, Kartoffeln (Legen) |
-| 10–12 °C | Bohnen, Zucchini, Kürbis, Gurken, Mais |
+| 10–12 °C | Bohnen, Zucchini, Kürbis, Mais |
+| 12–15 °C | Gurken |
 
 **Vereinzeln.** Die meisten Direktsaaten werden zu dicht gesät, damit
 genug aufläuft. Sobald die Keimlinge greifbar sind, werden sie auf
@@ -229,8 +232,11 @@ Sämlinge bleiben alle klein. Die ausgezupften Pflänzchen vieler Arten
 (Salat, Rote Bete, Radieschen) schmecken als Microgreens.
 
 **Markiersaat.** Bei langsam keimenden Kulturen wie Möhren und Pastinaken
-ein paar Radieschen in dieselbe Reihe streuen. Sie keimen nach wenigen
-Tagen, zeigen die Reihe und erlauben frühes Hacken.
+ein paar Samen Pflück- oder Schnittsalat in dieselbe Reihe streuen. Sie
+keimen nach wenigen Tagen, zeigen die Reihe und erlauben frühes Hacken.
+Traditionell nahm man dafür Radieschen – sie gehören aber zur Kohlfamilie
+und vermehren die Kohlhernie, deshalb ist Salat die bessere Wahl
+(Kapitel 9).
 
 ## Auspflanzen
 
@@ -291,7 +297,7 @@ gesät.** Die App zum Buch soll dafür künftig Erinnerungen verschicken.
 
 ## Die häufigsten Anfängerfehler
 
-1. **Zu früh gesät.** Der Klassiker. Vergeilte Märztomaten bringen nichts
+1. **Zu früh gesät.** Der Klassiker. Vergeilte Februartomaten bringen nichts
    als Frust.
 2. **Zu tief gesät.** Feines Saatgut erstickt unter einem Zentimeter Erde.
 3. **Zu nass gehalten.** Umfallkrankheit und Trauermücken danken es.

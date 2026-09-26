@@ -57,7 +57,7 @@ dasselbe Feld.
 ### Kartoffel
 
 > **Starkzehrer** · Legen: Apr · Ernte: Jun–Sep · leicht · Lager: bis 7
-> Monate · pro Person: 20–60 m²
+> Monate · pro Person: 20–30 m²
 
 Die Königin der Selbstversorgung: unkompliziert, lagerfähig, sättigend,
 und auf keinem Teller so gut wie frisch aus dem eigenen Boden.
@@ -94,14 +94,16 @@ Sommer mit einer robusten Lagersorte; krautfäuletolerante Sorten sind
 für den Biogarten ein echter Gewinn. Alte Sorten wie Bamberger Hörnchen
 oder Blaue Anneliese sind Spezialitäten, die kaum ein Laden führt.
 
-**Ertrag:** 2–4 kg pro m². Für Vollversorgung rechnet man 40–60 m² pro
-Person – die meisten Gärten liefern realistisch den Sommer- und
-Herbstbedarf.
+**Ertrag:** 2–4 kg pro m². Der Pro-Kopf-Verbrauch an frischen Kartoffeln
+liegt in Deutschland bei gut 25 kg im Jahr (dazu kommen verarbeitete
+Kartoffelprodukte). Für eine Vollversorgung mit Speisekartoffeln rechnen
+Sie deshalb mit 20–30 m² pro Person, bei schwachen Erträgen bis 40 m².
 
 ### Tomate
 
 > **Starkzehrer** · Vorkultur: Mär–Apr · Pflanzung: Mai · Ernte: Jul–Okt ·
-> mittel · Lager: frisch nicht, eingekocht ganzjährig · pro Person: 3–6
+> mittel · Lager: frisch nicht, eingekocht ganzjährig · pro Person: 3–4,
+> für Vorrat 6–8
 > Pflanzen
 
 Die Tomate ist der Grund, warum viele überhaupt mit dem Gärtnern
@@ -199,7 +201,7 @@ die Saison meist erst, wenn ohnehin genug geerntet wurde.
 ### Zucchini
 
 > **Starkzehrer** · Vorkultur: Apr · Direktsaat: Mai–Jun · Pflanzung: Mai ·
-> Ernte: Jun–Okt · leicht · pro Person: 1 Pflanze
+> Ernte: Jun–Okt · leicht · pro Haushalt: 1–2 Pflanzen
 
 Zwei Pflanzen versorgen eine Familie – im Ernst: mehr nicht. Wer vier
 pflanzt, verschenkt im August Zucchini an Nachbarn, die ebenfalls vier
@@ -344,7 +346,7 @@ gemeinsamer Feind ist die **Möhrenfliege**.
 **Anbau.** Direktsaat in flache Rillen (1–2 cm, Reihenabstand 20–25 cm).
 Möhren keimen langsam – zwei bis drei Wochen – und nur, wenn die
 Saatrille nie austrocknet. Ein Brett oder Vlies über der Reihe hält die
-Feuchtigkeit bis zum Aufgang. Eine **Markiersaat** mit Radieschen zeigt
+Feuchtigkeit bis zum Aufgang. Eine **Markiersaat** mit Pflücksalat zeigt
 die Reihe, lange bevor die Möhren sichtbar werden, und erlaubt
 frühes Hacken.
 
@@ -391,6 +393,9 @@ trocknen und ersetzt Suppengewürz.
 
 ## Gänsefußgewächse
 
+*(Botanisch werden sie heute zu den Fuchsschwanzgewächsen gezählt; für
+die Fruchtfolge ändert das nichts.)*
+
 Rote Bete, Mangold und Spinat sind unkomplizierte Mittelzehrer, vertragen
 Halbschatten und liefern über lange Zeit. In der Fruchtfolge bilden sie
 eine Familie.
@@ -430,15 +435,17 @@ Spinat ist eine Kultur der kühlen Jahreszeiten. Im langen Sommertag
 **schießt** er in Blüte – deshalb als Vorkultur im Frühjahr und als
 Nachkultur im Spätsommer säen. Winterharte Sorten, im September gesät,
 überwintern im Beet und liefern im zeitigen Frühjahr die erste
-Blatternte des Jahres. Nicht mit Stickstoff überdüngen: Spinat reichert
-sonst Nitrat an.
+Blatternte des Jahres. Nicht mit Stickstoff überdüngen und möglichst am
+Nachmittag eines sonnigen Tages ernten: Bei Stickstoffüberschuss und
+Lichtmangel – also gerade im Herbst und Winter – reichert Spinat Nitrat
+an.
 
 ---
 
 ## Lauchgewächse
 
 Zwiebeln, Knoblauch, Schalotten und Lauch haben einen gemeinsamen Duft,
-gemeinsame Schädlinge (Zwiebel- und Lauchminierfliege) und eine
+gemeinsame Schädlinge (Zwiebelfliege und Lauchminierfliege) und eine
 gemeinsame Abneigung gegen frischen Mist und Staunässe. Als Nachbarn
 von Möhren sind sie willkommen, neben Bohnen und Erbsen nicht (Kapitel 9).
 
@@ -517,9 +524,12 @@ strengsten Regeln.
   Pflanztag hält Kohlweißling, Kohlfliege, Erdflöhe und Mehlige
   Kohlblattlaus ab. Wer das Netz erst bei Befall auflegt, sperrt die
   Schädlinge ein.
-- **Anbaupause 3–4 Jahre** auf demselben Beet wegen der **Kohlhernie**,
-  eines Bodenpilzes, der jahrelang überdauert (Kapitel 9 und 11).
-  Radieschen, Rucola, Senf und Ölrettich zählen mit!
+- **Anbaupause mindestens 4 Jahre** auf demselben Beet wegen der
+  **Kohlhernie**, eines Bodenerregers (kein echter Pilz, sondern ein
+  Einzeller), dessen Dauersporen zehn Jahre und länger überdauern. Ist
+  ein Beet einmal befallen, dort 7–10 Jahre keine Kreuzblütler mehr
+  anbauen (Kapitel 9 und 11). Radieschen, Rucola, Senf und Ölrettich
+  zählen mit!
 
 ### Grünkohl und Palmkohl
 
@@ -584,7 +594,7 @@ mit einem geknickten Blatt vor der Sonne schützen.
 > **Schwachzehrer** · Direktsaat: Mär–Sep · Ernte: Apr–Nov · leicht
 
 **Radieschen** sind in vier bis sechs Wochen erntereif – perfekt als
-Markiersaat, Lückenfüller und Erfolgserlebnis für Kinder. Kleine Sätze
+Lückenfüller im Kohl-Feld und Erfolgserlebnis für Kinder. Kleine Sätze
 alle zwei Wochen säen; im Hochsommer werden sie schnell pelzig.
 **Winterrettich**, im Juli/August gesät, lagert in Sand mehrere Monate.
 **Mai- und Herbstrüben** sind vergessene Schnellkulturen, die aus einer
@@ -687,10 +697,10 @@ ohne Kartoffeln und Lagerkohl genügt deutlich weniger.
 
 | Kultur | Menge pro Person | Bemerkung |
 |--------|------------------|-----------|
-| Kartoffeln | 20–60 m² | Vollversorgung eher 40–60 m² |
-| Tomaten | 3–6 Pflanzen | doppelt so viele für Soßenvorrat |
+| Kartoffeln | 20–30 m² | Vollversorgung; bei schwachen Erträgen bis 40 m² |
+| Tomaten | 3–4 Pflanzen | 6–8 für Soßenvorrat |
 | Paprika/Chili | 2–4 Pflanzen | wärmster Platz |
-| Zucchini | 1 Pflanze | ehrlich! |
+| Zucchini | 1–2 Pflanzen pro Haushalt | ehrlich! |
 | Kürbis | 1–2 Pflanzen | lagerfähig bis in den Winter |
 | Gurken | 2–3 Pflanzen | Einlegegurken für Vorrat |
 | Buschbohnen | 3–4 m² | gestaffelt in drei Sätzen |

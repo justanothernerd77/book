@@ -31,11 +31,11 @@ Boden, bis diese Familie zurückkehrt:
 
 | Problem | betroffene Familie | überdauert im Boden |
 |---------|--------------------|---------------------|
-| Kohlhernie (Wurzelpilz) | Kreuzblütler | bis zu 10 Jahre und länger |
+| Kohlhernie (einzelliger Bodenerreger) | Kreuzblütler | bis zu 10 Jahre und länger |
 | Kartoffelzystennematoden | Nachtschattengewächse | viele Jahre |
 | Möhrenfliege (Puppen) | Doldenblütler | über den Winter |
 | Weißfäule | Lauchgewächse | viele Jahre |
-| Brennfleckenkrankheit | Hülsenfrüchtler | mehrere Jahre an Pflanzenresten |
+| Brennfleckenkrankheit | Hülsenfrüchtler | an Ernteresten 1–2 Jahre; vor allem über befallenes Saatgut – kein Saatgut von fleckigen Hülsen nehmen |
 
 Gegen solche Bodenprobleme gibt es im Biogarten kein Mittel außer der
 **Pause**. Die Grundregel lautet deshalb:
@@ -59,7 +59,7 @@ aus Kapitel 6 und die wichtigsten Gründüngungen zu:
 | Nachtschattengewächse | Kartoffel, Tomate, Paprika, Chili, Aubergine | – |
 | Kürbisgewächse | Kürbis, Zucchini, Gurke, Melone | – |
 | Doldenblütler | Möhre, Pastinake, Sellerie, Fenchel, Petersilie, Dill, Koriander | – |
-| Gänsefußgewächse | Rote Bete, Mangold, Spinat | – |
+| Gänsefußgewächse (botanisch heute Fuchsschwanzgewächse) | Rote Bete, Mangold, Spinat | – |
 | Lauchgewächse | Zwiebel, Schalotte, Knoblauch, Lauch, Schnittlauch | – |
 | Hülsenfrüchtler | Bohnen, Erbsen, Dicke Bohnen | Klee, Wicken, Lupinen, Luzerne |
 | Korbblütler | Salate, Endivie, Radicchio, Zuckerhut, Schwarzwurzel, Topinambur | Ringelblume, Sonnenblume |
@@ -123,10 +123,11 @@ Prüfen Sie die Familien Jahr für Jahr: Kreuzblütler → Nachtschatten- und
 Kürbisgewächse → Dolden-, Gänsefuß- und Lauchgewächse → Hülsenfrüchtler.
 Keine Familie steht zwei Jahre hintereinander auf demselben Beet.
 
-**Wohin mit den Radieschen?** Radieschen gehören als Markiersaat zu den
-Möhren in Feld 3. Damit liegen zwei Jahre zwischen ihnen und dem nächsten
-Kohl – für eine vier bis sechs Wochen kurze Kultur vertretbar. Auf Feld 4
-sollten sie nicht stehen, denn dort folgt direkt der Kohl.
+**Wohin mit den Radieschen?** Radieschen, Rucola und Asia-Salate sind
+Kreuzblütler und vermehren die Kohlhernie. Säen Sie sie deshalb nur im
+Feld „Kohl & Co." – als Vorkultur oder als Lückenfüller zwischen den
+jungen Kohlpflanzen. Als Markiersaat zu den Möhren nehmen Sie statt
+Radieschen besser Pflück- oder Schnittsalat.
 
 **Weniger oder mehr Beete.** Wer nur drei Beete hat, legt Feld 1 und 2
 zusammen (ein Starkzehrer-Beet, halb Kohl, halb Fruchtgemüse, die Hälften
@@ -199,14 +200,14 @@ sie verspricht.
 | Paar | Warum es funktioniert |
 |------|------------------------|
 | Möhre + Zwiebel oder Lauch | Klassiker: die Düfte irritieren Möhren- und Zwiebelfliege gegenseitig; verschiedene Wurzeltiefen |
-| Tomate + Basilikum, Tagetes | gleiche Ansprüche an Wärme und Wasser; Tagetes gegen Bodennematoden |
+| Tomate + Basilikum, Tagetes | gleiche Ansprüche an Wärme und Wasser; Tagetes lockt Nützlinge (gegen Nematoden hilft sie nur als dichter Flächenbestand) |
 | Kohl + Salat | Salat füllt die Lücke, bis der Kohl groß ist; bedeckt den Boden |
 | Kohl + Sellerie | Sellerieduft gilt als abschreckend für den Kohlweißling |
 | Gurke + Dill | Dill passt kulturell, lockt Nützlinge und gehört ohnehin ins Gurkenglas |
 | Mais + Stangenbohne + Kürbis | „Drei Schwestern": Mais als Stange, Bohne als Stickstoffsammler, Kürbis als Bodendecker – bei uns nur, wenn der Mais zwei, drei Wochen Vorsprung bekommt |
 | Erdbeere + Knoblauch | Knoblauch zwischen den Reihen wirkt pilzhemmend |
 | Buschbohne + Bohnenkraut | schmeckt zusammen und soll die Schwarze Bohnenlaus fernhalten |
-| Radieschen + Möhre oder Pastinake | Markiersaat: zeigt die Reihe, lockert den Boden, ist geerntet, bevor es eng wird |
+| Pflücksalat + Möhre oder Pastinake | Markiersaat: zeigt die Reihe, ist geerntet, bevor es eng wird (Radieschen nur im Kohl-Feld) |
 | Mangold oder Rote Bete + Salat | ähnlicher Wasserbedarf, verschiedene Wuchsformen |
 
 ### Schwierige Nachbarschaften
@@ -230,9 +231,9 @@ aussehen (Reihen quer oder längs):
 | Reihe | Kultur | Abstand zur nächsten Reihe |
 |-------|--------|----------------------------|
 | 1 | Zwiebeln | 20 cm |
-| 2 | Möhren mit Radieschen-Markiersaat | 20 cm |
+| 2 | Möhren mit Salat-Markiersaat | 20 cm |
 | 3 | Zwiebeln | 20 cm |
-| 4 | Möhren mit Radieschen-Markiersaat | 20 cm |
+| 4 | Möhren mit Salat-Markiersaat | 20 cm |
 | 5 | Rote Bete | 25 cm |
 | 6 | Pflücksalat, später Feldsalat | – |
 
@@ -244,9 +245,11 @@ kommen im nächsten Jahr gemeinsam auf das nächste Feld.
 
 Einige Pflanzen gehören in jedes Beet, obwohl man sie nicht (nur) isst:
 
-- **Ringelblume und Tagetes** halten Bodennematoden in Schach, füttern
-  Schwebfliegen (deren Larven Blattläuse fressen) und versamen sich
-  bereitwillig selbst.
+- **Tagetes** (Studentenblume), als dichter Bestand mindestens drei
+  Monate auf einer Fläche gezogen, dezimiert Wurzelläsionsnematoden;
+  einzelne Pflanzen im Beet locken vor allem Nützlinge an.
+- **Ringelblumen** füttern Schwebfliegen (deren Larven Blattläuse
+  fressen) und versamen sich bereitwillig selbst.
 - **Kapuzinerkresse** am Beetrand wird von Blattläusen bevorzugt und
   lenkt sie vom Gemüse ab – eine Fangpflanze mit essbaren Blüten.
 - **Borretsch** ist eine Hummelweide, die Tomaten, Gurken und Kürbissen
@@ -275,7 +278,7 @@ wichtigsten Kombinationen:
 
 | Vorkultur (März–Mai) | Hauptkultur | Nachkultur (Juli–Oktober) |
 |----------------------|-------------|---------------------------|
-| Spinat, Radieschen | Kohl, Tomaten, Zucchini | Feldsalat, Winterportulak |
+| Spinat, Radieschen (nur im Kohl-Feld) | Kohl, Tomaten, Zucchini | Feldsalat, Winterportulak |
 | Spinat, Frühkohlrabi, Salat (bis Juni) | – | Grünkohl, Palmkohl (Pflanzung bis Mitte Juli) |
 | Frühkartoffeln (bis Juli) | – | Endivie, Feldsalat, Phacelia |
 | Erbsen, Dicke Bohnen (bis Juli) | – | Endivie, Zuckerhut, Radicchio, Feldsalat |
@@ -321,10 +324,12 @@ Zehrer-Klassen rotieren – passen Sie die Kulturen Ihrer Küche an.
 
 Für Balkon, Reihenhausgarten oder den Einstieg. Das Hochbeet wird in vier
 Viertel geteilt, die wie die vier Felder rotieren – jedes Viertel rund
-0,6 m². Im ersten Jahr nach der Befüllung stehen nur die nährstoffreichen
-Kulturen in den Vierteln, in denen es Sinn ergibt.
+0,6 m². **Im ersten Jahr nach dem Befüllen** kommen in alle vier Viertel
+Starkzehrer (Tomate mit Basilikum, Kohl, Sellerie, Lauch), weil die
+frische Füllung sonst Salat und Möhren mit Nitrat belastet. Die
+Rotation beginnt im zweiten Jahr; der Plan zeigt die Jahre danach.
 
-| Viertel | Jahr 1 | Jahr 2 | Jahr 3 | Jahr 4 |
+| Viertel | Jahr 2 | Jahr 3 | Jahr 4 | Jahr 5 |
 |---------|--------|--------|--------|--------|
 | A | Kohlrabi, Pak Choi, Salat | 1 Tomate + Basilikum | Möhren + Frühlingszwiebeln | Zuckererbsen, danach Feldsalat |
 | B | 1 Tomate + Basilikum | Möhren + Frühlingszwiebeln | Zuckererbsen, danach Feldsalat | Kohlrabi, Pak Choi, Salat |

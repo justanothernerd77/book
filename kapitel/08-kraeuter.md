@@ -66,8 +66,10 @@ Die Angaben stammen wie in Kapitel 6 aus dem Kulturen-Datensatz zum Buch.
   Terrasse.
 - **Zweijährige** (Petersilie, Kümmel): Blattjahr, dann Blüte.
   Petersilie keimt quälend langsam (drei bis vier Wochen) – Geduld,
-  gleichmäßig feucht halten, jedes Jahr an neuer Stelle säen (sie ist
-  selbstunverträglich). Im zweiten Jahr liefert sie im Frühjahr noch
+  gleichmäßig feucht halten und jedes Jahr an eine Stelle säen, an der
+  drei bis vier Jahre keine Petersilie und möglichst auch keine anderen
+  Doldenblütler wie Möhre, Sellerie oder Dill standen (sie ist
+  selbstunverträglich). Auch im Küchenbeet wandert sie deshalb jährlich. Im zweiten Jahr liefert sie im Frühjahr noch
   eine frühe Ernte, dann schießt sie.
 - **Mehrjährige und Stauden** (Schnittlauch, Liebstöckel, Estragon,
   Minze, Zitronenmelisse, Sauerampfer und alle Mediterranen): einmal
