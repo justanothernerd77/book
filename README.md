@@ -54,7 +54,12 @@ Die geplante Struktur mit Kurzbeschreibung jedes Kapitels steht in
 
 ## Status
 
-**Buch:** Erster vollständiger Rohentwurf aller Kapitel. Offene Arbeiten:
+**Buch:** Erster vollständiger Rohentwurf aller Kapitel. Die Kernkapitel
+6 (Gemüse), 9 (Mischkultur und Fruchtfolge) und 12 (Gartenjahr) sind zu
+vollwertigen Buchkapiteln ausgebaut (je ca. 2.800–4.600 Wörter); die
+übrigen Kapitel folgen. Offene Arbeiten:
+
+- [ ] Übrige Kapitel auf Buchumfang ausbauen
 
 - [ ] Lektorat und sprachlicher Feinschliff
 - [ ] Abbildungen, Skizzen und Beetpläne
