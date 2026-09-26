@@ -352,13 +352,15 @@ Ergänzend: ein Kräuterbeet an der Küche, ein Rhabarber und zwei, drei
 Beerensträucher auf Dauerplätzen. Grünkohl kommt im Juli als Nachkultur
 auf die abgeernteten Kohlrabi- und Salatflächen im Feld „Kohl & Co.".
 
-Ertrag: Frischgemüse für zwei Personen von Mai bis Oktober, dazu ein
-kleiner Vorrat an Zwiebeln, Möhren und eingekochten Tomaten.
+Ertrag: eine spürbare Ergänzung für zwei Personen von Mai bis Oktober –
+Salat, Kräuter, Tomaten und Zucchini weitgehend aus dem eigenen Garten,
+dazu ein kleiner Vorrat an Zwiebeln und Möhren. Das ist der
+Ergänzungsgarten aus Kapitel 1.
 
 ### Groß: acht Beete plus Kartoffelfläche (rund 100 m²)
 
-Für Familien, die einen spürbaren Teil ihres Jahresbedarfs selbst ziehen
-wollen. Jedes Feld besteht aus zwei Beeten à 1,2 × 5 m; die Kartoffeln
+Für Paare und Familien, die einen spürbaren Teil ihres Jahresbedarfs selbst
+ziehen wollen. Jedes Feld besteht aus zwei Beeten à 1,2 × 5 m; die Kartoffeln
 bekommen eine eigene Fläche von 40–50 m², die in zwei Hälften wechselt
 und dazwischen Kleegras oder Winterroggen mit Wicke trägt.
 
@@ -371,9 +373,13 @@ und dazwischen Kleegras oder Winterroggen mit Wicke trägt.
 | Kartoffeln (eigene Rotation) | Fläche K1 / K2 | Früh- und Lagerkartoffeln im Wechsel mit Kleegras |
 | Dauerkulturen | Randstreifen | Rhabarber, Spargel, Erdbeeren (wandern alle 3–4 Jahre), Beerensträucher, Kräuter |
 
-Ertrag: Gemüse für eine vierköpfige Familie von Mai bis November und ein
-Wintervorrat an Kartoffeln, Kohl, Wurzeln, Zwiebeln, Kürbissen und
-Eingemachtem, der bei guter Lagerung bis in den Februar reicht.
+Ertrag: Für zwei Personen ist das Teilselbstversorgung im Sinne von
+Kapitel 1 – Gemüse von Mai bis November und ein Wintervorrat an
+Kartoffeln, Kohl, Wurzeln, Zwiebeln, Kürbissen und Eingemachtem bis in den
+Winter hinein. Eine vierköpfige Familie erntet auf dieser Fläche reichlich
+Frischgemüse in der Saison; für nennenswerte Wintervorräte braucht sie
+etwa die doppelte Fläche – das Schema bleibt dasselbe, nur mit mehr Beeten
+je Feld.
 
 ## Schritt für Schritt zum eigenen Plan
 
