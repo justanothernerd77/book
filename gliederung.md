@@ -99,3 +99,10 @@ Keimprobe.
 
 Bilanz nach dem ersten Jahr, Erweiterungen (Gewächshaus, Hühner, Bienen),
 Tauschen und Teilen, Gemeinschaftsgärten, gelassen bleiben.
+
+## Stichwortverzeichnis
+
+Rund 210 Stichwörter zu Kulturen, Techniken, Schädlingen, Boden und
+Vorratshaltung mit Verweis auf die Kapitel; Hauptstellen fett. Wird aus
+den Kapiteltexten erzeugt (`register/erzeugen.py`), Seitenzahlen nach dem
+Satz.

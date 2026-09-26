@@ -48,6 +48,7 @@ Die Kapitel liegen als einzelne Markdown-Dateien im Ordner [`kapitel/`](kapitel/
 | 13 | Ernten, Lagern, Haltbarmachen | [`kapitel/13-ernten-lagern-haltbarmachen.md`](kapitel/13-ernten-lagern-haltbarmachen.md) |
 | 14 | Saatgut selbst gewinnen | [`kapitel/14-saatgut-gewinnen.md`](kapitel/14-saatgut-gewinnen.md) |
 | 15 | Ausblick: Selbstversorgung als Lebensstil | [`kapitel/15-ausblick.md`](kapitel/15-ausblick.md) |
+| – | Stichwortverzeichnis | [`kapitel/16-stichwortverzeichnis.md`](kapitel/16-stichwortverzeichnis.md) |
 
 Die geplante Struktur mit Kurzbeschreibung jedes Kapitels steht in
 [`gliederung.md`](gliederung.md).
@@ -71,7 +72,9 @@ damit rund 40.000 Wörter. Offene Arbeiten:
       ([`abbildungen/`](abbildungen/)); Fotos und illustrierte
       Pflanzenporträts wären ein möglicher nächster Schritt
 - [ ] Regionale Anpassungen (Klimazonen, Höhenlagen)
-- [ ] Register / Stichwortverzeichnis
+- [x] Register / Stichwortverzeichnis – rund 210 Stichwörter mit Verweis auf
+      die Kapitel, erzeugt mit `python3 register/erzeugen.py`; Seitenzahlen
+      nach dem Satz
 
 **Kalender & App:** Recherche, Kulturen-Datensatz (v0.1) und ein interaktiver
 HTML-Prototyp liegen vor.
