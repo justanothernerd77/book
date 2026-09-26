@@ -49,7 +49,7 @@ Wenn der Grundgarten läuft, lohnen – ungefähr in dieser Reihenfolge:
 | Folientunnel | Salate im Winter, Tomaten sicherer | mittel | ab dem zweiten, dritten Jahr |
 | Gewächshaus | größter Sprung bei Wärmekulturen und Anzucht | hoch | wenn Platz und Budget da sind |
 | Obstwiese, Hecke, Wildobst | langfristige Ernte, Lebensraum | mittel, dann gering | früh pflanzen, spät ernten |
-| Hühner | Eier, Dünger, Resteverwertung | täglich, dauerhaft | wenn die Versorgung auch im Urlaub gesichert ist |
+| Hühner | Eier, Dünger, Verwertung von Gartenresten | täglich, dauerhaft | wenn die Versorgung auch im Urlaub gesichert ist |
 | Bienen | Honig, Bestäubung | hoch, Fachwissen nötig | nach einem Imkerkurs |
 
 **Frühbeet und Folientunnel.** Die billigste Saisonverlängerung: Salate
@@ -80,17 +80,20 @@ nehmen dem Sommer den Stress. Jeder gesparte Gießgang ist gewonnene
 Erntezeit.
 
 **Hühner.** Der klassische nächste Schritt: Eier, Mist für den Kompost,
-Resteverwertung, Charakterköpfe im Garten. Realistisch kalkulieren:
+Verwertung von Gartenresten, Charakterköpfe im Garten. Realistisch kalkulieren:
 
 - **Tägliche Versorgung** – auch im Urlaub und im Winter bei Frost.
 - **Platz:** ein trockener, fuchs- und mardersicherer Stall mit
   Sitzstangen und Legenestern, als Richtwert etwa 1 m² Stallfläche für
   drei bis vier Hühner, dazu ein Auslauf von mindestens 10 m² pro Huhn,
   besser mehr. Hühner halten nicht gern allein – mindestens drei Tiere.
-- **Pflichten in Deutschland:** Hühnerhaltung ist beim zuständigen
-  Veterinäramt und bei der Tierseuchenkasse anzumelden, auch für wenige
-  Tiere. Hühner müssen regelmäßig gegen die Newcastle-Krankheit geimpft
-  werden; Geflügelvereine und Tierärzte helfen dabei.
+- **Pflichten in Deutschland:** Hühnerhaltung ist schon ab dem ersten
+  Tier beim Veterinäramt und bei der Tierseuchenkasse Ihres Bundeslandes
+  anzumelden; dort fällt meist ein kleiner Jahresbeitrag an. Hühner (und
+  Puten) müssen Sie von einem Tierarzt regelmäßig gegen die
+  Newcastle-Krankheit impfen lassen und die Impfung nachweisen können.
+  Bei Vogelgrippe-Ausbrüchen kann das Amt anordnen, dass Ihre Hühner im
+  Stall bleiben müssen – planen Sie dafür einen überdachten Auslauf ein.
 - **Nachbarn und Recht:** Ein krähender Hahn kann Nachbarschaftsstreit
   auslösen; in manchen Wohngebieten und Kleingartenanlagen ist
   Tierhaltung eingeschränkt. Vorher klären.
@@ -98,12 +101,18 @@ Resteverwertung, Charakterköpfe im Garten. Realistisch kalkulieren:
   Rassehühner deutlich weniger. Drei, vier Hennen versorgen einen
   Haushalt mit Eiern.
 - **Futter und Hygiene:** Futter mäusesicher lagern, damit keine Ratten
-  angelockt werden; Küchenabfälle mit Fleisch dürfen nicht verfüttert
-  werden.
+  angelockt werden. Speise- und Küchenabfälle dürfen Hühnern nicht
+  verfüttert werden – das gilt auch für Hobbyhaltungen. Tabu sind alle
+  Reste mit tierischen Bestandteilen wie Fleisch, Wurst, Fisch,
+  Milchprodukten und Eiern sowie alles, was mit ihnen in Berührung
+  gekommen ist. Unbedenklich sind getrennt gesammelte rohe Gemüse- und
+  Obstreste und Gartenabfälle. Im Zweifel fragen Sie Ihr Veterinäramt.
 
 **Bienen – oder Wildbienen.** Honigbienen sind ein eigenes Handwerk:
-erst Kurs beim Imkerverein, dann Völker. Bienenhaltung muss beim
-Veterinäramt angezeigt werden, und die Völker brauchen regelmäßige
+erst Kurs beim Imkerverein, dann Völker. Bienenhaltung müssen Sie
+spätestens mit dem ersten Volk beim Veterinäramt anzeigen (Zahl der
+Völker, Standort), in einigen Bundesländern zusätzlich bei der
+Tierseuchenkasse, und die Völker brauchen regelmäßige
 Behandlung gegen die Varroamilbe. Wer „nur" Bestäubung will, ist mit
 Wildbienenförderung (Blühflächen, Nisthilfen, offene Bodenstellen,
 Totholz) schneller und wirkungsvoller dabei – viele Wildbienen bestäuben

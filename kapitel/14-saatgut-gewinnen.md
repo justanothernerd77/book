@@ -56,15 +56,19 @@ damit die Sorte nicht durch Inzucht an Kraft verliert.
 | Paprika, Chili | überwiegend Selbst | einjährig | Abstand oder Blüten abtüten | 5 | mittel |
 | Kürbis, Zucchini | Fremd (Insekten) | einjährig | mehrere hundert Meter – besser Handbestäubung | 5–10 | mittel |
 | Gurke | Fremd (Insekten) | einjährig | mehrere hundert Meter – besser Handbestäubung | 5–10 | mittel |
-| Spinat | Fremd (Wind), zweihäusig | einjährig | mehrere hundert Meter | 20+ | mittel |
-| Mais | Fremd (Wind) | einjährig | mehrere hundert Meter | 50+ | schwer |
+| Spinat | Fremd (Wind), überwiegend zweihäusig | einjährig | mehrere hundert Meter | 20+ | mittel |
+| Mais | Fremd (Wind) | einjährig | mehrere hundert Meter | 100+ | schwer |
 | Kohlarten | Fremd (Insekten) | meist zweijährig | mehrere hundert Meter; alle Sorten einer Art kreuzen sich | 10–20 | schwer |
 | Möhre | Fremd (Insekten) | zweijährig | mehrere hundert Meter; kreuzt sich auch mit der Wilden Möhre | 20+ | schwer |
-| Zwiebel, Lauch | Fremd (Insekten) | zweijährig | mehrere hundert Meter | 20+ | schwer |
+| Zwiebel, Lauch (getrennte Arten; Zwiebel kreuzt sich mit Schalotten) | Fremd (Insekten) | zweijährig | mehrere hundert Meter | 20+ | schwer |
 | Rote Bete, Mangold | Fremd (Wind) | zweijährig | sehr weit; beide kreuzen sich miteinander | 15+ | schwer |
 
 Die Abstände sind grobe Richtwerte; in der Literatur schwanken sie stark,
-und Hecken oder Gebäude verringern die Kreuzungsgefahr. Sicher sind Sie
+und Hecken oder Gebäude verringern die Kreuzungsgefahr. Auch die
+Samenträger-Zahlen sind Untergrenzen für den Hausgarten: Wer eine Sorte
+über viele Jahre erhalten will, braucht vor allem bei Möhre, Kohl und Mais
+deutlich größere Bestände – Erhaltungsorganisationen empfehlen 100 bis 200
+Pflanzen. Sicher sind Sie
 nur mit einer der folgenden Methoden.
 
 ### Sortenrein trotz Fremdbestäubung
@@ -102,14 +106,16 @@ Hülsen der schönsten Pflanzen am Strauch vollständig ausreifen und
 trocknen lassen (rascheln!), auspulen, nachtrocknen. Bei nassem
 Herbstwetter ganze Pflanzen ausreißen und kopfüber unter einem Dach
 nachreifen lassen. Gegen Bohnen- und Erbsenkäfer, deren Larven in den
-Samen fressen, das Saatgut nach dem Trocknen eine Woche einfrieren.
+Samen fressen, das Saatgut nach dem Trocknen eine Woche in der
+Tiefkühltruhe (−18 °C) einfrieren.
 Verschiedene Sorten der Gartenbohne mit ein paar Metern Abstand bleiben
-praktisch rein. Ausnahme: die Feuerbohne, eine eigene Art, die von
-Hummeln fremdbestäubt wird.
+praktisch rein. Ausnahme: die Feuerbohne, eine eigene Art, die vor allem
+von Hummeln und Bienen fremdbestäubt wird.
 
 **Tomate.** Vollreife Früchte der besten Pflanzen auswählen, Samen samt
 Gallerte in ein Glas mit etwas Wasser geben und 2–3 Tage bei
-Zimmertemperatur **vergären** lassen. Die Gärung löst die keimhemmende
+Zimmertemperatur **vergären** lassen – nicht viel länger, sonst beginnen
+die Samen zu keimen. Die Gärung löst die keimhemmende
 Gallerthülle und reduziert samenübertragbare Krankheiten. Dann in einem
 Sieb spülen und auf Kaffeefilter oder einem Teller dünn ausgebreitet
 trocknen. Ausbeute: Eine Frucht liefert Saatgut für Jahre.
@@ -133,7 +139,7 @@ am Strauch zu großen, harten Keulen werden lassen, Kürbisse wie für die
 Lagerung ernten (Kapitel 13) und noch einige Wochen nachreifen lassen.
 Dann die Samen herauslösen, waschen, trocknen. Bestäubung am besten per
 Hand (siehe oben), denn alle Zucchini, Gartenkürbisse und Zierkürbisse der
-Art *Cucurbita pepo* kreuzen sich untereinander. Rückkreuzungen mit
+Art *Cucurbita pepo* kreuzen sich untereinander. Kreuzungen mit
 Zierkürbissen können **bittere, giftige Früchte** erzeugen. Regel daher:
 Vor dem Kochen ein Stück roh probieren und bitter schmeckende Zucchini
 oder Kürbisse aus eigenem Nachbau niemals essen (Kapitel 6).
@@ -142,8 +148,9 @@ oder Kürbisse aus eigenem Nachbau niemals essen (Kapitel 6).
 sind, dann die Samen wie bei der Tomate kurz vergären lassen, waschen und
 trocknen.
 
-**Spinat.** Spinat ist zweihäusig – es gibt männliche und weibliche
-Pflanzen – und windbestäubt. Mindestens 20 Pflanzen gemeinsam blühen
+**Spinat.** Spinat ist überwiegend zweihäusig – die meisten Pflanzen sind
+entweder männlich oder weiblich, einzelne tragen beide Blütenarten – und
+windbestäubt. Mindestens 20 Pflanzen gemeinsam blühen
 lassen; die weiblichen tragen die Samen.
 
 **Kräuter.** Dill, Koriander, Kerbel und Ringelblume säen sich ohnehin
@@ -260,9 +267,15 @@ Zur Rechtslage in Deutschland, vereinfacht:
   auf Handlungen im privaten Bereich zu nichtgewerblichen Zwecken.
 - **Tausch und Weitergabe kleiner Mengen** unter Privatleuten ohne
   gewerbliche Absicht sind üblich und gelten als unproblematisch.
-- **Verkauf von Saatgut** unterliegt dem Saatgutverkehrsgesetz: Wer
-  Saatgut gewerblich in Verkehr bringt, braucht in der Regel zugelassene
-  Sorten und muss Qualitätsvorgaben erfüllen.
+- **Verkauf von Saatgut** unterliegt dem Saatgutverkehrsgesetz. Als
+  gewerblich gilt dabei schon jede Abgabe zu Erwerbszwecken – auch der
+  gelegentliche Verkauf auf dem Flohmarkt. Verkauft werden darf dann in
+  der Regel nur Saatgut zugelassener Sorten, das bestimmte
+  Qualitätsvorgaben erfüllt; für alte Sorten gibt es vereinfachte
+  Zulassungen als Erhaltungs- oder Amateursorte. Sortengeschützte Sorten
+  dürfen Sie ohne Zustimmung des Züchters ohnehin nicht verkaufen.
+- **Im Wandel:** Das europäische Saatgutrecht wird derzeit überarbeitet.
+  Prüfen Sie vor einem Verkauf den aktuellen Stand.
 
 Im Zweifel – etwa wenn Sie Saatgut auf einem Markt anbieten wollen –
 informieren Sie sich beim Bundessortenamt oder bei einer der
