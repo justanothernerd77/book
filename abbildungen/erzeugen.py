@@ -449,6 +449,314 @@ def kalender():
     return svg(w, h, b, "Anbaukalender für das Einsteiger-Sortiment")
 
 
+# ── Pflanz- und Schnittskizzen ──────────────────────────────────────────
+CUT = "#c0392b"
+STAMM = "#7a5a3a"
+BLATT = "#6a8f3d"
+JUNG = "#8fbf4a"
+
+
+def blatt(cx, cy, winkel, laenge=34, breite=12, col=BLATT):
+    return (f'<ellipse cx="{cx}" cy="{cy}" rx="{laenge / 2}" ry="{breite / 2}" fill="{col}" '
+            f'transform="rotate({winkel} {cx} {cy})"/>\n')
+
+
+def schnitt(x, y, winkel=0, laenge=26):
+    """Rote Schnittmarke quer zum Trieb."""
+    return (f'<line x1="{x - laenge / 2}" y1="{y}" x2="{x + laenge / 2}" y2="{y}" stroke="{CUT}" '
+            f'stroke-width="4" stroke-linecap="round" transform="rotate({winkel} {x} {y})"/>\n')
+
+
+def nummer(x, y, n, col=INK):
+    return (f'<circle cx="{x}" cy="{y}" r="11" fill="{col}"/>\n'
+            + text(x, y + 5, str(n), 13, "#fff", "middle", "bold"))
+
+
+def schritte(x, y, eintraege, size=14, abstand=None):
+    """Nummerierte Liste; jeder Eintrag ist eine Liste von Zeilen."""
+    out = ""
+    yy = y
+    for i, zeilen in enumerate(eintraege, 1):
+        out += nummer(x + 11, yy - 5, i)
+        out += lines(x + 30, yy, zeilen, size, INK)
+        yy += (abstand or (len(zeilen) * size * 1.3 + 14))
+    return out
+
+
+def tomate_ausgeizen():
+    w, h = 820, 520
+    b = heading(w, "Tomate ausgeizen", "Eintriebig am Stab: Seitentriebe in den Blattachseln jung herausbrechen")
+    sx, top, boden = 210, 100, 470
+    b += rect(40, boden, 360, 40, "#bda77f", "none")
+    b += line(sx + 24, top - 10, sx + 24, boden + 30, "#9a8f7a", 5)          # Stab
+    b += line(sx, boden, sx, top, BLATT, 7)                                   # Haupttrieb
+    for y in (150, 250, 350):                                                 # Bindestellen
+        b += f'<path d="M{sx - 4},{y} q14,-8 30,0" stroke="#c9a46a" stroke-width="3" fill="none"/>\n'
+    # Blätter (Fiederblätter) abwechselnd
+    def fieder(y, richtung, gestrichelt=False):
+        out = ""
+        ex = sx + richtung * 120
+        extra = 'stroke-dasharray="6 5"' if gestrichelt else ""
+        out += line(sx, y, ex, y - 30, BLATT if not gestrichelt else LINE, 3, extra)
+        for t in (0.35, 0.65, 1.0):
+            lx = sx + (ex - sx) * t
+            ly = y + (-30) * t
+            col = BLATT if not gestrichelt else "#d8d5c6"
+            out += blatt(lx, ly - 8, -30 * richtung, 30, 12, col)
+            out += blatt(lx, ly + 8, 30 * richtung, 30, 12, col)
+        return out
+    b += fieder(420, -1, gestrichelt=True)
+    b += fieder(360, 1)
+    b += fieder(290, -1)
+    b += fieder(220, 1)
+    b += fieder(150, -1)
+    # Fruchttraube links bei 320
+    b += line(sx, 322, sx - 50, 330, BLATT, 3)
+    for dx, dy in [(-55, 340), (-72, 348), (-44, 356), (-62, 364)]:
+        b += f'<circle cx="{sx + dx}" cy="{dy}" r="9" fill="{FRUCHT}"/>\n'
+    # Geiztrieb in der Achsel bei 360 rechts
+    gx, gy = sx + 4, 352
+    b += f'<path d="M{gx},{gy} q18,-20 34,-48" stroke="{JUNG}" stroke-width="5" fill="none" stroke-linecap="round"/>\n'
+    b += blatt(gx + 32, gy - 50, -60, 20, 9, JUNG)
+    b += blatt(gx + 22, gy - 30, 20, 18, 8, JUNG)
+    b += f'<circle cx="{gx + 18}" cy="{gy - 26}" r="34" fill="none" stroke="{CUT}" stroke-width="2.5" stroke-dasharray="5 4"/>\n'
+    # Beschriftungen
+    b += line(gx + 52, gy - 26, 440, 200, CUT, 1.2)
+    b += lines(448, 196, ["Geiztrieb in der Blattachsel:", "jung mit den Fingern ausbrechen"], 14, CUT, weight="bold")
+    b += line(sx - 80, 350, 90, 470 - 150, MUTED, 1)
+    b += lines(24, 300, ["Fruchttraube –", "bleibt stehen"], 13, INK)
+    b += line(sx - 60, 400, 100, 430, MUTED, 1)
+    b += lines(24, 450, ["untere Blätter bis zur", "ersten Traube entfernen"], 13, INK)
+    b += lines(448, 290, [
+        "• wöchentlich kontrollieren",
+        "• Geiztriebe klein entfernen (unter 5 cm)",
+        "• Haupttrieb am Stab locker anbinden",
+        "• Ende August die Spitze kappen",
+        "• Cocktail- und Wildtomaten dürfen",
+        "  mehrtriebig wachsen",
+    ], 14, INK, lh=1.55)
+    return svg(w, h, b, "Tomate ausgeizen")
+
+
+def obstbaum_pflanzen():
+    w, h = 820, 540
+    b = heading(w, "Obstbaum pflanzen", "Veredlungsstelle über der Erde, Pfahl auf der Wetterseite")
+    cx, erde = 250, 330
+    # Boden und Pflanzloch
+    b += rect(30, erde, 440, 170, "#bda77f", "none")
+    b += f'<path d="M{cx - 110},{erde} L{cx - 90},{erde + 110} L{cx + 90},{erde + 110} L{cx + 110},{erde} Z" fill="#8a6a48" fill-opacity="0.55" stroke="{INK}" stroke-width="1" stroke-dasharray="5 4"/>\n'
+    # Wühlmauskorb
+    b += f'<path d="M{cx - 80},{erde + 5} L{cx - 70},{erde + 95} L{cx + 70},{erde + 95} L{cx + 80},{erde + 5}" fill="none" stroke="#555" stroke-width="2" stroke-dasharray="2 4"/>\n'
+    # Wurzeln
+    for dx, dy in [(-60, 70), (-35, 85), (0, 90), (35, 85), (60, 70), (-50, 40), (50, 40)]:
+        b += f'<path d="M{cx},{erde + 15} q{dx / 2},{dy / 3} {dx},{dy}" stroke="{STAMM}" stroke-width="3" fill="none"/>\n'
+    # Mulch auf der Baumscheibe
+    b += rect(cx - 110, erde - 8, 95, 8, "#7a5a3a", "none")
+    b += rect(cx + 15, erde - 8, 95, 8, "#7a5a3a", "none")
+    # Stamm mit Veredlungsstelle
+    b += line(cx, erde + 15, cx, 170, STAMM, 10)
+    b += f'<ellipse cx="{cx}" cy="{erde - 24}" rx="9" ry="6" fill="{STAMM}" stroke="{INK}" stroke-width="1"/>\n'
+    # Krone
+    for dx, dy in [(-60, -45), (60, -40), (-32, -70), (38, -72), (0, -85)]:
+        b += line(cx, 185, cx + dx, 185 + dy, STAMM, 5)
+    # Pfahl links (Westen) und Achterschlinge
+    px = cx - 40
+    b += line(px, erde + 100, px, 175, "#9a8f7a", 8)
+    b += f'<path d="M{px},{215} C{px + 10},{203} {cx - 10},{227} {cx},{215} C{cx - 10},{203} {px + 10},{227} {px},{215}" stroke="#c9a46a" stroke-width="3" fill="none"/>\n'
+    # Kompass
+    b += text(40, 110, "W", 14, MUTED, weight="bold")
+    b += line(58, 105, 120, 105, MUTED, 1.5)
+    b += text(128, 110, "O", 14, MUTED, weight="bold")
+    # Beschriftungen rechts
+    # (Punkt am Baum, Beschriftung) – Beschriftungen gleichmäßig verteilt
+    labels = [
+        (215, ["Kokosstrick als Achterschlinge", "am Pfahl auf der Westseite"]),
+        (erde - 24, ["Veredlungsstelle eine", "Handbreit über der Erde"]),
+        (erde - 4, ["Baumscheibe mulchen,", "Stamm frei lassen"]),
+        (erde + 55, ["Pflanzloch doppelt so breit wie der", "Wurzelballen, Sohle gelockert"]),
+        (erde + 95, ["Wühlmauskorb aus verzinktem Draht", "(wo Wühlmäuse vorkommen)"]),
+    ]
+    for i, (py, zeilen) in enumerate(labels, 1):
+        ly = 170 + (i - 1) * 64
+        b += line(cx + 20, py, 474, ly - 5, LINE, 1, 'stroke-dasharray="3 3"')
+        b += nummer(490, ly - 5, i)
+        b += lines(510, ly, zeilen, 13, INK)
+    b += text(24, 525, "Nach dem Pflanzen mit 20–30 Litern angießen und im ersten Sommer regelmäßig wässern.", 13, MUTED)
+    return svg(w, h, b, "Obstbaum pflanzen")
+
+
+def pflanzschnitt():
+    w, h = 820, 480
+    b = heading(w, "Pflanzschnitt beim Apfel", "Ein Mitteltrieb, drei bis vier flache Leitäste, alles Konkurrierende raus")
+    def baum(cx, nachher):
+        out = rect(cx - 150, 420, 300, 20, "#bda77f", "none")
+        out += line(cx, 420, cx, 150, STAMM, 9)                       # Mitteltrieb
+        aeste = [(-1, 300, 110, 55), (1, 280, 115, 50), (-1, 240, 95, 45), (1, 215, 90, 40)]
+        for richt, y, dx, dy in aeste:
+            ex, ey = cx + richt * dx, y - dy
+            if nachher:
+                kx, ky = cx + richt * dx * 0.67, y - dy * 0.67
+                out += line(cx, y, kx, ky, STAMM, 5)
+                out += line(kx, ky, ex, ey, LINE, 3, 'stroke-dasharray="4 4"')
+                out += schnitt(kx, ky, 90 + (-35 if richt > 0 else 35), 18)
+            else:
+                out += line(cx, y, ex, ey, STAMM, 5)
+        # Konkurrenztrieb steil neben der Spitze
+        if nachher:
+            out += line(cx + 4, 200, cx + 30, 120, LINE, 4, 'stroke-dasharray="4 4"')
+            out += schnitt(cx + 8, 190, 20, 18)
+        else:
+            out += line(cx + 4, 200, cx + 30, 120, STAMM, 5)
+        out += text(cx, 465, "nachher" if nachher else "vorher", 15, INK, "middle", "bold")
+        return out
+    b += baum(210, False)
+    b += baum(560, True)
+    b += text(410, 280, "→", 36, MUTED, "middle")
+    b += lines(705, 150, ["Leitäste um", "ein Drittel", "einkürzen,", "Schnitt über", "einem nach", "außen zeigenden", "Auge"], 12, MUTED, lh=1.35)
+    b += lines(345, 120, ["steiler Konkurrenz-", "trieb: ganz entfernen"], 12, CUT)
+    return svg(w, h, b, "Pflanzschnitt beim Apfel")
+
+
+def johannisbeere():
+    w, h = 820, 470
+    b = heading(w, "Johannisbeere schneiden", "Jährlich die zwei, drei ältesten Triebe bodennah entfernen")
+    cx, boden = 215, 400
+    b += rect(24, boden, 400, 40, "#bda77f", "none")
+    triebe = [
+        (-150, 250, "alt"), (-110, 170, "mittel"), (-70, 140, "jung"), (-30, 120, "alt"),
+        (10, 110, "mittel"), (50, 125, "jung"), (90, 150, "mittel"), (130, 185, "alt"),
+        (165, 245, "jung"), (-5, 150, "jung"),
+    ]
+    farben = {"jung": JUNG, "mittel": STAMM, "alt": "#4a4a44"}
+    staerke = {"jung": 3, "mittel": 5, "alt": 7}
+    for dx, hy, alter in triebe:
+        ex = cx + dx
+        b += (f'<path d="M{cx + dx * 0.08},{boden} Q{cx + dx * 0.5},{hy + 60} {ex},{hy}" '
+              f'stroke="{farben[alter]}" stroke-width="{staerke[alter]}" fill="none" stroke-linecap="round"/>\n')
+        if alter == "alt":
+            b += schnitt(cx + dx * 0.08, boden - 10, 0, 22)
+        else:
+            for t in (0.5, 0.75, 1.0):
+                bx = cx + dx * 0.08 + (ex - cx - dx * 0.08) * t
+                by = boden + (hy - boden) * t
+                b += blatt(bx + 8, by, 20, 16, 9, BLATT)
+    eintraege = [
+        (JUNG, 3, ["einjährige Triebe – stehen lassen", "(bei Schwarzer Johannisbeere Fruchtholz)"]),
+        (STAMM, 5, ["zwei- bis dreijährige Triebe – tragen bei", "Roter und Weißer Johannisbeere am besten"]),
+        ("#4a4a44", 7, ["älteste Triebe – bodennah abschneiden"]),
+    ]
+    yy = 150
+    for col, sw, zeilen in eintraege:
+        b += line(450, yy - 5, 490, yy - 5, col, sw)
+        b += lines(502, yy, zeilen, 13, INK)
+        yy += 58
+    b += schnitt(470, yy - 5, 0, 22)
+    b += text(502, yy, "Schnittstelle", 13, CUT, weight="bold")
+    b += lines(450, yy + 40, ["Ziel: 8–12 Bodentriebe unterschiedlichen", "Alters. Schnitt nach der Ernte oder im", "Spätwinter."], 13, MUTED)
+    return svg(w, h, b, "Johannisbeere schneiden")
+
+
+def himbeeren():
+    w, h = 820, 470
+    b = heading(w, "Himbeeren schneiden", "Sommer- und Herbstsorten tragen an verschiedenem Holz")
+    def panel(x0, titel, sommer):
+        out = text(x0 + 170, 100, titel, 16, INK, "middle", "bold")
+        boden = 380
+        out += rect(x0, boden, 340, 30, "#bda77f", "none")
+        for dy in (240, 150):
+            out += line(x0 + 10, dy, x0 + 330, dy, "#888", 1.5)
+        out += line(x0 + 20, boden, x0 + 20, 130, "#9a8f7a", 5)
+        out += line(x0 + 320, boden, x0 + 320, 130, "#9a8f7a", 5)
+        for i, rx in enumerate(range(x0 + 60, x0 + 300, 40)):
+            alt = (i % 2 == 0)
+            if sommer:
+                col = STAMM if alt else JUNG
+                out += line(rx, boden, rx + 6, 140 if alt else 170, col, 5 if alt else 4)
+                if alt:
+                    out += schnitt(rx, boden - 8, 0, 20)
+                    for fy in (180, 210):
+                        out += f'<circle cx="{rx + 12}" cy="{fy}" r="5" fill="{FRUCHT}" fill-opacity="0.35"/>\n'
+                else:
+                    for fy in (200, 250, 300):
+                        out += blatt(rx + 10, fy, 25, 16, 8, BLATT)
+            else:
+                out += line(rx, boden, rx + 6, 150, STAMM, 5)
+                out += schnitt(rx, boden - 6, 0, 20)
+        return out
+    b += panel(40, "Sommerhimbeere", True)
+    b += panel(440, "Herbsthimbeere", False)
+    b += lines(40, 432, ["Nach der Ernte: abgetragene (braune) Ruten bodennah", "raus, 8–10 kräftige junge Ruten je Meter anbinden."], 13, INK)
+    b += lines(440, 432, ["Im Spätwinter: alle Ruten bodennah abmähen –", "im Sommer wachsen neue, die ab August tragen."], 13, INK)
+    return svg(w, h, b, "Himbeeren schneiden")
+
+
+def kuerbis_bestaeuben():
+    w, h = 820, 420
+    b = heading(w, "Kürbis von Hand bestäuben", "Für sortenreines Saatgut – alle Zucchini und Gartenkürbisse kreuzen sich")
+    def bluete(cx, cy, weiblich):
+        out = ""
+        stiel_y = cy + 70
+        out += line(cx, cy + 20, cx, stiel_y + 50, BLATT, 5)
+        if weiblich:
+            out += f'<ellipse cx="{cx}" cy="{cy + 38}" rx="14" ry="20" fill="#8fbf4a" stroke="{INK}" stroke-width="1"/>\n'
+        for ang in (-40, -15, 15, 40):
+            out += (f'<ellipse cx="{cx}" cy="{cy - 20}" rx="14" ry="36" fill="#f2b705" stroke="#c98f00" '
+                    f'stroke-width="1" transform="rotate({ang} {cx} {cy + 10})"/>\n')
+        out += text(cx, cy + 150, "weibliche Blüte" if weiblich else "männliche Blüte", 14, INK, "middle", "bold")
+        out += text(cx, cy + 170, "mit kleinem Fruchtknoten" if weiblich else "langer Stiel, kein Fruchtknoten", 12, MUTED, "middle")
+        return out
+    b += bluete(130, 210, False)
+    b += bluete(330, 210, True)
+    b += f'<path d="M150,160 C200,110 270,110 310,150" stroke="{INK}" stroke-width="2" fill="none" marker-end="url(#pfeil)"/>\n'
+    b = ARROW_DEF + b
+    b += text(230, 112, "Pollen übertragen", 12, MUTED, "middle")
+    b += schritte(450, 120, [
+        ["Am Vorabend eine männliche und eine", "weibliche Blüte derselben Sorte suchen,", "die am nächsten Morgen aufgehen."],
+        ["Beide mit Klebeband oder Gummiring", "verschließen."],
+        ["Morgens die männliche Blüte pflücken,", "Blütenblätter abzupfen, Pollen auf die", "Narbe der weiblichen Blüte tupfen."],
+        ["Weibliche Blüte wieder verschließen,", "Stiel mit einem Band markieren."],
+    ], 13)
+    return svg(w, h, b, "Kürbis von Hand bestäuben")
+
+
+def spatenprobe():
+    w, h = 820, 470
+    b = heading(w, "Die Spatenprobe", "Ein spatentiefer Erdblock zeigt, wie es dem Boden geht")
+    def block(x, gut):
+        out = ""
+        by, bh, bw = 110, 260, 240
+        if gut:
+            out += rect(x, by, bw, bh, "#4a3a2c", INK, 1.2, rx=4)
+            out += rect(x, by + 180, bw, 80, "#6e4f35", "none")
+            import random
+            rnd = random.Random(3)
+            for _ in range(60):
+                cx, cy = x + rnd.randint(8, bw - 8), by + rnd.randint(8, bh - 8)
+                out += f'<circle cx="{cx}" cy="{cy}" r="{rnd.randint(3, 6)}" fill="#5c4836"/>\n'
+            for rx in (x + 50, x + 110, x + 180):
+                out += f'<path d="M{rx},{by} q-10,80 5,160 q8,40 -4,90" stroke="#d9c7a0" stroke-width="2" fill="none"/>\n'
+            for wx, wy in [(x + 80, by + 120), (x + 160, by + 200), (x + 40, by + 220)]:
+                out += f'<path d="M{wx},{wy} q10,-8 20,0 q10,8 20,0" stroke="#c98a8a" stroke-width="5" fill="none" stroke-linecap="round"/>\n'
+            titel, farbe = "gut: krümelig und belebt", KOHL
+            punkte = ["dunkel, riecht nach Waldboden", "runde Krümel, zerfällt leicht", "Wurzeln wachsen senkrecht", "viele Regenwürmer und Gänge"]
+        else:
+            out += rect(x, by, bw, bh, "#6b5a48", INK, 1.2, rx=4)
+            for i, yy in enumerate(range(by + 60, by + bh, 28)):
+                out += line(x + 4, yy, x + bw - 4, yy, "#3f352b", 2)
+            out += rect(x, by + 150, bw, 110, "#8a8f94", "none", extra='fill-opacity="0.55"')
+            for fx, fy in [(x + 40, by + 190), (x + 150, by + 220), (x + 200, by + 175)]:
+                out += f'<circle cx="{fx}" cy="{fy}" r="7" fill="#b5652e" fill-opacity="0.8"/>\n'
+            out += f'<path d="M{x + 110},{by} v140 q0,10 60,12" stroke="#d9c7a0" stroke-width="2" fill="none"/>\n'
+            titel, farbe = "Warnsignal: verdichtet", CUT
+            punkte = ["grau oder rostfleckig", "waagerechte Platten, harte Schicht", "Wurzeln knicken waagerecht ab", "kaum Regenwürmer"]
+        out += text(x + bw / 2, by - 12, titel, 15, farbe, "middle", "bold")
+        out += lines(x, by + bh + 30, ["• " + p for p in punkte], 13, INK)
+        return out
+    b += block(80, True)
+    b += block(480, False)
+    return svg(w, h + 20, b, "Die Spatenprobe")
+
+
 def main():
     OUT.mkdir(exist_ok=True)
     save("02-zonen.svg", zonen())
@@ -462,6 +770,13 @@ def main():
     save("09-hochbeet-viertel.svg", hochbeet_viertel())
     save("10-drei-kammer-kompost.svg", kompost())
     save("12-anbaukalender.svg", kalender())
+    save("03-spatenprobe.svg", spatenprobe())
+    save("06-tomate-ausgeizen.svg", tomate_ausgeizen())
+    save("07-obstbaum-pflanzen.svg", obstbaum_pflanzen())
+    save("07-pflanzschnitt.svg", pflanzschnitt())
+    save("07-johannisbeere-schnitt.svg", johannisbeere())
+    save("07-himbeeren-schnitt.svg", himbeeren())
+    save("14-kuerbis-handbestaeubung.svg", kuerbis_bestaeuben())
 
 
 if __name__ == "__main__":

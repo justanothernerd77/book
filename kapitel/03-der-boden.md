@@ -93,6 +93,10 @@ ist:
 | Regenwürmer | mehrere pro Spatenstich, viele Gänge | keine oder kaum Würmer |
 | Pflanzenreste | zu Humus umgebaut | unverrottete Reste vom Vorjahr (Luftmangel) |
 
+![Zwei Erdblöcke im Vergleich: links krümelig mit Regenwürmern, rechts verdichtet und grau](../abbildungen/03-spatenprobe.svg)
+
+*Abbildung 3.1: Die Spatenprobe – gesunder und verdichteter Boden im Vergleich.*
+
 **Zehn Regenwürmer pro Spatenstich** sind ein gutes Zeugnis. Findet sich
 in 20–30 cm Tiefe eine harte, waagerechte Schicht (eine „Pflugsohle" oder
 Bauverdichtung), muss sie einmalig aufgebrochen werden – mehr dazu unter

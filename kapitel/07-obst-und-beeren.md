@@ -69,6 +69,10 @@ Rote und weiße Sorten tragen am zwei- bis dreijährigen Holz, schwarze am
 einjährigen – schwarze deshalb stärker verjüngen. Schneiden können Sie
 direkt nach der Ernte oder im Spätwinter.
 
+![Johannisbeerstrauch mit jungen, mittelalten und alten Trieben; die ältesten sind zum Schnitt markiert](../abbildungen/07-johannisbeere-schnitt.svg)
+
+*Abbildung 7.3: Johannisbeere schneiden – die ältesten Triebe bodennah entfernen.*
+
 **Als Stämmchen** gezogen, brauchen Johannisbeeren weniger Platz und
 lassen sich im Stehen ernten – dafür sind sie kurzlebiger.
 
@@ -104,6 +108,10 @@ Spalier aus zwei Drähten (60 und 150 cm hoch) hält die Ruten aufrecht.
 - **Herbstsorten** tragen am diesjährigen Holz. Sie werden im Spätwinter
   **komplett bodennah abgemäht** – einfacher zu pflegen, fast ohne
   Rutenkrankheiten und ohne Himbeerkäfer, Ernte von August bis zum Frost.
+
+![Sommerhimbeeren mit abgetragenen und jungen Ruten, Herbsthimbeeren komplett bodennah geschnitten](../abbildungen/07-himbeeren-schnitt.svg)
+
+*Abbildung 7.4: Schnitt von Sommer- und Herbsthimbeeren.*
 
 **Für Einsteiger: Herbsthimbeeren.** Wer beide pflanzt, erntet von Juni
 bis Oktober.
@@ -269,6 +277,10 @@ Herbst.
 9. **Pflanzschnitt:** Mitteltrieb und drei, vier Leitäste auswählen,
    Konkurrenztriebe entfernen, die Leitäste um etwa ein Drittel einkürzen.
 
+![Querschnitt einer Obstbaumpflanzung mit Pfahl, Veredlungsstelle, Baumscheibe und Wühlmauskorb](../abbildungen/07-obstbaum-pflanzen.svg)
+
+*Abbildung 7.1: Obstbaum pflanzen.*
+
 Im ersten Sommer regelmäßig und durchdringend wässern – **die meisten
 jungen Bäume sterben am Durst, nicht am Frost.**
 
@@ -292,6 +304,10 @@ Baum in Balance von Wachstum und Fruchtbarkeit halten. Die Kurzfassung:
 - **Starker Rückschnitt, starker Austrieb:** Wer im Winter viel
   schneidet, erntet im Sommer viele Wasserschosse. Ein wüchsiger Baum wird
   deshalb eher im Sommer geschnitten.
+
+![Apfelbaum vor und nach dem Pflanzschnitt mit markierten Schnittstellen](../abbildungen/07-pflanzschnitt.svg)
+
+*Abbildung 7.2: Pflanzschnitt beim Apfel – Leitäste einkürzen, Konkurrenztrieb entfernen.*
 
 **Wann wird was geschnitten?**
 

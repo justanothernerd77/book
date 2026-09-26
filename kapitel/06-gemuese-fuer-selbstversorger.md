@@ -131,6 +131,10 @@ direkt an den Fuß, nie über das Laub, und gleichmäßig – nach
 Trockenphasen platzen die Früchte. Ab Ende August die Triebspitzen
 kappen, damit die vorhandenen Früchte noch ausreifen.
 
+![Tomatenpflanze am Stab mit markiertem Geiztrieb in der Blattachsel](../abbildungen/06-tomate-ausgeizen.svg)
+
+*Abbildung 6.1: Tomate ausgeizen – Seitentriebe in den Blattachseln jung entfernen.*
+
 **Ernte.** Voll ausgefärbt und leicht nachgebend pflücken. Vor dem ersten
 Frost die grünen Früchte abnehmen und im Haus bei Zimmertemperatur
 nachreifen lassen.
