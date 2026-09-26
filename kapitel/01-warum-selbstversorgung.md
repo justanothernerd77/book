@@ -124,13 +124,11 @@ Ernte:
 - **Balkon und Terrasse:** Tomaten, Chili, Kräuter, Salate, Erdbeeren,
   Säulenobst und Kartoffeln im Kübel. Selten Selbstversorgung, aber
   erstaunlich viel Frisches.
-- **Kleingarten:** Nach dem Bundeskleingartengesetz dient ein Kleingarten
-  der „nichterwerbsmäßigen gärtnerischen Nutzung, insbesondere zur
-  Gewinnung von Gartenbauerzeugnissen für den Eigenbedarf". Der
-  Bundesgerichtshof sieht das in der Regel als erfüllt an, wenn mindestens
-  ein Drittel der Fläche dem Anbau von Obst, Gemüse und anderen
-  Gartenerzeugnissen dient; die meisten Vereine schreiben diese
-  Drittelregel in ihrer Gartenordnung für jede Parzelle vor. Für Selbstversorger ist das keine Einschränkung, sondern eine
+- **Kleingarten:** Kleingärten sind in Deutschland – wie sollte es anders
+  sein – gründlich geregelt. Gartenordnung und Pachtvertrag verlangen
+  meist, dass ein ordentlicher Teil der Parzelle für Obst und Gemüse
+  genutzt wird; was genau gilt, steht in den Unterlagen Ihres Vereins.
+  Für Selbstversorger ist das keine Einschränkung, sondern eine
   Einladung – und die Vereine bieten Erfahrung, Tauschbörsen und oft einen
   gemeinsamen Häcksler.
 - **Grabeland und Pachtflächen:** Viele Gemeinden, Kirchengemeinden und

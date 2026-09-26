@@ -155,11 +155,11 @@ Wirksam ist nur die **Kombination**:
 6. **Schneckeneier** beim Hacken aufspüren (weiße Perlen in kleinen
    Nestern im Boden) und der Sonne aussetzen.
 7. **Laufenten** in größeren Gärten – mit Stall, Wasser und Zaun.
-8. Im Notfall ein für Haus- und Kleingarten zugelassenes Schneckenkorn
-   mit **Eisen-III-Phosphat**, sparsam gestreut, nicht als Ring. Es ist
-   für Igel und Haustiere weit weniger gefährlich als das früher übliche
-   Metaldehyd, das für den Hausgarten nicht mehr zugelassen ist – lagern
-   Sie es trotzdem unerreichbar für Hunde.
+8. Im Notfall ein handelsübliches Schneckenkorn mit
+   **Eisen-III-Phosphat**, sparsam gestreut, nicht als Ring. Es ist für
+   Igel und Haustiere weit weniger gefährlich als das früher übliche
+   Metaldehyd, das heute aus gutem Grund aus den Gartenregalen
+   verschwunden ist – lagern Sie es trotzdem unerreichbar für Hunde.
 
 **Bierfallen** locken Schnecken aus der ganzen Nachbarschaft an und
 fangen nur einen Teil davon: weglassen. Kaffeesatz, Sand und
@@ -170,8 +170,8 @@ Eierschalen als Barriere wirken, wenn überhaupt, nur bei Trockenheit.
 Erst abstreifen oder mit scharfem Wasserstrahl abspritzen, befallene
 Triebspitzen ausknipsen, Ameisenstraßen unterbrechen – Ameisen „melken"
 die Läuse und verteidigen sie gegen Nützlinge. Stickstoffdüngung
-zurückfahren. Eine **Kaliseifen-Lösung** (handelsübliches, für Haus- und
-Kleingarten zugelassenes Präparat nach Packungsangabe) nur bei starkem
+zurückfahren. Eine **Kaliseifen-Lösung** (handelsübliches Präparat nach
+Packungsangabe) nur bei starkem
 Befall gezielt auf die Kolonien – nicht auf die ganze Pflanze. Nach
 ein, zwei Wochen übernehmen meist die Nützlinge.
 
@@ -179,8 +179,8 @@ ein, zwei Wochen übernehmen meist die Nützlinge.
 
 Das Netz von der Pflanzung an ist die Lösung. Ohne Netz: Blattunterseiten
 wöchentlich auf gelbe Eigelege (Kohlweißling) kontrollieren und
-zerdrücken, Raupen absammeln. Bei starkem Befall hilft ein für den
-Hausgarten zugelassenes Präparat mit *Bacillus thuringiensis* (Unterart
+zerdrücken, Raupen absammeln. Bei starkem Befall hilft ein
+handelsübliches Präparat mit *Bacillus thuringiensis* (Unterart
 *kurstaki* oder *aizawai*), das nur Schmetterlingsraupen trifft und am
 besten gegen junge Raupen wirkt – allerdings auch gegen die
 Raupen von Schmetterlingen, die Sie nicht bekämpfen wollen; deshalb
@@ -223,8 +223,8 @@ Wurzelsperren aus Draht um Tulpen und Obstbäume. Wühlmausgänge sind
 hochoval und liegen flach unter der Oberfläche; ihre Hügel sind flach und
 enthalten Wurzelreste.
 
-Der **Maulwurf** ist dagegen besonders geschützt – Sie dürfen ihn weder
-fangen noch töten – und nützlich: Er frisst vor allem Regenwürmer, dazu
+Der **Maulwurf** steht dagegen unter Naturschutz – und ist ohnehin
+nützlich: Er frisst vor allem Regenwürmer, dazu
 Insektenlarven und Schnecken, aber keine Pflanzen. Seine Hügel sind hoch
 und kegelförmig, die Gänge queroval.
 
@@ -236,8 +236,8 @@ ersten Jahr nach dem Umbruch deshalb weniger Kartoffeln und Möhren
 anbauen. Als Falle halbierte Kartoffeln 5 cm tief eingraben, nach einer
 Woche mit den Drahtwürmern entfernen. Engerlinge (Larven von Mai- und
 Junikäfern) beim Umgraben absammeln – die großen, weißen Larven des
-Rosenkäfers dagegen leben von Kompost, sind nützlich und – wie der Käfer
-selbst – besonders geschützt (erkennbar an den kurzen Beinen und dem
+Rosenkäfers dagegen leben von Kompost, sind nützlich und stehen wie der
+Käfer selbst unter Naturschutz (erkennbar an den kurzen Beinen und dem
 Kriechen auf dem Rücken): Setzen Sie sie zurück in den Kompost.
 
 ### Vögel
@@ -257,10 +257,8 @@ ab Juli: vor allem an Gurken, Zucchini, Kürbis, Erbsen, Stachelbeeren,
 zu dicht pflanzen, gleichmäßig wässern. Eine vorbeugende Spritzung mit
 verdünnter **Kuhmilch** – begonnen, bevor sich der erste Belag zeigt,
 dann wöchentlich – hält ihn bei Gurken und Zucchini oft in Schach.
-Kuhmilch ist in der EU als Grundstoff genehmigt; halten Sie sich an die
-in der Genehmigung festgelegte Verdünnung und Anwendungszahl
-(Grundstoff-Datenbank, siehe unten). Häufig empfohlen wird 1 Teil Milch
-auf 8 Teile Wasser; in Versuchen wirkten stärkere Mischungen besser. Bei
+Häufig empfohlen wird 1 Teil Milch auf 8 Teile Wasser; in Versuchen
+wirkten stärkere Mischungen besser. Bei
 Kürbisgewächsen im Spätsommer gelassen bleiben – die Saison geht ohnehin
 zu Ende.
 
@@ -339,34 +337,25 @@ in die Nähe. Ältere Birnbäume verkraften mäßigen Befall meist gut.
 
 Pflanzenstärkungsmittel sind keine Medikamente – sie wirken vorbeugend
 und regelmäßig angewendet, nicht als Feuerwehr. Die folgenden Mittel
-lassen sich selbst herstellen (Rezepte in Kapitel 10). Ackerschachtelhalm,
-Brennnessel und Kuhmilch dürfen Sie gegen Schädlinge und Krankheiten nur
-deshalb einsetzen, weil sie als EU-Grundstoffe genehmigt sind – beachten
-Sie den rechtlichen Hinweis unten.
+lassen sich selbst herstellen (Rezepte in Kapitel 10).
 
 | Mittel | Wirkt | Anwendung |
 |--------|-------|-----------|
 | Ackerschachtelhalmbrühe | Kieselsäure festigt die Blattoberfläche gegen Pilze | 1:10 verdünnt, ab Mai alle 1–2 Wochen morgens auf die Blätter und den Boden spritzen |
 | Brennnessel-Kaltwasserauszug | stärkt, wirkt leicht gegen Blattläuse | unverdünnt spritzen, frisch verwenden |
 | Komposttee | belebt Boden und Blattoberfläche mit Mikroorganismen | reifen Kompost 1:10 in Wasser einweichen, einen Tag ziehen lassen, gießen |
-| Milch-Wasser-Gemisch | gegen Echten Mehltau | vorbeugend wöchentlich, Verdünnung nach Grundstoff-Genehmigung |
+| Milch-Wasser-Gemisch | gegen Echten Mehltau | etwa 1:8, vorbeugend wöchentlich |
 | Beinwelljauche | Kaliumversorgung festigt das Gewebe | 1:10 verdünnt gießen |
 
-**Rechtlicher Hinweis:** Im Haus- und Kleingarten dürfen Sie nur
-Pflanzenschutzmittel einsetzen, die ausdrücklich für diesen Bereich
-zugelassen sind – das steht auf der Packung. Selbst gemischte Mittel
-gegen Schädlinge oder Krankheiten sind nach dem Pflanzenschutzgesetz
-grundsätzlich verboten; Verstöße können mit hohen Bußgeldern geahndet
-werden. Ausgenommen sind die von der EU genehmigten **Grundstoffe** –
-etwa Kuhmilch, Ackerschachtelhalm oder Brennnessel –, aber nur für die
-Kulturen, Schaderreger und Konzentrationen, die in ihrer Genehmigung
-festgelegt sind (eine Übersicht bietet die Grundstoff-Datenbank des
-Pflanzenschutzamts Berlin). Spülmittel- oder Salzlösungen gehören nicht
-dazu – sie schaden Blättern, Boden und Nützlingen ohnehin mehr als den
-Schädlingen. Auf Wegen, Terrassen und Einfahrten ist jede
-Unkrautbekämpfung mit Mitteln tabu. Kompost, Jauchen zur Düngung und
-Pflanzenstärkungsmittel fallen nicht unter diese Regeln, solange Sie sie
-nicht gegen Schädlinge oder Krankheiten einsetzen.
+**Ein Wort zu Paragrafen:** Auch der Pflanzenschutz im Hausgarten ist
+hierzulande – natürlich – durch EU und Bund bis ins Detail geregelt:
+welches Mittel wo, gegen was und in welcher Verdünnung verwendet werden
+darf, bis hin zum selbst angesetzten Hausmittel. Wie genau Sie es damit
+halten, liegt in Ihrer Verantwortung (siehe Vorwort); wer ganz sicher
+gehen will, lässt sich beraten – im Zweifel anwaltlich. Unabhängig von
+allen Paragrafen gilt: Spülmittel-, Salz- oder Essiglösungen gehören
+nicht auf Beete und Wege – sie schaden Blättern, Boden und Nützlingen
+mehr als den Schädlingen.
 
 ## Die Eingriffsleiter
 
@@ -380,9 +369,8 @@ nach oben – und nur so weit wie nötig:
 3. **Bedingungen ändern.** Anders gießen, luftiger stellen, weniger
    Stickstoff, Nützlinge fördern.
 4. **Stärken.** Schachtelhalm, Milch, Kaliumversorgung.
-5. **Gezielt behandeln.** Nur mit einem für Haus- und Kleingarten
-   zugelassenen, möglichst nützlingsschonenden Mittel, punktuell statt
-   flächig.
+5. **Gezielt behandeln.** Mit einem handelsüblichen Mittel für den
+   Hausgarten, möglichst nützlingsschonend, punktuell statt flächig.
 
 Die meisten Probleme sind auf Stufe 2 oder 3 gelöst. Stufe 5 ist im
 Selbstversorger-Garten die Ausnahme – und wenn sie nötig wird, ist sie ein
@@ -424,6 +412,6 @@ lassen sich durch Planung beheben, nicht durch Spritzen.
   Jungpflanzen, morgens gießen; notfalls Eisen-III-Phosphat.
 - Pilzkrankheiten: trocken halten, luftig pflanzen, Befallenes sofort
   entfernen – Braunfäule-Laub und Kohlhernie-Pflanzen in den Restmüll.
-- Nur für Haus und Kleingarten zugelassene Mittel verwenden, keine
+- Handelsübliche Mittel für den Hausgarten nur als letzte Stufe; keine
   Spülmittel- oder Essig-Experimente.
 - Verluste einplanen statt Perfektion anstreben; Beobachtungen notieren.
