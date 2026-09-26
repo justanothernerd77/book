@@ -1,7 +1,7 @@
 # Vorwort
 
 Mein erster Selbstversorger-Sommer begann mit einem Salatkopf und endete mit
-einer Lektion in Demut. Der Salat – ein ‚Maiwunder', gezogen auf der
+einer Lektion in Demut. Der Salat – ein ‚Maikönig', gezogen auf der
 Fensterbank, gepflanzt in ein frisch umgegrabenes Beet – wurde tatsächlich
 etwas. Ich habe ihn an einem Juniabend geerntet, gewaschen, angerichtet und
 gegessen, und ich erinnere mich bis heute an den Gedanken: *Das habe ich

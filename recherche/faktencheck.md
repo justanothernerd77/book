@@ -1,7 +1,8 @@
 # Faktencheck (Stand: September 2026)
 
-Die ausgebauten Kapitel 3–13 wurden von vier Recherche-Durchgängen gegen
-Fachquellen geprüft; alle unten genannten Korrekturen sind eingearbeitet.
+Alle Kapitel (Vorwort und Kapitel 1–15) wurden in sechs
+Recherche-Durchgängen gegen Fachquellen geprüft; alle unten genannten
+Korrekturen sind eingearbeitet.
 
 **Einschränkung:** Die Prüfung stützte sich auf Suchergebnisse
 (Titel und Textauszüge) der genannten Quellen. Die Seiten selbst konnten
@@ -17,6 +18,8 @@ offenen Punkte in den Originalquellen gegengelesen werden.
 | Pflanzenschutz, Recht | 11 | BVL, LTZ Augustenberg, LKSH, Pflanzenschutzdienst Gießen, oekolandbau.de |
 | Aussaat, Anbau, Fruchtfolge, Phänologie | 5, 6, 8, 9, 12 | DWD, LWG, BLE, Bingenheimer Saatgut, Julius Kühn-Institut, oekolandbau.de |
 | Obst und Beeren | 7, 11, 12 | LWG, Landwirtschaftskammern, Natur im Garten, oekolandbau.de, NABU |
+| Saatgut, Tierhaltung, Ausblick | 14, 15 | Saatgutverkehrs- und Sortenschutzgesetz, Arche Noah, Veterinärämter, Tierseuchenkassen, DWD |
+| Planung, Recht, Einleitung | Vorwort, 1, 2 | Bundeskleingartengesetz und BGH, Nachbarrechtsgesetze der Länder, Wasserhaushaltsgesetz, Solawi-Netzwerk, LWG, BLE |
 
 ## Wichtigste Korrekturen
 
@@ -38,6 +41,13 @@ offenen Punkte in den Originalquellen gegengelesen werden.
   Alternanz; Erdbeer-Standzeit 2–3 Jahre; Topaz-Schorfresistenz
   vielerorts durchbrochen; Netz 0,8 mm gegen Lauchminierfliege;
   Holzasche nicht in den Kompost.
+- **Kapitel 1, 2, 14, 15:** Grenzabstände je Bundesland präzisiert
+  (einige Länder ohne gesetzliche Abstände), Brunnenbohrung
+  anzeigepflichtig, Kleingarten-Drittelregel nach BGH, Solawi-Prinzip,
+  Regenwasser-Ertrag realistisch (80–90 %), Frostlagen, Startgröße
+  15–20 m²; Saatgutverkauf und Sortenschutz, Hühner: Anmeldung ab dem
+  ersten Tier, ND-Impfung durch Tierarzt, Verfütterungsverbot für
+  Küchen- und Speiseabfälle; Samenträger-Zahlen eingeordnet.
 
 ## Offene Punkte vor dem Druck
 
@@ -53,4 +63,6 @@ offenen Punkte in den Originalquellen gegengelesen werden.
       Obstbauquelle abgleichen.
 - [ ] Zeigerpflanzen-Tabelle (Kapitel 3) mit einer Fachquelle prüfen –
       bisher nur Ratgeberseiten gefunden.
-- [ ] Kapitel 1, 2, 14, 15 und Vorwort sind noch nicht geprüft.
+- [ ] Stand des EU-Saatgutrechts vor Drucklegung prüfen (Kapitel 14).
+- [ ] Nachbarrechtliche Grenzabstände (Kapitel 2) mit den aktuellen
+      Landesgesetzen abgleichen.

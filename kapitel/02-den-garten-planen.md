@@ -36,10 +36,11 @@ nach Regen Wasser? Kapitel 3 zeigt, wie Sie Ihren Boden genau bestimmen –
 für die Planung reicht: Die beste Fläche bekommt das Gemüse.
 
 Ein oft übersehener Punkt: **Frostlagen.** Kaltluft fließt hangabwärts und
-sammelt sich in Senken und vor dichten Hecken oder Mauern am Hangfuß. Dort
-erwischt Spätfrost die Obstblüte und die frisch gepflanzten Tomaten
-zuerst. Empfindliche Kulturen gehören in die höheren, geschützten Bereiche
-des Gartens.
+sammelt sich in Senken sowie oberhalb dichter Hecken, Mauern oder Zäune,
+die sie aufstauen. Dort erwischt Spätfrost die Obstblüte und die frisch
+gepflanzten Tomaten zuerst. Empfindliche Kulturen gehören an den Mittelhang
+oder auf erhöhte, windgeschützte Stellen, nicht in Mulden. Eine lückige
+Hecke am unteren Gartenrand lässt Kaltluft abfließen.
 
 **Kleinklima nutzen.** Jeder Garten hat warme und kühle Ecken. Eine
 Südwand speichert tagsüber Wärme und gibt sie nachts ab – der beste Platz
@@ -65,17 +66,24 @@ Gemüse, für Obst, für Kompost und für die Wildecke eignet.
 Ein paar Fragen sollten Sie klären, bevor Sie Bäume pflanzen oder Beete
 anlegen:
 
-- **Grenzabstände:** Für Bäume, Sträucher und Hecken gelten in
-  Deutschland Grenzabstände nach dem Nachbarrecht des jeweiligen
-  Bundeslandes. Sie reichen je nach Bundesland und Wuchshöhe von etwa
-  einem halben Meter für niedrige Hecken bis zu mehreren Metern für große
-  Bäume. Informieren Sie sich vor dem Pflanzen beim Nachbarrechtsgesetz
-  Ihres Landes oder bei der Gemeinde.
+- **Grenzabstände:** Für Bäume, Sträucher und Hecken gelten in den
+  meisten Bundesländern gesetzliche Grenzabstände – im
+  Nachbarrechtsgesetz des Landes, in Bayern im Ausführungsgesetz zum BGB.
+  Je nach Land und Wuchshöhe reichen sie von 0,25–0,5 m für niedrige
+  Hecken bis zu mehreren Metern für große Bäume, in Baden-Württemberg bis
+  zu 8 m. Einige Länder (etwa Hamburg, Bremen und
+  Mecklenburg-Vorpommern) kennen keine gesetzlichen Grenzabstände für
+  Pflanzen; halten Sie dort vorsorglich mindestens 0,5 m ein, bei höheren
+  Gehölzen mehr. Auskunft geben das Landesjustizministerium, Haus & Grund
+  oder eine Schiedsperson.
 - **Miete und Pacht:** Im Mietgarten oder Kleingarten regeln Mietvertrag,
   Pachtvertrag und Gartenordnung, was erlaubt ist – Bäume, Gewächshaus,
   Hühner, Kompost. Vorher fragen erspart Ärger.
-- **Wasser:** Regenwasser sammeln ist erlaubt; Brunnen brauchen oft eine
-  Anzeige oder Genehmigung bei der Wasserbehörde.
+- **Wasser:** Regenwasser sammeln ist erlaubt. Einen Gartenbrunnen müssen
+  Sie dagegen vor dem Bohren bei der Unteren Wasserbehörde anzeigen, in
+  der Regel einen Monat vorher. Die Entnahme zum Gießen des eigenen
+  Gartens ist meist erlaubnisfrei; in Wasserschutzgebieten und nach
+  Landesrecht kann mehr verlangt oder das Bohren untersagt sein.
 - **Nachbarn:** Ein kurzer Besuch vor dem Bau eines Komposts an der Grenze
   oder eines hohen Bohnenzelts wirkt Wunder – und bringt oft Laub,
   Pferdemist oder Ableger ein.
@@ -85,11 +93,15 @@ anlegen:
 Als Planungsgrundlage für die Gemüseversorgung haben sich bewährt
 (Beetfläche ohne Wege):
 
-| Ziel | Beetfläche pro Person |
-|------|----------------------|
-| Frisches Gemüse in der Saison (Ergänzungsgarten) | 25–50 m² |
-| Saison plus Einlagern und Einkochen (Teilselbstversorgung) | 50–100 m² |
-| Weitgehende Gemüse-Selbstversorgung inkl. Kartoffeln | 100–150 m² |
+| Ziel | Beetfläche |
+|------|-----------|
+| Frisches Gemüse in der Saison (Ergänzungsgarten) | 20–50 m² für den Haushalt |
+| Saison plus Einlagern und Einkochen (Teilselbstversorgung) | 50–100 m² pro Person |
+| Weitgehende Gemüse-Selbstversorgung inkl. Kartoffeln | 100–150 m² pro Person |
+
+Andere Quellen nennen teils kleinere Werte, etwa rund 40 m² pro Person
+für die reine Gemüseversorgung ohne Kartoffeln. Die Werte hier sind
+großzügiger, weil sie Lagergemüse, Nachkulturen und Ausfälle einrechnen.
 
 Rechnen Sie für Wege, Kompost und Randflächen etwa ein Drittel dazu.
 
@@ -107,7 +119,8 @@ mit vier Beeten à 1,2 × 3 m (Kapitel 4); jedes Jahr kommen zwei bis vier
 Beete hinzu.
 
 Wichtig: Diese Zahlen beschreiben das Ziel, nicht den Anfang. **Starten
-Sie mit 20–40 m² Beetfläche** und erweitern Sie jährlich.
+Sie mit etwa 15–20 m² Beetfläche** – vier Beeten à 1,2 × 3 m (Kapitel 4) –
+und erweitern Sie jährlich.
 
 ## Den Garten zonieren
 
@@ -136,7 +149,7 @@ ab.
 | **Obst** | Spalierapfel an der Wand, 2 Johannisbeeren, Erdbeeren | 3 Spindeln, Beerenecke, Erdbeeren | 2 Halbstämme, Spindeln, Beerenhecke, Wildobst |
 | **Kräuter** | Kübel auf der Terrasse | Küchenbeet an der Tür | Küchenbeet + Kräuterspirale |
 | **Infrastruktur** | Regentonne, Thermokomposter | 2 Regentonnen, Dreikammerkompost, Frühbeet | Zisterne, Kompostplatz, Gewächshaus, Lager |
-| **Stufe (Kapitel 1)** | Ergänzungsgarten | Ergänzungsgarten für 2 Personen, Teilselbstversorgung für eine | Teilselbstversorgung für 2–4 Personen |
+| **Stufe (Kapitel 1)** | Ergänzungsgarten | Ergänzungsgarten für 2 Personen, Teilselbstversorgung für eine | Teilselbstversorgung für 2–3 Personen |
 
 Auch im großen Garten gilt: nicht alles im ersten Jahr. Obstbäume und
 Beeren gehören früh in die Erde, die Gemüsefläche wächst mit der
@@ -163,11 +176,13 @@ Regen, bei Hitze, in Hochbeeten und für Fruchtgemüse mehr, für gemulchte
 Beete weniger. Ein 50-m²-Gemüsegarten verbraucht in einer trockenen Woche
 also 500–1.000 Liter.
 
-**Regenwasser** von Dachflächen zu sammeln ist Pflicht: kostenlos, weich
-und im Sommer Gold wert. So rechnen Sie das Potenzial: **1 mm Regen auf
-1 m² Dachfläche ergibt 1 Liter.** Ein Gartenhaus mit 10 m² Dach liefert
-bei einem Sommerregen von 15 mm also 150 Liter, ein Hausdach mit 100 m²
-Grundfläche 1.500 Liter.
+**Regenwasser** von Dachflächen zu sammeln, ist für Selbstversorger ein
+Muss: kostenlos, weich
+und im Sommer Gold wert. So rechnen Sie das Potenzial: **1 mm Regen auf 1 m² Dachgrundfläche ergibt rechnerisch 1 Liter.** In
+der Tonne landen davon durch Verdunstung, Spritzwasser und Filter etwa 80
+bis 90 Prozent. Ein Gartenhaus mit 10 m² Dach liefert bei einem
+Sommerregen von 15 mm also rund 120–135 Liter, ein Hausdach mit 100 m²
+Grundfläche 1.200–1.350 Liter.
 
 | Speicher | Volumen | Hinweis |
 |----------|---------|---------|
@@ -290,11 +305,11 @@ Pflanzenfamilie zu früh an ihren alten Platz zurückkehrt.
 - Sonnigste Fläche fürs Fruchtgemüse, Wassernähe für die Pflegebeete,
   Senken meiden, Südwände nutzen.
 - Grenzabstände und Verträge klären, bevor Bäume gepflanzt werden.
-- Mit 20–40 m² starten, jährlich erweitern; Zielgröße für
+- Mit etwa 15–20 m² (vier Beeten) starten, jährlich erweitern; Zielgröße für
   Teilselbstversorgung: 50–100 m² Beet pro Person plus Obst.
 - Zonieren nach Pflegeintensität: Täglich Gebrauchtes an die Küche.
 - Beete maximal 120 cm breit, Hauptwege schubkarrentauglich, Beete nie
   betreten.
 - Regenwasser sammeln – mindestens 1.000 Liter; 1 mm Regen je m² Dach
-  ergibt 1 Liter.
+  ergibt rechnerisch 1 Liter, davon landen gut 80 % in der Tonne.
 - Wenig, aber gutes Werkzeug; Gartentagebuch von Tag eins an führen.

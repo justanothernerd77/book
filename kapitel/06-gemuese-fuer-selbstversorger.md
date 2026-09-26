@@ -690,10 +690,11 @@ Fleischtomaten im offenen Beet.
 ## Was pro Person rechnen?
 
 Faustzahlen für Teilselbstversorgung (Saison plus etwas Vorrat). Pro
-Person ergibt die Summe grob 50–100 m² Beetfläche ohne Wege, je nachdem,
-wie viele Kartoffeln angebaut werden – für eine vierköpfige Familie also
-200–400 m². Das entspricht der Teilselbstversorgung aus Kapitel 1 und 2;
-ohne Kartoffeln und Lagerkohl genügt deutlich weniger.
+Person ergibt die Summe grob 50–100 m² Beetfläche ohne Wege. Den größten
+Einzelposten machen die Kartoffeln mit 20–30 m² aus. Wer sie wie in
+Kapitel 1 erst später einplant, kommt mit deutlich weniger aus; mit
+voller Kartoffelversorgung liegen Sie am oberen Rand oder schon im
+Bereich der weitgehenden Selbstversorgung (100–150 m²).
 
 | Kultur | Menge pro Person | Bemerkung |
 |--------|------------------|-----------|

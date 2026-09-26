@@ -359,8 +359,8 @@ auf die abgeernteten Kohlrabi- und Salatflächen im Feld „Kohl & Co.".
 
 Ertrag: eine spürbare Ergänzung für zwei Personen von Mai bis Oktober –
 Salat, Kräuter, Tomaten und Zucchini weitgehend aus dem eigenen Garten,
-dazu ein kleiner Vorrat an Zwiebeln und Möhren. Das ist der
-Ergänzungsgarten aus Kapitel 1.
+dazu ein kleiner Vorrat an Zwiebeln und Möhren. Das ist der Einstieg in
+den Ergänzungsgarten aus Kapitel 1.
 
 ### Groß: acht Beete plus Kartoffelfläche (rund 100 m²)
 

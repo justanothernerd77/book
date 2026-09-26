@@ -86,7 +86,7 @@ Stufen zu unterscheiden:
 | Stufe | Beetfläche | Was auf den Tisch kommt | Zeitaufwand in der Saison |
 |-------|------------|-------------------------|---------------------------|
 | **1 – Ergänzungsgarten** | 20–50 m² insgesamt | Kräuter, Salate, Tomaten, Zucchini, Beeren von Mai bis Oktober | 2–4 Stunden pro Woche |
-| **2 – Teilselbstversorgung** | 50–100 m² pro Person, dazu Obst | Gemüse in der Saison weitgehend, im Winter ein Teil aus Lager und Gläsern | 4–8 Stunden pro Woche, Spitzen im Mai und Spätsommer |
+| **2 – Teilselbstversorgung** | 50–100 m² pro Person, dazu Obst | Gemüse in der Saison weitgehend, im Winter ein Teil aus Lager und Gläsern | 4–8 Stunden pro Woche und Person, Spitzen im Mai und Spätsommer |
 | **3 – Weitgehende Selbstversorgung** | 100–150 m² Gemüse pro Person inkl. Kartoffeln, dazu Obst; mit Kleintieren deutlich mehr | Gemüse, Kartoffeln und Obst fast ganzjährig, eventuell Eier | ein Teilzeitjob, der Planung, Lagerräume und Erfahrung verlangt |
 
 1. **Ergänzungsgarten.** Der Einstieg für fast jeden Garten, auch für
@@ -124,10 +124,13 @@ Ernte:
 - **Balkon und Terrasse:** Tomaten, Chili, Kräuter, Salate, Erdbeeren,
   Säulenobst und Kartoffeln im Kübel. Selten Selbstversorgung, aber
   erstaunlich viel Frisches.
-- **Kleingarten:** Nach dem Bundeskleingartengesetz muss ein Kleingarten
-  „kleingärtnerisch" genutzt werden, also auch zum Anbau von Obst und
-  Gemüse. Die Rechtsprechung verlangt dafür in der Regel etwa ein Drittel
-  der Fläche. Für Selbstversorger ist das keine Einschränkung, sondern eine
+- **Kleingarten:** Nach dem Bundeskleingartengesetz dient ein Kleingarten
+  der „nichterwerbsmäßigen gärtnerischen Nutzung, insbesondere zur
+  Gewinnung von Gartenbauerzeugnissen für den Eigenbedarf". Der
+  Bundesgerichtshof sieht das in der Regel als erfüllt an, wenn mindestens
+  ein Drittel der Fläche dem Anbau von Obst, Gemüse und anderen
+  Gartenerzeugnissen dient; die meisten Vereine schreiben diese
+  Drittelregel in ihrer Gartenordnung für jede Parzelle vor. Für Selbstversorger ist das keine Einschränkung, sondern eine
   Einladung – und die Vereine bieten Erfahrung, Tauschbörsen und oft einen
   gemeinsamen Häcksler.
 - **Grabeland und Pachtflächen:** Viele Gemeinden, Kirchengemeinden und
@@ -135,10 +138,12 @@ Ernte:
   Lagergemüse.
 - **Gemeinschaftsgärten:** Gemeinsam gärtnern, Werkzeug und Wissen teilen –
   der ideale Einstieg für alle, die allein nicht anfangen möchten.
-- **Solidarische Landwirtschaft (Solawi):** Keine eigene Arbeit im Beet,
-  aber eine direkte Beziehung zum Hof, der Sie ganzjährig mit Gemüse
-  versorgt. Eine gute Ergänzung für alles, was im eigenen Garten zu viel
-  Platz braucht.
+- **Solidarische Landwirtschaft (Solawi):** Sie tragen mit einem festen
+  Beitrag die Kosten eines Hofs oder einer Gärtnerei und erhalten dafür
+  meist wöchentlich einen Anteil der Ernte. Gute wie schlechte Jahre
+  teilen Sie mit den anderen Mitgliedern. Mitarbeit auf dem Feld ist oft
+  möglich, manchmal verpflichtend. Eine gute Ergänzung für alles, was im
+  eigenen Garten zu viel Platz braucht.
 
 ## Was Sie mitbringen sollten
 
