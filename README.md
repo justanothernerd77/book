@@ -55,10 +55,10 @@ Die geplante Struktur mit Kurzbeschreibung jedes Kapitels steht in
 ## Status
 
 **Buch:** Erster vollständiger Rohentwurf aller Kapitel. Die Kapitel 5
-(Aussaat und Anzucht), 6 (Gemüse), 9 (Mischkultur und Fruchtfolge), 12
-(Gartenjahr) und 13 (Ernten, Lagern, Haltbarmachen) sind zu vollwertigen
-Buchkapiteln ausgebaut (je ca. 2.400–4.600 Wörter); die übrigen Kapitel
-folgen. Offene Arbeiten:
+(Aussaat und Anzucht), 6 (Gemüse), 9 (Mischkultur und Fruchtfolge), 10
+(Kompost und Düngung), 11 (Pflanzengesundheit), 12 (Gartenjahr) und 13
+(Ernten, Lagern, Haltbarmachen) sind zu vollwertigen Buchkapiteln
+ausgebaut (je ca. 2.400–4.600 Wörter); die übrigen Kapitel folgen. Offene Arbeiten:
 
 - [ ] Übrige Kapitel auf Buchumfang ausbauen
 
