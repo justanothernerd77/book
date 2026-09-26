@@ -106,6 +106,10 @@ Haushalt. Teilen Sie es in zwei Zonen:
 | **Sonnige, magere Hälfte** | Gartenerde mit einem Drittel Sand oder Splitt, kein Kompost | Thymian, Salbei, Oregano, Bohnenkraut, Lavendel; Rosmarin im Topf eingesenkt |
 | **Frische Hälfte** | humose Gartenerde mit Kompost | Schnittlauch, Petersilie, Liebstöckel (am Rand, wird groß), Kerbel, Estragon; Minze im eingegrabenen Topf |
 
+![Plan eines Kräuterbeets mit magerer und frischer Hälfte](../abbildungen/08-kraeuterbeet.svg)
+
+*Abbildung 8.1: Küchen-Kräuterbeet mit magerer und frischer Hälfte.*
+
 Basilikum, Dill und Koriander wandern als Einjährige ins Gemüsebeet oder
 in Töpfe – dort finden sie die Wärme und den frischen Boden, den sie
 brauchen, und passen in die Fruchtfolge (Kapitel 9).

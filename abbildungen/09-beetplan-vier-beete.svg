@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 430" width="820" height="430" font-family="Atkinson Hyperlegible, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-label="Beetplan für vier Beete über vier Jahre">
+<title>Beetplan für vier Beete über vier Jahre</title>
+<rect width="820" height="430" fill="#fbfaf5"/>
+<text x="24" y="38" font-size="22" fill="#2b2b26" text-anchor="start" font-weight="bold" >Beetplan: vier Beete à 1,2 × 3 m</text>
+<text x="24" y="62" font-size="14" fill="#6b6b5e" text-anchor="start" font-weight="normal" >So wandern die Gruppen über vier Jahre</text>
+<text x="195.0" y="96" font-size="15" fill="#2b2b26" text-anchor="middle" font-weight="bold" >Jahr 1</text>
+<text x="365.0" y="96" font-size="15" fill="#2b2b26" text-anchor="middle" font-weight="bold" >Jahr 2</text>
+<text x="535.0" y="96" font-size="15" fill="#2b2b26" text-anchor="middle" font-weight="bold" >Jahr 3</text>
+<text x="705.0" y="96" font-size="15" fill="#2b2b26" text-anchor="middle" font-weight="bold" >Jahr 4</text>
+<text x="90" y="148.0" font-size="15" fill="#2b2b26" text-anchor="end" font-weight="bold" >Beet A</text>
+<rect x="114" y="110" width="162" height="64" rx="6" fill="#6a8f3d" stroke="#2b2b26" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="195.0" y="138.0" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" >Kohl &amp;</text>
+<text x="195.0" y="154.9" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" >Co.</text>
+<rect x="284" y="110" width="162" height="64" rx="6" fill="#c4572f" stroke="#2b2b26" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="365.0" y="138.0" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" >Fruchtgemüse &amp;</text>
+<text x="365.0" y="154.9" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" >Kartoffeln</text>
+<rect x="454" y="110" width="162" height="64" rx="6" fill="#d49a2a" stroke="#2b2b26" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="535.0" y="138.0" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" >Wurzeln &amp;</text>
+<text x="535.0" y="154.9" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" >Zwiebeln</text>
+<rect x="624" y="110" width="162" height="64" rx="6" fill="#5b7fb0" stroke="#2b2b26" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="705.0" y="138.0" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" >Hülsenfrüchte &amp;</text>
+<text x="705.0" y="154.9" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" >Bodenkur</text>
+<text x="90" y="222.0" font-size="15" fill="#2b2b26" text-anchor="end" font-weight="bold" >Beet B</text>
+<rect x="114" y="184" width="162" height="64" rx="6" fill="#c4572f" stroke="#2b2b26" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="195.0" y="212.0" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" >Fruchtgemüse &amp;</text>
+<text x="195.0" y="228.9" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" >Kartoffeln</text>
+<rect x="284" y="184" width="162" height="64" rx="6" fill="#d49a2a" stroke="#2b2b26" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="365.0" y="212.0" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" >Wurzeln &amp;</text>
+<text x="365.0" y="228.9" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" >Zwiebeln</text>
+<rect x="454" y="184" width="162" height="64" rx="6" fill="#5b7fb0" stroke="#2b2b26" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="535.0" y="212.0" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" >Hülsenfrüchte &amp;</text>
+<text x="535.0" y="228.9" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" >Bodenkur</text>
+<rect x="624" y="184" width="162" height="64" rx="6" fill="#6a8f3d" stroke="#2b2b26" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="705.0" y="212.0" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" >Kohl &amp;</text>
+<text x="705.0" y="228.9" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" >Co.</text>
+<text x="90" y="296.0" font-size="15" fill="#2b2b26" text-anchor="end" font-weight="bold" >Beet C</text>
+<rect x="114" y="258" width="162" height="64" rx="6" fill="#d49a2a" stroke="#2b2b26" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="195.0" y="286.0" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" >Wurzeln &amp;</text>
+<text x="195.0" y="302.9" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" >Zwiebeln</text>
+<rect x="284" y="258" width="162" height="64" rx="6" fill="#5b7fb0" stroke="#2b2b26" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="365.0" y="286.0" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" >Hülsenfrüchte &amp;</text>
+<text x="365.0" y="302.9" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" >Bodenkur</text>
+<rect x="454" y="258" width="162" height="64" rx="6" fill="#6a8f3d" stroke="#2b2b26" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="535.0" y="286.0" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" >Kohl &amp;</text>
+<text x="535.0" y="302.9" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" >Co.</text>
+<rect x="624" y="258" width="162" height="64" rx="6" fill="#c4572f" stroke="#2b2b26" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="705.0" y="286.0" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" >Fruchtgemüse &amp;</text>
+<text x="705.0" y="302.9" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" >Kartoffeln</text>
+<text x="90" y="370.0" font-size="15" fill="#2b2b26" text-anchor="end" font-weight="bold" >Beet D</text>
+<rect x="114" y="332" width="162" height="64" rx="6" fill="#5b7fb0" stroke="#2b2b26" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="195.0" y="360.0" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" >Hülsenfrüchte &amp;</text>
+<text x="195.0" y="376.9" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" >Bodenkur</text>
+<rect x="284" y="332" width="162" height="64" rx="6" fill="#6a8f3d" stroke="#2b2b26" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="365.0" y="360.0" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" >Kohl &amp;</text>
+<text x="365.0" y="376.9" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" >Co.</text>
+<rect x="454" y="332" width="162" height="64" rx="6" fill="#c4572f" stroke="#2b2b26" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="535.0" y="360.0" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" >Fruchtgemüse &amp;</text>
+<text x="535.0" y="376.9" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" >Kartoffeln</text>
+<rect x="624" y="332" width="162" height="64" rx="6" fill="#d49a2a" stroke="#2b2b26" stroke-width="0.8" fill-opacity="0.85"/>
+<text x="705.0" y="360.0" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" >Wurzeln &amp;</text>
+<text x="705.0" y="376.9" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" >Zwiebeln</text>
+<text x="24" y="410" font-size="13" fill="#6b6b5e" text-anchor="start" font-weight="normal" >Vorkulturen (Spinat, Radieschen) und Nachkulturen (Feldsalat, Grünkohl) kommen in dasselbe Feld wie die Hauptkultur.</text>
+</svg>

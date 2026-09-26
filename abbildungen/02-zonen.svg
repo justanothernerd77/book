@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 560" width="820" height="560" font-family="Atkinson Hyperlegible, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-label="Zonierung eines Selbstversorger-Gartens">
+<title>Zonierung eines Selbstversorger-Gartens</title>
+<rect width="820" height="560" fill="#fbfaf5"/>
+<text x="24" y="38" font-size="22" fill="#2b2b26" text-anchor="start" font-weight="bold" >Den Garten zonieren</text>
+<text x="24" y="62" font-size="14" fill="#6b6b5e" text-anchor="start" font-weight="normal" >Je öfter Sie dort zu tun haben, desto näher ans Haus</text>
+<rect x="24" y="84" width="772" height="452" rx="0" fill="#f4f1e4" stroke="#b9b6a5" stroke-width="1.5" />
+<rect x="24" y="84" width="772" height="452" rx="0" fill="#e3e8d3" stroke="#b9b6a5" stroke-width="1" stroke-dasharray="5 4"/>
+<rect x="24" y="84" width="560" height="350" rx="0" fill="#e9ecd9" stroke="#b9b6a5" stroke-width="1" stroke-dasharray="5 4"/>
+<rect x="24" y="84" width="400" height="250" rx="0" fill="#eef0e1" stroke="#b9b6a5" stroke-width="1" stroke-dasharray="5 4"/>
+<rect x="24" y="84" width="250" height="150" rx="0" fill="#f6f3e6" stroke="#b9b6a5" stroke-width="1" stroke-dasharray="5 4"/>
+<rect x="36" y="96" width="110" height="70" rx="0" fill="#d8d2bd" stroke="#2b2b26" stroke-width="1.5" />
+<text x="91" y="136" font-size="15" fill="#2b2b26" text-anchor="middle" font-weight="bold" >Haus</text>
+<rect x="159" y="102" width="95" height="44" rx="4" fill="#cfe0b4" stroke="#2b2b26" stroke-width="1" />
+<text x="206" y="120.0" font-size="12" fill="#2b2b26" text-anchor="middle" font-weight="normal" >Kräuter,</text>
+<text x="206" y="135.6" font-size="12" fill="#2b2b26" text-anchor="middle" font-weight="normal" >Salat</text>
+<circle cx="174" cy="189" r="14" fill="#9fb8d0" stroke="#2b2b26"/>
+<text x="196" y="194" font-size="12" fill="#2b2b26" text-anchor="start" font-weight="normal" >Regentonne</text>
+<rect x="286" y="104" width="22" height="110" rx="2" fill="#6a8f3d" stroke="#2b2b26" stroke-width="1" fill-opacity="0.75"/>
+<rect x="318" y="104" width="22" height="110" rx="2" fill="#c4572f" stroke="#2b2b26" stroke-width="1" fill-opacity="0.75"/>
+<rect x="350" y="104" width="22" height="110" rx="2" fill="#d49a2a" stroke="#2b2b26" stroke-width="1" fill-opacity="0.75"/>
+<rect x="382" y="104" width="22" height="110" rx="2" fill="#5b7fb0" stroke="#2b2b26" stroke-width="1" fill-opacity="0.75"/>
+<text x="346" y="234" font-size="12" fill="#2b2b26" text-anchor="middle" font-weight="normal" >Gemüsebeete</text>
+<rect x="64" y="259" width="110" height="50" rx="3" fill="#8a6a48" stroke="#2b2b26" stroke-width="1" />
+<text x="119" y="289" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" >Kompost</text>
+<rect x="214" y="259" width="90" height="50" rx="3" fill="#dfe7f0" stroke="#2b2b26" stroke-width="1" />
+<text x="259" y="280.0" font-size="11" fill="#2b2b26" text-anchor="middle" font-weight="normal" >Frühbeet /</text>
+<text x="259" y="294.3" font-size="11" fill="#2b2b26" text-anchor="middle" font-weight="normal" >Gewächshaus</text>
+<rect x="444" y="114" width="120" height="150" rx="3" fill="#e8d9b0" stroke="#2b2b26" stroke-width="1" />
+<text x="504" y="184.0" font-size="12" fill="#2b2b26" text-anchor="middle" font-weight="normal" >Kartoffeln,</text>
+<text x="504" y="199.6" font-size="12" fill="#2b2b26" text-anchor="middle" font-weight="normal" >Lagergemüse</text>
+<circle cx="104" cy="384" r="26" fill="#a8c47a" stroke="#2b2b26"/>
+<circle cx="214" cy="394" r="26" fill="#a8c47a" stroke="#2b2b26"/>
+<circle cx="324" cy="379" r="26" fill="#a8c47a" stroke="#2b2b26"/>
+<text x="214" y="439" font-size="12" fill="#2b2b26" text-anchor="middle" font-weight="normal" >Obstbäume</text>
+<rect x="424" y="354" width="150" height="20" rx="8" fill="#b5537a" stroke="#2b2b26" stroke-width="1" fill-opacity="0.6"/>
+<text x="499" y="394" font-size="12" fill="#2b2b26" text-anchor="middle" font-weight="normal" >Beerenhecke</text>
+<rect x="624" y="344" width="150" height="170" rx="6" fill="#cdd8b2" stroke="#2b2b26" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="699" y="404.0" font-size="12" fill="#2b2b26" text-anchor="middle" font-weight="normal" >Wildecke,</text>
+<text x="699" y="419.6" font-size="12" fill="#2b2b26" text-anchor="middle" font-weight="normal" >Totholz,</text>
+<text x="699" y="435.2" font-size="12" fill="#2b2b26" text-anchor="middle" font-weight="normal" >Blühstreifen</text>
+<text x="786" y="526" font-size="12" fill="#6b6b5e" text-anchor="end" font-weight="bold" >Zone 4 – selten</text>
+<text x="574" y="424" font-size="12" fill="#6b6b5e" text-anchor="end" font-weight="bold" >Zone 3 – wöchentlich bis saisonal</text>
+<text x="414" y="324" font-size="12" fill="#6b6b5e" text-anchor="end" font-weight="bold" >Zone 2 – mehrmals pro Woche</text>
+<text x="264" y="224" font-size="12" fill="#6b6b5e" text-anchor="end" font-weight="bold" >Zone 1 – täglich</text>
+</svg>

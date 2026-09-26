@@ -96,6 +96,10 @@ nur mit einer der folgenden Methoden.
      einem Band markieren.
   5. Nur aus markierten Früchten Saatgut gewinnen.
 
+![Männliche und weibliche Kürbisblüte mit Pfeil für die Pollenübertragung und vier Arbeitsschritten](../abbildungen/14-kuerbis-handbestaeubung.svg)
+
+*Abbildung 14.1: Kürbis von Hand bestäuben.*
+
 ## Die Einstiegskulturen: Selbstbestäuber
 
 Am einfachsten sind Arten, die sich überwiegend selbst bestäuben – hier

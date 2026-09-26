@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 600" width="820" height="600" font-family="Atkinson Hyperlegible, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-label="Vier-Felder-Fruchtfolge">
+<title>Vier-Felder-Fruchtfolge</title>
+<rect width="820" height="600" fill="#fbfaf5"/>
+<defs><marker id="pfeil" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2b2b26"/></marker></defs>
+<text x="24" y="38" font-size="22" fill="#2b2b26" text-anchor="start" font-weight="bold" >Das Vier-Felder-System</text>
+<text x="24" y="62" font-size="14" fill="#6b6b5e" text-anchor="start" font-weight="normal" >Jedes Jahr rückt jede Gruppe ein Beet weiter</text>
+<rect x="60" y="100" width="320" height="200" rx="8" fill="#6a8f3d" stroke="#2b2b26" stroke-width="1.2" fill-opacity="0.16"/>
+<rect x="60" y="100" width="320" height="34" rx="8" fill="#6a8f3d" stroke="none" stroke-width="1" />
+<rect x="60" y="120" width="320" height="14" rx="0" fill="#6a8f3d" stroke="none" stroke-width="1" />
+<text x="74" y="123" font-size="15" fill="#fff" text-anchor="start" font-weight="bold" >Feld 1 – Kohl &amp; Co.</text>
+<text x="74" y="158" font-size="13" fill="#6b6b5e" text-anchor="start" font-weight="normal" >Starkzehrer · 3–4 l/m² Kompost</text>
+<text x="74" y="188.0" font-size="14" fill="#2b2b26" text-anchor="start" font-weight="normal" >• Kohlarten, Sellerie</text>
+<text x="74" y="208.3" font-size="14" fill="#2b2b26" text-anchor="start" font-weight="normal" >• Salat als Lückenfüller</text>
+<text x="74" y="228.6" font-size="14" fill="#2b2b26" text-anchor="start" font-weight="normal" >• Spinat, Radieschen vorweg</text>
+<rect x="440" y="100" width="320" height="200" rx="8" fill="#c4572f" stroke="#2b2b26" stroke-width="1.2" fill-opacity="0.16"/>
+<rect x="440" y="100" width="320" height="34" rx="8" fill="#c4572f" stroke="none" stroke-width="1" />
+<rect x="440" y="120" width="320" height="14" rx="0" fill="#c4572f" stroke="none" stroke-width="1" />
+<text x="454" y="123" font-size="15" fill="#fff" text-anchor="start" font-weight="bold" >Feld 2 – Fruchtgemüse &amp; Kartoffeln</text>
+<text x="454" y="158" font-size="13" fill="#6b6b5e" text-anchor="start" font-weight="normal" >Starkzehrer · 3–4 l/m² Kompost</text>
+<text x="454" y="188.0" font-size="14" fill="#2b2b26" text-anchor="start" font-weight="normal" >• Kartoffel, Tomate, Paprika</text>
+<text x="454" y="208.3" font-size="14" fill="#2b2b26" text-anchor="start" font-weight="normal" >• Zucchini, Kürbis, Gurke</text>
+<text x="454" y="228.6" font-size="14" fill="#2b2b26" text-anchor="start" font-weight="normal" >• Zuckermais</text>
+<rect x="440" y="350" width="320" height="200" rx="8" fill="#d49a2a" stroke="#2b2b26" stroke-width="1.2" fill-opacity="0.16"/>
+<rect x="440" y="350" width="320" height="34" rx="8" fill="#d49a2a" stroke="none" stroke-width="1" />
+<rect x="440" y="370" width="320" height="14" rx="0" fill="#d49a2a" stroke="none" stroke-width="1" />
+<text x="454" y="373" font-size="15" fill="#fff" text-anchor="start" font-weight="bold" >Feld 3 – Wurzeln &amp; Zwiebeln</text>
+<text x="454" y="408" font-size="13" fill="#6b6b5e" text-anchor="start" font-weight="normal" >Mittelzehrer · 2–3 l/m² Kompost</text>
+<text x="454" y="438.0" font-size="14" fill="#2b2b26" text-anchor="start" font-weight="normal" >• Möhre, Pastinake, Rote Bete</text>
+<text x="454" y="458.3" font-size="14" fill="#2b2b26" text-anchor="start" font-weight="normal" >• Zwiebel, Knoblauch, Lauch</text>
+<text x="454" y="478.6" font-size="14" fill="#2b2b26" text-anchor="start" font-weight="normal" >• Mangold, Fenchel</text>
+<rect x="60" y="350" width="320" height="200" rx="8" fill="#5b7fb0" stroke="#2b2b26" stroke-width="1.2" fill-opacity="0.16"/>
+<rect x="60" y="350" width="320" height="34" rx="8" fill="#5b7fb0" stroke="none" stroke-width="1" />
+<rect x="60" y="370" width="320" height="14" rx="0" fill="#5b7fb0" stroke="none" stroke-width="1" />
+<text x="74" y="373" font-size="15" fill="#fff" text-anchor="start" font-weight="bold" >Feld 4 – Hülsenfrüchte &amp; Bodenkur</text>
+<text x="74" y="408" font-size="13" fill="#6b6b5e" text-anchor="start" font-weight="normal" >Schwachzehrer · kein Kompost</text>
+<text x="74" y="438.0" font-size="14" fill="#2b2b26" text-anchor="start" font-weight="normal" >• Erbsen, Bohnen, Salate</text>
+<text x="74" y="458.3" font-size="14" fill="#2b2b26" text-anchor="start" font-weight="normal" >• danach Phacelia oder Klee</text>
+<text x="74" y="478.6" font-size="14" fill="#2b2b26" text-anchor="start" font-weight="normal" >• nie Senf vor dem Kohl!</text>
+<line x1="385" y1="200" x2="435" y2="200" stroke="#2b2b26" stroke-width="2" marker-end="url(#pfeil)"/>
+<line x1="600" y1="305" x2="600" y2="345" stroke="#2b2b26" stroke-width="2" marker-end="url(#pfeil)"/>
+<line x1="435" y1="450" x2="385" y2="450" stroke="#2b2b26" stroke-width="2" marker-end="url(#pfeil)"/>
+<line x1="220" y1="345" x2="220" y2="305" stroke="#2b2b26" stroke-width="2" marker-end="url(#pfeil)"/>
+<text x="410" y="575" font-size="13" fill="#6b6b5e" text-anchor="middle" font-weight="normal" >Kreuzblütler → Nachtschatten/Kürbis → Dolden/Gänsefuß/Lauch → Hülsenfrüchtler: keine Familie zweimal hintereinander</text>
+</svg>

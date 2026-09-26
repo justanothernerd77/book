@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 540" width="820" height="540" font-family="Atkinson Hyperlegible, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-label="Obstbaum pflanzen">
+<title>Obstbaum pflanzen</title>
+<rect width="820" height="540" fill="#fbfaf5"/>
+<text x="24" y="38" font-size="22" fill="#2b2b26" text-anchor="start" font-weight="bold" >Obstbaum pflanzen</text>
+<text x="24" y="62" font-size="14" fill="#6b6b5e" text-anchor="start" font-weight="normal" >Veredlungsstelle über der Erde, Pfahl auf der Wetterseite</text>
+<rect x="30" y="330" width="440" height="170" rx="0" fill="#bda77f" stroke="none" stroke-width="1" />
+<path d="M140,330 L160,440 L340,440 L360,330 Z" fill="#8a6a48" fill-opacity="0.55" stroke="#2b2b26" stroke-width="1" stroke-dasharray="5 4"/>
+<path d="M170,335 L180,425 L320,425 L330,335" fill="none" stroke="#555" stroke-width="2" stroke-dasharray="2 4"/>
+<path d="M250,345 q-30.0,23.333333333333332 -60,70" stroke="#7a5a3a" stroke-width="3" fill="none"/>
+<path d="M250,345 q-17.5,28.333333333333332 -35,85" stroke="#7a5a3a" stroke-width="3" fill="none"/>
+<path d="M250,345 q0.0,30.0 0,90" stroke="#7a5a3a" stroke-width="3" fill="none"/>
+<path d="M250,345 q17.5,28.333333333333332 35,85" stroke="#7a5a3a" stroke-width="3" fill="none"/>
+<path d="M250,345 q30.0,23.333333333333332 60,70" stroke="#7a5a3a" stroke-width="3" fill="none"/>
+<path d="M250,345 q-25.0,13.333333333333334 -50,40" stroke="#7a5a3a" stroke-width="3" fill="none"/>
+<path d="M250,345 q25.0,13.333333333333334 50,40" stroke="#7a5a3a" stroke-width="3" fill="none"/>
+<rect x="140" y="322" width="95" height="8" rx="0" fill="#7a5a3a" stroke="none" stroke-width="1" />
+<rect x="265" y="322" width="95" height="8" rx="0" fill="#7a5a3a" stroke="none" stroke-width="1" />
+<line x1="250" y1="345" x2="250" y2="170" stroke="#7a5a3a" stroke-width="10" />
+<ellipse cx="250" cy="306" rx="9" ry="6" fill="#7a5a3a" stroke="#2b2b26" stroke-width="1"/>
+<line x1="250" y1="185" x2="190" y2="140" stroke="#7a5a3a" stroke-width="5" />
+<line x1="250" y1="185" x2="310" y2="145" stroke="#7a5a3a" stroke-width="5" />
+<line x1="250" y1="185" x2="218" y2="115" stroke="#7a5a3a" stroke-width="5" />
+<line x1="250" y1="185" x2="288" y2="113" stroke="#7a5a3a" stroke-width="5" />
+<line x1="250" y1="185" x2="250" y2="100" stroke="#7a5a3a" stroke-width="5" />
+<line x1="210" y1="430" x2="210" y2="175" stroke="#9a8f7a" stroke-width="8" />
+<path d="M210,215 C220,203 240,227 250,215 C240,203 220,227 210,215" stroke="#c9a46a" stroke-width="3" fill="none"/>
+<text x="40" y="110" font-size="14" fill="#6b6b5e" text-anchor="start" font-weight="bold" >W</text>
+<line x1="58" y1="105" x2="120" y2="105" stroke="#6b6b5e" stroke-width="1.5" />
+<text x="128" y="110" font-size="14" fill="#6b6b5e" text-anchor="start" font-weight="bold" >O</text>
+<line x1="270" y1="215" x2="474" y2="165" stroke="#b9b6a5" stroke-width="1" stroke-dasharray="3 3"/>
+<circle cx="490" cy="165" r="11" fill="#2b2b26"/>
+<text x="490" y="170" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" >1</text>
+<text x="510" y="170.0" font-size="13" fill="#2b2b26" text-anchor="start" font-weight="normal" >Kokosstrick als Achterschlinge</text>
+<text x="510" y="186.9" font-size="13" fill="#2b2b26" text-anchor="start" font-weight="normal" >am Pfahl auf der Westseite</text>
+<line x1="270" y1="306" x2="474" y2="229" stroke="#b9b6a5" stroke-width="1" stroke-dasharray="3 3"/>
+<circle cx="490" cy="229" r="11" fill="#2b2b26"/>
+<text x="490" y="234" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" >2</text>
+<text x="510" y="234.0" font-size="13" fill="#2b2b26" text-anchor="start" font-weight="normal" >Veredlungsstelle eine</text>
+<text x="510" y="250.9" font-size="13" fill="#2b2b26" text-anchor="start" font-weight="normal" >Handbreit über der Erde</text>
+<line x1="270" y1="326" x2="474" y2="293" stroke="#b9b6a5" stroke-width="1" stroke-dasharray="3 3"/>
+<circle cx="490" cy="293" r="11" fill="#2b2b26"/>
+<text x="490" y="298" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" >3</text>
+<text x="510" y="298.0" font-size="13" fill="#2b2b26" text-anchor="start" font-weight="normal" >Baumscheibe mulchen,</text>
+<text x="510" y="314.9" font-size="13" fill="#2b2b26" text-anchor="start" font-weight="normal" >Stamm frei lassen</text>
+<line x1="270" y1="385" x2="474" y2="357" stroke="#b9b6a5" stroke-width="1" stroke-dasharray="3 3"/>
+<circle cx="490" cy="357" r="11" fill="#2b2b26"/>
+<text x="490" y="362" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" >4</text>
+<text x="510" y="362.0" font-size="13" fill="#2b2b26" text-anchor="start" font-weight="normal" >Pflanzloch doppelt so breit wie der</text>
+<text x="510" y="378.9" font-size="13" fill="#2b2b26" text-anchor="start" font-weight="normal" >Wurzelballen, Sohle gelockert</text>
+<line x1="270" y1="425" x2="474" y2="421" stroke="#b9b6a5" stroke-width="1" stroke-dasharray="3 3"/>
+<circle cx="490" cy="421" r="11" fill="#2b2b26"/>
+<text x="490" y="426" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" >5</text>
+<text x="510" y="426.0" font-size="13" fill="#2b2b26" text-anchor="start" font-weight="normal" >Wühlmauskorb aus verzinktem Draht</text>
+<text x="510" y="442.9" font-size="13" fill="#2b2b26" text-anchor="start" font-weight="normal" >(wo Wühlmäuse vorkommen)</text>
+<text x="24" y="525" font-size="13" fill="#6b6b5e" text-anchor="start" font-weight="normal" >Nach dem Pflanzen mit 20–30 Litern angießen und im ersten Sommer regelmäßig wässern.</text>
+</svg>

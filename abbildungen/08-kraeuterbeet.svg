@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 500" width="820" height="500" font-family="Atkinson Hyperlegible, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-label="Küchen-Kräuterbeet">
+<title>Küchen-Kräuterbeet</title>
+<rect width="820" height="500" fill="#fbfaf5"/>
+<text x="24" y="38" font-size="22" fill="#2b2b26" text-anchor="start" font-weight="bold" >Küchen-Kräuterbeet an der Tür (1 × 2 m)</text>
+<text x="24" y="62" font-size="14" fill="#6b6b5e" text-anchor="start" font-weight="normal" >Links mager und sonnig, rechts frisch und nährstoffreich · Draufsicht</text>
+<rect x="60" y="100" width="350.0" height="320" rx="0" fill="#e8d9a8" stroke="#2b2b26" stroke-width="1.2" />
+<rect x="410.0" y="100" width="350.0" height="320" rx="0" fill="#6e4f35" stroke="#2b2b26" stroke-width="1.2" fill-opacity="0.35"/>
+<text x="235.0" y="90" font-size="13" fill="#6b6b5e" text-anchor="middle" font-weight="normal" >mager: Erde + ⅓ Sand/Splitt, kein Kompost</text>
+<text x="585.0" y="90" font-size="13" fill="#6b6b5e" text-anchor="middle" font-weight="normal" >frisch: humose Erde mit Kompost</text>
+<circle cx="140" cy="170" r="30" fill="#9aa86a" fill-opacity="0.85" stroke="#2b2b26" stroke-width="0.8" />
+<text x="140" y="216" font-size="13" fill="#2b2b26" text-anchor="middle" font-weight="normal" >Thymian</text>
+<circle cx="320" cy="175" r="40" fill="#9aa86a" fill-opacity="0.85" stroke="#2b2b26" stroke-width="0.8" />
+<text x="320" y="231" font-size="13" fill="#2b2b26" text-anchor="middle" font-weight="normal" >Salbei</text>
+<circle cx="230" cy="265" r="28" fill="#9aa86a" fill-opacity="0.85" stroke="#2b2b26" stroke-width="2" stroke-dasharray="4 3"/>
+<text x="230" y="309" font-size="13" fill="#2b2b26" text-anchor="middle" font-weight="normal" >Rosmarin im Topf</text>
+<circle cx="140" cy="345" r="32" fill="#9aa86a" fill-opacity="0.85" stroke="#2b2b26" stroke-width="0.8" />
+<text x="140" y="393" font-size="13" fill="#2b2b26" text-anchor="middle" font-weight="normal" >Oregano</text>
+<circle cx="320" cy="345" r="30" fill="#9aa86a" fill-opacity="0.85" stroke="#2b2b26" stroke-width="0.8" />
+<text x="320" y="391" font-size="13" fill="#2b2b26" text-anchor="middle" font-weight="normal" >Bohnenkraut</text>
+<circle cx="490" cy="170" r="30" fill="#6a8f3d" fill-opacity="0.85" stroke="#2b2b26" stroke-width="0.8" />
+<text x="490" y="216" font-size="13" fill="#2b2b26" text-anchor="middle" font-weight="normal" >Schnittlauch</text>
+<circle cx="670" cy="180" r="44" fill="#6a8f3d" fill-opacity="0.85" stroke="#2b2b26" stroke-width="0.8" />
+<text x="670" y="240" font-size="13" fill="#2b2b26" text-anchor="middle" font-weight="normal" >Liebstöckel</text>
+<circle cx="580" cy="265" r="30" fill="#6a8f3d" fill-opacity="0.85" stroke="#2b2b26" stroke-width="2" stroke-dasharray="4 3"/>
+<text x="580" y="311" font-size="13" fill="#2b2b26" text-anchor="middle" font-weight="normal" >Minze im Topf</text>
+<circle cx="490" cy="345" r="32" fill="#6a8f3d" fill-opacity="0.85" stroke="#2b2b26" stroke-width="0.8" />
+<text x="490" y="393" font-size="13" fill="#2b2b26" text-anchor="middle" font-weight="normal" >Petersilie*</text>
+<circle cx="670" cy="345" r="28" fill="#6a8f3d" fill-opacity="0.85" stroke="#2b2b26" stroke-width="0.8" />
+<text x="670" y="389" font-size="13" fill="#2b2b26" text-anchor="middle" font-weight="normal" >Kerbel</text>
+<text x="24" y="455" font-size="13" fill="#6b6b5e" text-anchor="start" font-weight="normal" >* Petersilie wandert jedes Jahr an eine neue Stelle. Basilikum, Dill und Koriander stehen im Gemüsebeet oder in Töpfen.</text>
+<circle cx="34" cy="475" r="7" fill="none" stroke="#2b2b26" stroke-width="2" stroke-dasharray="4 3"/>
+<text x="48" y="480" font-size="13" fill="#6b6b5e" text-anchor="start" font-weight="normal" >gestrichelt: im eingesenkten Topf (Rosmarin zum Überwintern, Minze gegen Wuchern)</text>
+</svg>
