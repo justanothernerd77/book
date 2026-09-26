@@ -522,8 +522,9 @@ strengsten Regeln.
 > **Starkzehrer** · Vorkultur/Direktsaat: Mai–Jun · Pflanzung: Jun–Jul ·
 > Ernte: Nov–Feb (Palmkohl ab Aug) · leicht · pro Person: 4–6 Pflanzen
 
-Das Einsteiger-Wintergemüse Nr. 1: Grünkohl folgt im Juli auf
-abgeerntete Frühkartoffeln oder Erbsen, wächst den Herbst über heran und
+Das Einsteiger-Wintergemüse Nr. 1: Grünkohl wird im Juli auf die
+abgeernteten Kohlrabi-, Salat- oder Spinatflächen im Kohl-Feld der
+Fruchtfolge gepflanzt (Kapitel 9), wächst den Herbst über heran und
 wird nach den ersten Frösten geerntet, wenn er süßer schmeckt. Immer nur
 die unteren, äußeren Blätter pflücken, die Pflanze treibt oben weiter.
 **Palmkohl** (Schwarzkohl, *Cavolo nero*) lässt sich schon ab August
