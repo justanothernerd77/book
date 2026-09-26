@@ -48,7 +48,7 @@ Die wichtigsten Helfer und wie Sie sie anlocken:
 | Schlupfwespen | parasitieren Blattläuse, Raupen, Weiße Fliege | Dolden- und Korbblütler, Kräuter blühen lassen |
 | Ohrwürmer | Blattläuse, Spinnmilben | Tontöpfe mit Holzwolle, kopfüber in Obstbäume gehängt |
 | Laufkäfer | Schneckeneier, junge Schnecken, Larven | Mulch, Steine, Totholz, unbearbeitete Randstreifen |
-| Igel | Schnecken, Käfer, Larven | Laub- und Reisighaufen, Durchschlupf im Zaun, kein Schneckenkorn mit Metaldehyd |
+| Igel | Schnecken, Käfer, Larven | Laub- und Reisighaufen, Durchschlupf im Zaun, möglichst kein Schneckenkorn |
 | Erdkröte, Blindschleiche | Schnecken, Insekten | Wasserstelle mit flachem Rand, Steinhaufen, Totholz |
 | Meisen, Rotkehlchen | Raupen, Blattläuse, Larven | Nistkästen, Hecke, Wasserstelle |
 | Spinnen | alles, was fliegt | Stauden über Winter stehen lassen |
@@ -104,9 +104,11 @@ darunter wachsen können.
 
 | Maschenweite | hält ab | für |
 |--------------|---------|-----|
-| 0,8 mm | Erdflöhe, Minierfliegen, Thripse | Rucola, Radieschen, Asia-Salate |
-| 1,35–1,4 mm | Möhren-, Kohl-, Zwiebel- und Lauchminierfliege, Kohlweißling | Möhren, Kohl, Lauch, Zwiebeln |
+| 0,8 mm | Erdflöhe, Lauchminierfliege, Minierfliegen | Rucola, Radieschen, Asia-Salate, Lauch, Zwiebeln |
+| 1,35–1,4 mm | Möhren-, Kohl- und Zwiebelfliege, Kohlweißling | Möhren, Kohl |
 | 5–10 mm | Kohlweißling, Vögel, Katzen | Kohl (wenn keine Fliegen drohen), Beeren, frische Saat |
+
+Thripse sind so schlank, dass sie auch durch 0,8-mm-Netze schlüpfen.
 
 **Vlies** schützt zusätzlich vor Kälte – für frühe Sätze doppelt
 nützlich. Es ist allerdings weniger haltbar und lässt weniger Licht
@@ -132,8 +134,10 @@ durch als ein Netz.
 
 Der Endgegner des Salatgartens. Das Problem ist fast immer die
 **Spanische Wegschnecke**, die sich in feuchten Jahren massenhaft
-vermehrt. Große gefleckte **Tigerschnecken** dagegen fressen vor allem
-welke Pflanzenteile und die Eier anderer Schnecken – sie dürfen bleiben.
+vermehrt. Große gefleckte **Tigerschnegel** dagegen fressen überwiegend
+Welkes und Abgestorbenes, gelegentlich auch Gelege und Jungtiere anderer
+Schnecken – eine Schneckenplage halten sie aber nicht auf. Sie dürfen
+bleiben.
 
 Wirksam ist nur die **Kombination**:
 
@@ -151,9 +155,11 @@ Wirksam ist nur die **Kombination**:
 6. **Schneckeneier** beim Hacken aufspüren (weiße Perlen in kleinen
    Nestern im Boden) und der Sonne aussetzen.
 7. **Laufenten** in größeren Gärten – mit Stall, Wasser und Zaun.
-8. Im Notfall zugelassenes Schneckenkorn mit dem Wirkstoff
-   **Eisen-III-Phosphat**, sparsam gestreut, nicht als Ring. Es schont
-   Igel und Haustiere; Präparate mit Metaldehyd dagegen nicht.
+8. Im Notfall ein für Haus- und Kleingarten zugelassenes Schneckenkorn
+   mit **Eisen-III-Phosphat**, sparsam gestreut, nicht als Ring. Es ist
+   für Igel und Haustiere weit weniger gefährlich als das früher übliche
+   Metaldehyd, das für den Hausgarten nicht mehr zugelassen ist – lagern
+   Sie es trotzdem unerreichbar für Hunde.
 
 **Bierfallen** locken Schnecken aus der ganzen Nachbarschaft an und
 fangen nur einen Teil davon: weglassen. Kaffeesatz, Sand und
@@ -173,8 +179,10 @@ ein, zwei Wochen übernehmen meist die Nützlinge.
 
 Das Netz von der Pflanzung an ist die Lösung. Ohne Netz: Blattunterseiten
 wöchentlich auf gelbe Eigelege (Kohlweißling) kontrollieren und
-zerdrücken, Raupen absammeln. Bei starkem Befall hilft ein Präparat mit
-*Bacillus thuringiensis*, das nur Raupen trifft – allerdings auch die
+zerdrücken, Raupen absammeln. Bei starkem Befall hilft ein für den
+Hausgarten zugelassenes Präparat mit *Bacillus thuringiensis* (Unterart
+*kurstaki* oder *aizawai*), das nur Schmetterlingsraupen trifft und am
+besten gegen junge Raupen wirkt – allerdings auch gegen die
 Raupen von Schmetterlingen, die Sie nicht bekämpfen wollen; deshalb
 gezielt und nur auf dem Kohl.
 
@@ -183,8 +191,9 @@ gezielt und nur auf dem Kohl.
 Die Maden dieser Fliegen fressen in Wurzeln, Rüben und Schäften, wo kein
 Mittel sie erreicht. Deshalb gilt:
 
-- **Netz von Anfang an** (1,35 mm), während der Flugzeiten (Frühjahr und
-  Spätsommer) konsequent geschlossen.
+- **Netz von Anfang an** (1,35 mm, bei Lauch und Zwiebeln 0,8 mm),
+  während der Flugzeiten (Frühjahr und Spätsommer/Herbst) konsequent
+  geschlossen – bei der Lauchminierfliege bis Ende Oktober.
 - **Saattermine nutzen:** Möhren aus der Junisaat entgehen der ersten
   Möhrenfliegen-Generation (Kapitel 6).
 - **Fruchtfolge**: Die Puppen überwintern im Boden des alten Beetes.
@@ -214,9 +223,10 @@ Wurzelsperren aus Draht um Tulpen und Obstbäume. Wühlmausgänge sind
 hochoval und liegen flach unter der Oberfläche; ihre Hügel sind flach und
 enthalten Wurzelreste.
 
-Der **Maulwurf** ist dagegen streng geschützt und nützlich: Er frisst
-Insektenlarven und Schnecken, keine Pflanzen. Seine Hügel sind hoch und
-kegelförmig, die Gänge querrund.
+Der **Maulwurf** ist dagegen besonders geschützt – Sie dürfen ihn weder
+fangen noch töten – und nützlich: Er frisst vor allem Regenwürmer, dazu
+Insektenlarven und Schnecken, aber keine Pflanzen. Seine Hügel sind hoch
+und kegelförmig, die Gänge queroval.
 
 ### Drahtwurm und Engerlinge
 
@@ -226,8 +236,9 @@ ersten Jahr nach dem Umbruch deshalb weniger Kartoffeln und Möhren
 anbauen. Als Falle halbierte Kartoffeln 5 cm tief eingraben, nach einer
 Woche mit den Drahtwürmern entfernen. Engerlinge (Larven von Mai- und
 Junikäfern) beim Umgraben absammeln – die großen, weißen Larven des
-Rosenkäfers dagegen leben von Kompost und sind nützlich (erkennbar an
-den kurzen Beinen und dem Kriechen auf dem Rücken).
+Rosenkäfers dagegen leben von Kompost, sind nützlich und – wie der Käfer
+selbst – besonders geschützt (erkennbar an den kurzen Beinen und dem
+Kriechen auf dem Rücken): Setzen Sie sie zurück in den Kompost.
 
 ### Vögel
 
@@ -243,10 +254,13 @@ die besten Verbündeten.
 Weißer, abwischbarer Belag *auf* dem Blatt, bei trocken-warmem Wetter
 ab Juli: vor allem an Gurken, Zucchini, Kürbis, Erbsen, Stachelbeeren,
 Äpfeln. Abhilfe: resistente Sorten, befallene Blätter entfernen, nicht
-zu dicht pflanzen, gleichmäßig wässern. Eine Spritzung mit einem
-**Wasser-Milch-Gemisch** (1 Teil Vollmilch auf 8 Teile Wasser,
-wöchentlich) hält ihn bei Gurken und Zucchini erstaunlich gut in Schach.
-Kuhmilch ist in der EU als Grundstoff gegen Mehltau zugelassen. Bei
+zu dicht pflanzen, gleichmäßig wässern. Eine vorbeugende Spritzung mit
+verdünnter **Kuhmilch** – begonnen, bevor sich der erste Belag zeigt,
+dann wöchentlich – hält ihn bei Gurken und Zucchini oft in Schach.
+Kuhmilch ist in der EU als Grundstoff genehmigt; halten Sie sich an die
+in der Genehmigung festgelegte Verdünnung und Anwendungszahl
+(Grundstoff-Datenbank, siehe unten). Häufig empfohlen wird 1 Teil Milch
+auf 8 Teile Wasser; in Versuchen wirkten stärkere Mischungen besser. Bei
 Kürbisgewächsen im Spätsommer gelassen bleiben – die Saison geht ohnehin
 zu Ende.
 
@@ -283,12 +297,14 @@ befallene Früchte und Blätter konsequent abpflücken und entsorgen.
 
 ### Kohlhernie
 
-Ein Bodenpilz, der die Wurzeln von Kreuzblütlern zu knolligen
+Ein Bodenorganismus – kein echter Pilz, sondern ein Einzeller –, der die
+Wurzeln von Kreuzblütlern zu knolligen
 Wucherungen umbaut; die Pflanzen welken bei Sonne und kümmern. Er
 überdauert viele Jahre im Boden. Gegenmittel: **strikte Fruchtfolge**
 (Kapitel 9, auch Senf und Ölrettich zählen!), befallene Pflanzen mit
-Wurzeln in den Restmüll, Boden auf einen pH-Wert um 7 kalken (der
-Pilz mag sauren Boden), resistente Kohlsorten. Gekaufte Jungpflanzen auf
+Wurzeln in den Restmüll, Boden auf einen pH-Wert über 7 kalken (der
+Erreger mag sauren Boden; Kalken hemmt ihn, verhindert ihn aber nicht
+sicher), resistente Kohlsorten. Gekaufte Jungpflanzen auf
 knollige Wurzeln prüfen – so wird die Krankheit am häufigsten
 eingeschleppt.
 
@@ -322,23 +338,35 @@ in die Nähe. Ältere Birnbäume verkraften mäßigen Befall meist gut.
 ## Pflanzenstärkung
 
 Pflanzenstärkungsmittel sind keine Medikamente – sie wirken vorbeugend
-und regelmäßig angewendet, nicht als Feuerwehr. Die bewährten
-Hausmittel lassen sich selbst herstellen (Rezepte in Kapitel 10):
+und regelmäßig angewendet, nicht als Feuerwehr. Die folgenden Mittel
+lassen sich selbst herstellen (Rezepte in Kapitel 10). Ackerschachtelhalm,
+Brennnessel und Kuhmilch dürfen Sie gegen Schädlinge und Krankheiten nur
+deshalb einsetzen, weil sie als EU-Grundstoffe genehmigt sind – beachten
+Sie den rechtlichen Hinweis unten.
 
 | Mittel | Wirkt | Anwendung |
 |--------|-------|-----------|
-| Ackerschachtelhalmbrühe | Kieselsäure festigt die Blattoberfläche gegen Pilze | 1:5 verdünnt, ab Mai alle 1–2 Wochen morgens auf die Blätter und den Boden spritzen |
+| Ackerschachtelhalmbrühe | Kieselsäure festigt die Blattoberfläche gegen Pilze | 1:10 verdünnt, ab Mai alle 1–2 Wochen morgens auf die Blätter und den Boden spritzen |
 | Brennnessel-Kaltwasserauszug | stärkt, wirkt leicht gegen Blattläuse | unverdünnt spritzen, frisch verwenden |
 | Komposttee | belebt Boden und Blattoberfläche mit Mikroorganismen | reifen Kompost 1:10 in Wasser einweichen, einen Tag ziehen lassen, gießen |
-| Milch-Wasser-Gemisch | gegen Echten Mehltau | 1:8, wöchentlich |
+| Milch-Wasser-Gemisch | gegen Echten Mehltau | vorbeugend wöchentlich, Verdünnung nach Grundstoff-Genehmigung |
 | Beinwelljauche | Kaliumversorgung festigt das Gewebe | 1:10 verdünnt gießen |
 
-**Rechtlicher Hinweis:** Gekaufte Pflanzenschutzmittel dürfen im Haus-
-und Kleingarten nur verwendet werden, wenn sie ausdrücklich für diesen
-Bereich zugelassen sind – das steht auf der Packung. Selbst gemischte
-„Hausmittel" wie Spülmittel-, Essig- oder Salzlösungen gehören nicht auf
-Pflanzen: Sie schaden Blättern, Boden und Nützlingen mehr als den
-Schädlingen.
+**Rechtlicher Hinweis:** Im Haus- und Kleingarten dürfen Sie nur
+Pflanzenschutzmittel einsetzen, die ausdrücklich für diesen Bereich
+zugelassen sind – das steht auf der Packung. Selbst gemischte Mittel
+gegen Schädlinge oder Krankheiten sind nach dem Pflanzenschutzgesetz
+grundsätzlich verboten; Verstöße können mit hohen Bußgeldern geahndet
+werden. Ausgenommen sind die von der EU genehmigten **Grundstoffe** –
+etwa Kuhmilch, Ackerschachtelhalm oder Brennnessel –, aber nur für die
+Kulturen, Schaderreger und Konzentrationen, die in ihrer Genehmigung
+festgelegt sind (eine Übersicht bietet die Grundstoff-Datenbank des
+Pflanzenschutzamts Berlin). Spülmittel- oder Salzlösungen gehören nicht
+dazu – sie schaden Blättern, Boden und Nützlingen ohnehin mehr als den
+Schädlingen. Auf Wegen, Terrassen und Einfahrten ist jede
+Unkrautbekämpfung mit Mitteln tabu. Kompost, Jauchen zur Düngung und
+Pflanzenstärkungsmittel fallen nicht unter diese Regeln, solange Sie sie
+nicht gegen Schädlinge oder Krankheiten einsetzen.
 
 ## Die Eingriffsleiter
 

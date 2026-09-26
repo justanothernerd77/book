@@ -21,8 +21,9 @@ Nährstoffe aus dem Boden:
 | **Phosphor (P)** | Wurzeln, Blüte, Samen | selten; rötlich-violette Blätter bei Kälte |
 | **Kalium (K)** | Wasserhaushalt, Fruchtqualität, Frost- und Pilzfestigkeit | braune, vertrocknete Blattränder an älteren Blättern |
 | **Magnesium (Mg)** | Blattgrün | Aufhellung zwischen den Blattadern älterer Blätter |
-| **Calcium (Ca)** | Zellwände | Blütenendfäule bei Tomaten – meist Wassermangel, nicht Calciummangel |
-| **Eisen, Mangan, Bor u. a.** | Spurenelemente | junge Blätter gelb mit grünen Adern, oft auf kalkreichem Boden |
+| **Calcium (Ca)** | Zellwände | Blütenendfäule bei Tomaten – ein Calciummangel in der Frucht, meist verursacht durch unregelmäßiges Gießen, nicht durch Calciummangel im Boden |
+| **Eisen, Mangan** | Blattgrün | junge Blätter gelb mit grünen Adern, oft auf kalkreichem Boden |
+| **Bor** | Wachstumsspitzen, Zellwände | Herz- und Trockenfäule bei Roter Bete und Sellerie, hohle Kohlstrünke, verkrüppelte junge Blätter; oft auf trockenem Sand |
 
 Im Biogarten gelangen diese Nährstoffe nicht als Salz direkt zur Pflanze,
 sondern über das **Bodenleben**: Regenwürmer, Pilze, Bakterien und
@@ -78,7 +79,7 @@ gießen, bei Dauerregen abdecken.
 | Hinein | In Maßen | Draußen bleiben |
 |--------|----------|-----------------|
 | Gemüse- und Obstreste, Kaffeesatz samt Filter, Teebeutel ohne Kunststoff | Zitrusschalen, Zwiebelschalen | Gekochtes, Fleisch, Fisch, Milchprodukte, Brot (Ratten!) |
-| Rasenschnitt (angewelkt, dünn verteilt) | Holzasche (nur unbehandeltes Holz, wenige Handvoll pro Jahr) | Kohle- und Grillasche |
+| Rasenschnitt (angewelkt, dünn verteilt) | Zwiebelschalen, Nussschalen | Holz-, Kohle- und Grillasche (auch in Asche aus unbehandeltem Holz können sich Schwermetalle anreichern) |
 | Laub, Stroh, gehäckselter Strauchschnitt | unbedrucktes Papier, Pappe | Hochglanzpapier, Staubsaugerbeutel |
 | Beikraut ohne Samen | Beikraut mit Samen (nur in den Heißkompost) | Wurzelunkräuter mit Ausläufern (Giersch, Quecke, Winde) – im Eimer mit Wasser ertränken, dann kompostieren |
 | Mist von Pflanzenfressern, Kleintierstreu aus Stroh oder Heu | Eierschalen (zerdrückt) | Katzenstreu, Hundekot |
@@ -150,14 +151,15 @@ Kompost wird **oberflächlich eingearbeitet oder aufgelegt, nie
 vergraben.** Die Bodenlebewesen, die ihn verarbeiten, leben in den oberen
 Zentimetern. Die Mengen richten sich nach der Fruchtfolge (Kapitel 9):
 
-- Starkzehrer-Beete: 4–6 l/m² im Frühjahr
+- Starkzehrer-Beete: 3–4 l/m² im Frühjahr (mehr nur, wenn die Bodenprobe
+  keine Überversorgung zeigt)
 - Mittelzehrer: 2–3 l/m²
 - Schwachzehrer: nichts (oder 1 l/m² im Herbst)
 - Obstgehölze und Beeren: 2–3 l/m² auf die Baumscheibe, dazu Mulch
 - Rasen: 1–2 l/m² fein gesiebt als Frühjahrskur
 
 Zur Einordnung: Ein Liter Kompost ist ein gut gefüllter Messbecher, eine
-Schubkarre fasst rund 80 Liter – das reicht für etwa 15 m²
+Schubkarre fasst rund 80 Liter – das reicht für etwa 20–25 m²
 Starkzehrerbeet.
 
 **Wie viel Kompost entsteht?** Ein Haushalt mit Garten produziert
@@ -198,8 +200,9 @@ Mulch liegen.
 ## Mist: der klassische Dünger
 
 Stallmist ist Dünger und Bodenverbesserer zugleich. Voraussetzung: Er ist
-**abgelagert oder kompostiert**. Frischer Mist verbrennt Wurzeln, lockt
-Schädlinge wie die Möhrenfliege an und gehört nie direkt an die Kultur.
+**abgelagert oder kompostiert**. Frischer Mist verbrennt Wurzeln, fördert
+bei Wurzelgemüse Beinigkeit und Fäulnis und gehört nie direkt an die
+Kultur.
 
 | Mist | Eigenschaften | Verwendung |
 |------|---------------|------------|
@@ -237,7 +240,7 @@ als Mulch direkt unter Tomaten.
 | Beinwelljauche | 1 kg frisch / 10 l | 10–14 Tage, gärt | 1:10, gießen | Kalium für Fruchtgemüse |
 | Mischjauche Brennnessel + Beinwell | je 500 g / 10 l | 10–14 Tage | 1:10 | Allround-Dünger |
 | Brennnessel-Kaltwasserauszug | 1 kg / 10 l | 12–24 Stunden, nicht gären | unverdünnt, spritzen | Pflanzenstärkung (Kapitel 11) |
-| Ackerschachtelhalmbrühe | 150 g getrocknet / 10 l, 24 h einweichen, 30 min kochen | – | 1:5, spritzen | Kieselsäure gegen Pilzdruck (Kapitel 11) |
+| Ackerschachtelhalmbrühe | 200 g getrocknet / 10 l, 24 h einweichen, 30 min kochen | – | 1:10, spritzen | Kieselsäure gegen Pilzdruck (Kapitel 11) |
 
 Jauchen düngen, Brühen und Auszüge stärken. Ab August keine
 Stickstoffjauche mehr an Pflanzen geben, die überwintern sollen (Grünkohl,
@@ -268,7 +271,10 @@ Bodenleben, und wird bei Regen leicht ins Grundwasser ausgewaschen.
 ### Erst Bodenprobe, dann düngen
 
 Die meisten Hausgärten sind mit Phosphor und Kalium bereits
-überversorgt, weil jahrzehntelang zu viel gedüngt wurde. Eine
+überversorgt – oft durch jahrzehntelang zu viel Kompost, Mist und
+Volldünger. Zeigt die Bodenprobe sehr hohe Werte, geben Sie weniger
+Kompost und setzen für Starkzehrer auf reine Stickstoffdünger wie
+Hornspäne. Eine
 **Bodenuntersuchung** im Labor (Standarduntersuchung mit pH-Wert,
 Phosphor, Kalium, Magnesium, Humusgehalt) kostet etwa so viel wie zwei
 Sack Dünger – und verhindert, dass Sie Jahre lang das Falsche streuen.
@@ -306,8 +312,8 @@ So passen Kompost, Mist und Jauche zur Fruchtfolge aus Kapitel 9:
 
 | Feld | Herbst davor | Frühjahr | Sommer |
 |------|--------------|----------|--------|
-| **Kohl & Co.** | Mulch auf die Gründüngung oder Hülsenfrucht-Reste | 4–6 l/m² Kompost | Brennnesseljauche alle 2 Wochen bis Ende Juli |
-| **Fruchtgemüse & Kartoffeln** | abgelagerter Mist (2–3 kg/m²) | 4–6 l/m² Kompost, Hornspäne ins Pflanzloch | Beinwelljauche wöchentlich ab Fruchtansatz |
+| **Kohl & Co.** | Mulch auf die Gründüngung oder Hülsenfrucht-Reste | 3–4 l/m² Kompost | Brennnesseljauche alle 2 Wochen bis Ende Juli |
+| **Fruchtgemüse & Kartoffeln** | abgelagerter Mist (2–3 kg/m²) **oder** im Frühjahr Kompost – nicht beides | 3–4 l/m² Kompost (wenn kein Mist), Hornspäne ins Pflanzloch | Beinwelljauche wöchentlich ab Fruchtansatz |
 | **Wurzeln & Zwiebeln** | nichts | 2–3 l/m² reifer Kompost (kein Mist!) | Lauch und Sellerie: Jauche bis August |
 | **Hülsenfrüchte & Bodenkur** | nichts | nichts | Gründüngung nach der Ernte |
 | Beeren und Obst | 2–3 l/m² Kompost, Mulch | – | Beinwelljauche bei Erdbeeren nach der Ernte |

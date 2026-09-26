@@ -57,11 +57,14 @@ Die geplante Struktur mit Kurzbeschreibung jedes Kapitels steht in
 **Buch:** Erster vollständiger Rohentwurf aller Kapitel. Die Kapitel 3
 bis 13 (Boden, Beete, Aussaat, Gemüse, Obst, Kräuter, Mischkultur und
 Fruchtfolge, Kompost, Pflanzengesundheit, Gartenjahr, Ernten und Lagern)
-sind zu vollwertigen Buchkapiteln ausgebaut (je ca. 2.400–4.600 Wörter);
-Vorwort und die Kapitel 1, 2, 14 und 15 folgen. Offene Arbeiten:
+sind zu vollwertigen Buchkapiteln ausgebaut (je ca. 2.400–4.600 Wörter),
+ebenso die Kapitel 1 und 2; Vorwort und die Kapitel 14 und 15 folgen. Offene Arbeiten:
 
 - [ ] Übrige Kapitel auf Buchumfang ausbauen
 
+- [x] Faktencheck der Kapitel 3–13 gegen Fachquellen, Korrekturen
+      eingearbeitet ([`recherche/faktencheck.md`](recherche/faktencheck.md),
+      mit offenen Punkten vor dem Druck)
 - [ ] Lektorat und sprachlicher Feinschliff
 - [ ] Abbildungen, Skizzen und Beetpläne
 - [ ] Regionale Anpassungen (Klimazonen, Höhenlagen)

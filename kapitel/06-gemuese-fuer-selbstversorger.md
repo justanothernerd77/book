@@ -29,7 +29,7 @@ Lagen verschieben Sie das Frühjahr um zwei bis vier Wochen nach hinten,
 den Herbst nach vorn.
 
 - **Nährstoffbedarf:** **Starkzehrer** brauchen die volle Kompostgabe
-  (4–6 Liter pro m²), **Mittelzehrer** die halbe Ration, **Schwachzehrer**
+  (3–4 Liter pro m²), **Mittelzehrer** die halbe Ration, **Schwachzehrer**
   fast nichts. Das entscheidet, auf welches Feld der Fruchtfolge eine
   Kultur gehört.
 - **Vorkultur / Direktsaat / Pflanzung / Ernte:** die Monate, in denen

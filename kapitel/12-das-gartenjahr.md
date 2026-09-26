@@ -128,7 +128,7 @@ teilen. Schnittlauch teilen.
 
 **Pflegen.** **Kartoffeln zum Vorkeimen** hell und kühl auslegen. Kompost
 umsetzen und reifen Kompost auf die Beete von „Kohl & Co." und
-„Fruchtgemüse" bringen (4–6 l/m², Kapitel 9 und 10). Gründüngung vom
+„Fruchtgemüse" bringen (3–4 l/m², Kapitel 9 und 10). Gründüngung vom
 Vorjahr abmähen und liegen lassen. Sämlinge auf der Fensterbank
 pikieren, sobald das erste echte Blatt erscheint (Kapitel 5).
 

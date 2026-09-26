@@ -65,9 +65,8 @@ Auf Ton helfen bei Wurzelgemüse kurze, runde Sorten.
 ### Die Schlämmprobe im Glas
 
 Wer es genauer wissen will: Ein Schraubglas zu einem Drittel mit Erde
-füllen, fast bis oben mit Wasser auffüllen, einen Teelöffel Spülmaschinen-
-oder Kochsalz dazugeben (es löst die Krümel), kräftig schütteln und
-stehen lassen. Nach einer Minute hat sich der Sand unten abgesetzt, nach
+füllen, fast bis oben mit Wasser auffüllen, kräftig schütteln und stehen
+lassen. Nach einer Minute hat sich der Sand unten abgesetzt, nach
 einigen Stunden der Schluff darüber, nach ein, zwei Tagen der Ton ganz
 oben; Humusteilchen schwimmen. Die Dicke der Schichten zeigt die
 Anteile – ein anschaulicher Test, der auch Kindern Spaß macht.
@@ -116,7 +115,7 @@ Stellen prüfen, Erde mit destilliertem Wasser anrühren.
 | 4,0–5,0 | stark sauer | Heidelbeeren, Preiselbeeren (Moorbeet) |
 | 5,5–6,5 | leicht sauer | Kartoffeln, Himbeeren, Erdbeeren, Kürbis, Tomaten |
 | 6,0–7,0 | schwach sauer bis neutral | die meisten Gemüse und Kräuter |
-| 6,5–7,5 | neutral bis leicht basisch | Kohl (pH um 7 bremst die Kohlhernie), Spinat, Rote Bete, Sellerie, Lauch, mediterrane Kräuter |
+| 6,5–7,5 | neutral bis leicht basisch | Kohl (pH über 7 hemmt die Kohlhernie), Spinat, Rote Bete, Sellerie, Lauch, mediterrane Kräuter |
 
 Sandböden sollten eher bei 5,5–6,5 liegen, Lehm- und Tonböden bei
 6,5–7,0.
@@ -141,9 +140,9 @@ freiwillig wächst, ist die billigste Bodenanalyse der Welt:
 | Zeigerpflanzen | deuten auf |
 |----------------|-----------|
 | Brennnessel, Giersch, Vogelmiere, Franzosenkraut | nährstoffreichen, humosen, stickstoffreichen Boden |
-| Ampfer, Hahnenfuß, Ackerschachtelhalm, Moos | Verdichtung, Staunässe, oft saurer Boden |
+| Ampfer, Kriechender Hahnenfuß, Ackerschachtelhalm, Moos, Kamille | Verdichtung, Staunässe (Moos und Ampfer oft auch sauren Boden) |
 | Wegerich, Löwenzahn in dichten Beständen | verdichteten, oft betretenen Boden |
-| Kamille, Klatschmohn, Ackersenf | kalkhaltigen, eher lockeren Boden |
+| Klatschmohn, Ackersenf | kalkhaltigen, eher lockeren Boden |
 | Kleiner Sauerampfer, Stiefmütterchen, Heidekraut | sauren, nährstoffarmen, sandigen Boden |
 | Quecke | stickstoffreichen, oft ehemals gedüngten Boden |
 

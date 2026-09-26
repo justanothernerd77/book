@@ -83,7 +83,7 @@ Kompost ein Beet bekommt (Kapitel 10):
 
 | Klasse | Kompost im Frühjahr | typische Kulturen |
 |--------|---------------------|-------------------|
-| **Starkzehrer** | 4–6 l/m² | Kohl (außer Kohlrabi), Kartoffel, Tomate, Paprika, Kürbis, Zucchini, Gurke, Lauch, Sellerie, Mais |
+| **Starkzehrer** | 3–4 l/m² | Kohl (außer Kohlrabi), Kartoffel, Tomate, Paprika, Kürbis, Zucchini, Gurke, Lauch, Sellerie, Mais |
 | **Mittelzehrer** | 2–3 l/m² | Möhre, Pastinake, Rote Bete, Mangold, Spinat, Fenchel, Kohlrabi, Endivie |
 | **Schwachzehrer** | nichts (höchstens 1 l/m² im Herbst) | Erbsen, Bohnen, Zwiebeln, Knoblauch, Salate, Radieschen, Feldsalat, die meisten Kräuter |
 

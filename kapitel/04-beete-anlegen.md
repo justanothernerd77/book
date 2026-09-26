@@ -27,7 +27,7 @@ geschwächt werden, dass es dem Gemüse keine Konkurrenz macht:
 |---------|-------|---------|--------------|
 | **Soden abschälen** | sofort | hoch (körperlich) | Flachbeet, kleine Flächen; Soden werden zu Kompost oder Hochbeetfüllung |
 | **Abdecken mit Pappe und Kompost** (No-Dig) | sofort bepflanzbar | gering | fast überall, solange keine hartnäckigen Wurzelunkräuter da sind |
-| **Abdecken mit lichtdichter Folie** (Silofolie, alte Teichfolie) | 6–10 Wochen im Sommer, länger im Frühjahr | sehr gering | größere Flächen, die erst später bepflanzt werden |
+| **Abdecken mit lichtdichter Folie** (Silofolie, alte Teichfolie) | 6–10 Wochen im Sommer, länger im Frühjahr; bei Giersch oder Quecke mindestens eine ganze Saison | sehr gering | größere Flächen, die erst später bepflanzt werden |
 | **Umgraben** | sofort | hoch | stark verdichtete Böden, einmalig |
 | **Fräsen** | sofort | gering | kaum empfehlenswert: zerhackt Wurzelunkräuter in viele Teile, verdichtet darunter |
 
